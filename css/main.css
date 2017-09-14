@@ -1,0 +1,43 @@
+/* Общие классы */
+* {box-sizing: border-box;}
+.box {width: 100%; position: relative;}
+.box:after {content: ""; display: block; clear: both;}
+.center {text-align: center;}
+img {border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
+ul {list-style: none; margin: 0; padding: 0;}
+
+/* Подгонка под старые браузеры: делаем HTML5 элементы блочными */
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
+
+html, body {}
+
+/**
+ *  ЗАРЕЗЕРВИРОВАННЫЕ ИМЕНА КЛАССОВ
+ *  Не используй эти имена самостоятельно!
+ *  Они нужны для уточнений внутри других классов.
+ */
+.big, .top, .title {}
+
+
+/**
+ *  Сетка и колонки, общий вариант.
+ */
+.grid {margin: 0 0 -15px -15px; width: auto;}
+.grid > * {padding: 0 0 15px 15px;}
+.grid > .nogrid {padding-bottom: 0;}
+
+.col12{float:left; width: 100%;}
+.col11{float:left; width: 91.66666667%;}
+.col10{float:left; width: 83.33333333%;}
+.col9 {float:left; width: 75%;}
+.col8 {float:left; width: 66.66666667%;}
+.col7 {float:left; width: 58.33333333%;}
+.col6 {float:left; width: 50%;}
+.col5 {float:left; width: 41.66666667%;}
+.col4 {float:left; width: 33.33333333%;}
+.col3 {float:left; width: 25%;}
+.col2 {float:left; width: 16.66666667%;}
+.col1 {float:left; width:  8.33333333%;}
+
+.fl-l{float: left;}
+.fl-r{float: right;}
