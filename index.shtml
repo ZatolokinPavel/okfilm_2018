@@ -8,6 +8,10 @@
 
 <!--#include virtual="/include/layout_start.shtml"-->
 
+<div class="dish-area">
+    dish
+</div>
+
 <!--#include virtual="/include/layout_end.shtml"-->
 
 </body>

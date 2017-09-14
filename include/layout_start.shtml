@@ -1,2 +1,14 @@
 <!-- Для браузеров, где не работает js, применяем дополнительные стили -->
 <script>document.getElementById('body').classList.remove("noscript")</script>
+
+<!-- Боковое меню для мобильных устройств -->
+<div class="layout__sidebar">
+    <div class="sidebar-menu"></div>
+</div>
+
+<!-- Основной контент страницы -->
+<div class="layout__content">
+    <!-- Начало блока с основным контентом страницы -->
+    <div class="container box">
+        <!-- Этот блок затеняет основной контент, а при нажатии скрывает боковое меню -->
+        <div id="sidebar_coating"></div>

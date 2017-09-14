@@ -9,7 +9,49 @@ ul {list-style: none; margin: 0; padding: 0;}
 /* Подгонка под старые браузеры: делаем HTML5 элементы блочными */
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
 
-html, body {}
+html, body {position: relative; margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;}
+body {}
+.layout__content, .layout__sidebar {
+    position: absolute; top: 0; right: 0; bottom: 0; max-width: 100%; height: 100%; overflow: auto;
+    transition: left 0.3s ease-in-out; -webkit-overflow-scrolling: touch;}
+.layout__content {z-index: 2; left: 0; width: 100%;}
+.layout__sidebar {z-index: 0; left: -270px; width: 270px; background: #33373b;}
+#sidebar_coating {position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.1); z-index: 3; display: none;}
+.sidebar-opened .layout__content {left: 270px; overflow: hidden;}   /* overflow:hidden - останавливает прокрутку блока в текущем положении */
+.sidebar-opened .layout__sidebar {left: 0;}
+.sidebar-opened #sidebar_coating {display: block;}
+.container {position: relative; max-width: 1200px; width: 100%; margin: 0 auto; padding: 0 15px;}
+@media (min-width:  768px) { .container {width:  750px;} }
+@media (min-width:  992px) { .container {width:  970px;} }
+@media (min-width: 1200px) { .container {width: 1170px;} }
+hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
+
+/* .dish top = (высота картинки * 0.2) */
+@media (min-width: 2049px) {
+    body.main_page  {background: url("/img/bg2048.jpg") no-repeat top center; background-size: cover;}
+    .dish-area      {width: auto; height: auto;} }
+@media (max-width: 2048px) {
+    body.main_page  {background: url("/img/bg2048.jpg") no-repeat top center;}
+    .dish-area      {top: 273px; width: auto; height: auto;} }
+@media (max-width: 1920px) {
+    body.main_page  {background: url("/img/bg1920.jpg") no-repeat top center;}
+    .dish-area      {top: 256px; width: auto; height: auto;} }
+@media (max-width: 1600px) {
+    body.main_page  {background: url("/img/bg1600.jpg") no-repeat top center;}
+    .dish-area      {top: 213px; width: auto; height: auto;} }
+@media (max-width: 1220px) {
+    body.main_page  {background: url("/img/bg1220.jpg") no-repeat top center;}
+    .dish-area      {top: 163px; width: auto; height: auto;} }
+@media (max-width:  960px) {
+    body.main_page  {background: url("/img/bg_960.jpg") no-repeat top center;}
+    .dish-area      {top: 128px; width: auto; height: auto;} }
+@media (max-width:  768px) {
+    body.main_page  {background: url("/img/bg_768.jpg") no-repeat top center;}
+    .dish-area      {top: 102px; width: auto; height: auto;} }
+@media (max-width:  480px) {
+    body.main_page  {background: url("/img/bg_480.jpg") no-repeat top center;}
+    .dish-area      {top:  64px; width: auto; height: auto;} }
+
 
 /**
  *  ЗАРЕЗЕРВИРОВАННЫЕ ИМЕНА КЛАССОВ
@@ -25,6 +67,8 @@ html, body {}
 .grid {margin: 0 0 -15px -15px; width: auto;}
 .grid > * {padding: 0 0 15px 15px;}
 .grid > .nogrid {padding-bottom: 0;}
+.grid-line {margin: 0 0 0 -15px; width: auto;}
+.grid-line > * {padding: 0 0 0 15px;}
 
 .col12{float:left; width: 100%;}
 .col11{float:left; width: 91.66666667%;}
