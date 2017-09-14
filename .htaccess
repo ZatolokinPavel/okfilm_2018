@@ -1,0 +1,15 @@
+###########################################################################
+###     Этот конфиг для Apache сделан только для тестирования сайта     ###
+### на локалке во время разработки. Он не готов к работе на продакшене. ###
+###########################################################################
+
+# Включаем SSI (Server Side Include)
+Options +Includes
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+SSILegacyExprParser on          # для корректной работы <!--# if expr="..." -->
+
+# Делаем ссылки ЧПУ
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /

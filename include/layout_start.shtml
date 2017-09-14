@@ -1,0 +1,2 @@
+<!-- Для браузеров, где не работает js, применяем дополнительные стили -->
+<script>document.getElementById('body').classList.remove("noscript")</script>
