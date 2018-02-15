@@ -11,7 +11,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 
 html, body {position: relative; margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;}
 body {}
-body.main_page {background: no-repeat top center;}
 .layout__content, .layout__sidebar {
     position: absolute; top: 0; right: 0; bottom: 0; max-width: 100%; height: 100%; overflow: auto;
     transition: left 0.3s ease-in-out; -webkit-overflow-scrolling: touch;}
@@ -26,33 +25,6 @@ body.main_page {background: no-repeat top center;}
 @media (min-width:  992px) { .container {width:  970px;} }
 @media (min-width: 1200px) { .container {width: 1170px;} }
 hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
-
-/* .dish top = (высота картинки * 0.2) */
-@media (min-width: 2049px) {
-    body.main_page  {background-image: url("/img/bg2048.jpg"); background-size: cover;}
-    .dish-area      {width: auto; height: auto;} }
-@media (max-width: 2048px) {
-    body.main_page  {background-image: url("/img/bg2048.jpg");}
-    .dish-area      {top: 273px; width: auto; height: auto;} }
-@media (max-width: 1920px) {
-    body.main_page  {background-image: url("/img/bg1920.jpg");}
-    .dish-area      {top: 256px; width: auto; height: auto;} }
-@media (max-width: 1600px) {
-    body.main_page  {background-image: url("/img/bg1600.jpg");}
-    .dish-area      {top: 213px; width: auto; height: auto;} }
-@media (max-width: 1220px) {
-    body.main_page  {background-image: url("/img/bg1220.jpg");}
-    .dish-area      {top: 163px; width: auto; height: auto;} }
-@media (max-width:  960px) {
-    body.main_page  {background-image: url("/img/bg_960.jpg");}
-    .dish-area      {top: 128px; width: auto; height: auto;} }
-@media (max-width:  768px) {
-    body.main_page  {background-image: url("/img/bg_768.jpg");}
-    .dish-area      {top: 102px; width: auto; height: auto;} }
-@media (max-width:  480px) {
-    body.main_page  {background-image: url("/img/bg_480.jpg");}
-    .dish-area      {top:  64px; width: auto; height: auto;} }
-
 
 /**
  *  ЗАРЕЗЕРВИРОВАННЫЕ ИМЕНА КЛАССОВ
@@ -86,3 +58,17 @@ hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px
 
 .fl-l{float: left;}
 .fl-r{float: right;}
+
+.top-menu {height: 80px; margin: 0; background: #fff;}
+.sec-slogan {height: 1000px; background: fixed center center no-repeat;}
+.sec-about-me {height: 200px; background: #f2f1ee;}
+
+/* .dish top = (высота картинки * 0.2) */
+@media (min-width: 2049px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2048.jpg"); background-size: cover;}}
+@media (max-width: 2048px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2048.jpg");}}
+@media (max-width: 1920px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg1920.jpg");}}
+@media (max-width: 1600px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg1600.jpg");}}
+@media (max-width: 1220px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg1220.jpg");}}
+@media (max-width:  960px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_960.jpg");}}
+@media (max-width:  768px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_768.jpg");}}
+@media (max-width:  480px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_480.jpg");}}

@@ -8,9 +8,11 @@
 
 <!--#include virtual="/include/layout_start.shtml"-->
 
-<div class="dish-area">
-    dish
-</div>
+<menu class="top-menu">
+    <div class="container box"></div>
+</menu>
+<section class="sec-slogan"></section>
+<section class="sec-about-me"></section>
 
 <!--#include virtual="/include/layout_end.shtml"-->
 
