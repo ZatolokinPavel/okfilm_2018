@@ -59,8 +59,8 @@ hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px
 .fl-l{float: left;}
 .fl-r{float: right;}
 
-.top-menu {height: 80px; margin: 0; background: #fff;}
-.sec-slogan {height: 1000px; background: fixed center center no-repeat;}
+.top-menu {position: relative; height: 80px; margin: 0; background: #fff;}
+.sec-slogan {height: 100%; margin-top: -80px; margin-bottom: -80px; background: fixed center center no-repeat;}
 .sec-about-me {height: 200px; background: #f2f1ee;}
 
 /* .dish top = (высота картинки * 0.2) */
