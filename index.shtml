@@ -2,19 +2,30 @@
 <html lang="ru">
 <head>
     <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
-    <!--#include virtual="/include/head.shtml"-->
+    <!--#include virtual="/include/head.html"-->
 </head>
 <body id="body" class="noscript main_page">
 
-<!--#include virtual="/include/layout_start.shtml"-->
+<!--#include virtual="/include/layout_start.html"-->
+<!--#include virtual="/include/menu.html"-->
 
-<menu class="top-menu">
-    <div class="container box"></div>
-</menu>
-<section class="sec-slogan"></section>
-<section class="sec-about-me"></section>
+<section class="sec-slogan">
+    <div class="main-slogan">
+        <div>
+            Фотографии<br>со вкусом счастья
+        </div>
+    </div>
+</section>
+<section class="sec-about-me">
+    <div class="box">
+        <div>fgbhfg</div>
+        <div>fgbhfg</div>
+        <div>fgbhfg</div>
+    </div>
+</section>
+<section class="sec-main-portfolio"></section>
 
-<!--#include virtual="/include/layout_end.shtml"-->
+<!--#include virtual="/include/layout_end.html"-->
 
 </body>
 </html>

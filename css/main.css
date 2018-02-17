@@ -1,3 +1,34 @@
+/**
+ *  Шрифты
+ *  Скачивал шрифты отсюда: http://www.fontov.net/ или отсюда https://www.fonts-online.ru/
+ *  а конвертировал вот этим инструментом: https://transfonter.org/
+ */
+@font-face {
+    font-family: 'a_AvanteTitlerCpsUpC';
+    src: url('/fonts/AAvanteTitlerCpsUpCLight.eot');
+    src: url('/fonts/AAvanteTitlerCpsUpCLight.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/AAvanteTitlerCpsUpCLight.woff2') format('woff2'),
+    url('/fonts/AAvanteTitlerCpsUpCLight.woff') format('woff'),
+    url('/fonts/AAvanteTitlerCpsUpCLight.ttf') format('truetype'),
+    url('/fonts/AAvanteTitlerCpsUpCLight.svg#AAvanteTitlerCpsUpCLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_AvanteLt';
+    src: url('/fonts/AAvanteLtLight.eot');
+    src: url('/fonts/AAvanteLtLight.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/AAvanteLtLight.woff2') format('woff2'),
+    url('/fonts/AAvanteLtLight.woff') format('woff'),
+    url('/fonts/AAvanteLtLight.ttf') format('truetype'),
+    url('/fonts/AAvanteLtLight.svg#AAvanteLtLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 /* Общие классы */
 * {box-sizing: border-box;}
 .box {width: 100%; position: relative;}
@@ -10,7 +41,8 @@ ul {list-style: none; margin: 0; padding: 0;}
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
 
 html, body {position: relative; margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;}
-body {}
+body {color: #6c6c6c; font-size: 14px; font-family: a_AvanteLt, "Segoe UI", Arial, Helvetica, sans-serif;
+      letter-spacing: 0.05em; -webkit-font-smoothing: subpixel-antialiased !important;}
 .layout__content, .layout__sidebar {
     position: absolute; top: 0; right: 0; bottom: 0; max-width: 100%; height: 100%; overflow: auto;
     transition: left 0.3s ease-in-out; -webkit-overflow-scrolling: touch;}
@@ -59,11 +91,17 @@ hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px
 .fl-l{float: left;}
 .fl-r{float: right;}
 
-.top-menu {position: relative; height: 80px; margin: 0; background: #fff;}
-.sec-slogan {height: 100%; margin-top: -80px; margin-bottom: -80px; background: fixed center center no-repeat;}
-.sec-about-me {height: 200px; background: #f2f1ee;}
+.sec-navbar {position: relative; height: 80px; line-height: 80px; margin: 0; background: #fff;}
+.sec-navbar nav {display: inline-block; float: right; vertical-align: bottom; font-size: 16px; text-transform: uppercase;}
+.sec-navbar nav ul {display: none;}
+.sec-navbar nav > ul {display: block;}
+.sec-navbar nav > ul > li {float: left; margin-left: 40px;}
+.sec-navbar a {text-decoration: none; cursor: pointer; color: inherit;}
+.sec-navbar a:visited {color: inherit;}
+.sec-navbar nav a:hover {padding: 3px 0; border-bottom: 1px solid #6c6c6c;}
+.mMenuToggle {display: none;}
 
-/* .dish top = (высота картинки * 0.2) */
+.sec-slogan {height: 100%; min-height: 600px; margin-top: -80px; margin-bottom: -80px; background: fixed center center no-repeat;}
 @media (min-width: 2049px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2048.jpg"); background-size: cover;}}
 @media (max-width: 2048px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2048.jpg");}}
 @media (max-width: 1920px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg1920.jpg");}}
@@ -72,3 +110,12 @@ hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px
 @media (max-width:  960px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_960.jpg");}}
 @media (max-width:  768px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_768.jpg");}}
 @media (max-width:  480px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_480.jpg");}}
+.main-slogan {position: relative; width: 42%; height: 100%; margin: auto;}
+.main-slogan > div {position: relative; top: 50%; transform: translateY(-50%); padding: 65px;
+    background: rgba(255,255,255,0.87)}
+
+.sec-about-me {background: #f2f1ee;}
+.sec-about-me > div {margin: auto; background: aquamarine; height: 240px; width: 600px;}
+.sec-about-me > div > div {float: left; background: #fff; margin: 20px; height: 100%;}
+
+.sec-main-portfolio {height: 200px; background: #cac8c8;}
