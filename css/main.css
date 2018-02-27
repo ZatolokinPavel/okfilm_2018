@@ -114,8 +114,11 @@ hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px
 .main-slogan > div {position: relative; top: 50%; transform: translateY(-50%); padding: 65px;
     background: rgba(255,255,255,0.87)}
 
-.sec-about-me {background: #f2f1ee;}
-.sec-about-me > div {margin: auto; background: aquamarine; height: 240px; width: 600px;}
-.sec-about-me > div > div {float: left; background: #fff; margin: 20px; height: 100%;}
+.sec-about-me {padding: 1px 0; background: #f2f1ee;}
+.sec-about-me > div {position: relative; margin: -47px auto;}
+.sec-about-me > div > div {background: #fff; width: 30%; height: 100%; margin: auto; padding: 20px; text-align: center;}
+.sec-about-me > div > div.pic1 {position: absolute; top: 0; left: 0;}
+.sec-about-me > div > div.pic2 {position: absolute; top: 0; right: 0;}
+.sec-about-me .name {text-transform: uppercase;}
 
 .sec-main-portfolio {height: 200px; background: #cac8c8;}

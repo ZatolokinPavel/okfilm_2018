@@ -17,10 +17,15 @@
     </div>
 </section>
 <section class="sec-about-me">
-    <div class="box">
-        <div>fgbhfg</div>
-        <div>fgbhfg</div>
-        <div>fgbhfg</div>
+    <div class="box container">
+        <div class="pic1">fgbhfg</div>
+        <div>
+            <p class="name">Оксана Найденко</p>
+            <p>Фотография и видео уже так давно стали частью меня, что даже не могу вспомнить ту часть жизни, где их не было.</p>
+            <p>Я ценю искренние эмоции, красоту, вижу их повсюду и стараюсь через фото и видео делиться ими со всеми.</p>
+            <p>Сделаю все, что в моих силах, чтобы лучшие моменты вашей жизни были достойно оформлены и радовали вас еще долгие годы.</p>
+        </div>
+        <div class="pic2">fgbhfg</div>
     </div>
 </section>
 <section class="sec-main-portfolio"></section>
