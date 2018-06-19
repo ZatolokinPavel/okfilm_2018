@@ -2,10 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 185 50" width="185" height="50">
     <defs>
-        <text id="aw8J9AXFx" x="92.84" y="147.61" font-size="50" font-family="Abril Fatface" font-weight="normal" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" transform="matrix(1 0 0 1 -29.839189189189213 -157.6137837837838)" style="line-height:100%" xml:space="preserve" dominant-baseline="text-before-edge">
-            <tspan x="92.84" dy="0em" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="start">FILM</tspan>
-        </text>
-        <style id="abrilfatfacenormalnormal">
+        <style>
             @font-face {
                 font-family: 'Abril Fatface';
                 src: url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAR8AA4AAAAAC3gAAAQrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbbhwgBmAATBEICoIQgXULEgABNgIkAyAEIAWOOgcyG1IKEZWcGcm+OLDBLXqo142nZqKiS7EqfVpGpmQEH8rx8OjfU+cm+cLIbyCv7WqbUmpBt3IAlMVr/vvDWqmun6+qHarsVKojx/4Qwj4nMdIZ+KZ5/20t7UHJssZXMLZC1qnNn8we/AKCJLzj2ZbtZeObCtmccCWKR1fXeBKuwhEetLP8mhF4AZxwIwJdQBJCQwi0zbJCqqqq0j/j2AvO0lcgrph2+onnnaXJ6JwVCaEpGaugskgWgJDV1DWEGhMnrBhQYZNNtTkWUrwU96iRnkm34Y7VmeJTK/yV1DKSDHp7wQEHYBuVPcuM/z6lzIiZFfdDfJKeQSUjIWO0LDBasQ5tTUlS2cmu9vwfO8sem/j/a895xlNwz4T4nwSaYIiC/XESoAhmk/1M7g4nHT04sP3ee+126tz+/sxOwm1v3VU3OrX20T3tgmjcHQd3DugfqhczNxzRPgq3tc85ekeOfrrZen3krNOP2fOYyTsuXrZ1x2cG80YMdrt7+eLlV4y9bOzGezYa//TyUWsfWjtq4cR7i1Ocds+sA084eeXpY0b+OJI9bebTnfHnlgevv/JN5QLUdkvPqP4NyRBW6dv9tMroXTb92uzkH+ClK+9fs9rl/93/tJxeZqApSZBO47yQI0ERhPH1Nr0AxJ54hLSPMXG8CekAY/IuJgg0HaPhaE+4d2AbJIHJcRDdfB07hJ7rkDTcjWy+h1CM9jxqet5W60xoWOwLNHWjh5apMQEdY2Kt2kXRc0/ssXPfxPhEFqVFlPgNQZiY/kLSz6OR7ZdnoJiXL0DNxPywWkfRcFh+DE3jyxAtW8o8dCwoJ6ldFL2oyj3r+lbV2Pp40ArdefUWv6cUC+r1k+52BO8SqnogJMWdxZ2ctl4vSfW1olKTW3/6w/PjLSTegRlJbOqDlvdb8wJaq8BZDJKVpsR5ScQOZLlsgziIolia5xd7iiiYeld5gajBHimgUU+fC8KocUx1HyvrcdaUlmxrY3iRrAkD65+LoGfMPZKshvNyc/MGwVM+uNlD0xrNkElKM+Bdliw0YngEiboGV76WqNMLEMmpyf1sw/hu8zO2rz/HaSZo6w6SKI77GCRe/jLMxVrNYGacQP5MmgPhjjQQeutA26rTx4cZvzucjDfubR6Y2Vqwo8p4tIZ3x2ULVD+oRMyiL0/SZkCQ0Uubkpy5zCpInw+0omzLQ4IvqqAB3yAaPZv4sSMOoiiGZLaPDILkp4epEl1h1j7dalEBo9QH6eF8uSCMGsdU97Gy/h9nTWnJ+HIZ92++ZLr3cGc+67hRPibwMB8pTeZtrr3f4MbVha+TipLEocsN9qDGGjNuJFv6/u2bZip05QnpbduDb2J3S7yXXv6YCW8cHnf/96KQibxUGHrt+CU+8FwG1qXhfrYR/qC/4P9jMi5plh7b5/cH7gg=) format('woff2'),
@@ -14,11 +11,6 @@
                 font-weight: normal;
                 font-style: normal;
             }
-        </style>
-        <text id="g142qEn1Wr" x="204.58" y="292.43" font-size="50" font-family="Allura" font-weight="normal" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" transform="matrix(1 0 0 1 -204.58 -293.43432432432434)" style="line-height:100%" xml:space="preserve" dominant-baseline="text-before-edge">
-            <tspan x="204.58" dy="0em" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="start">Ok</tspan>
-        </text>
-        <style id="alluranormalnormal">
             @font-face {
                 font-family: 'Allura';
                 src: url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAUYAA4AAAAACowAAATEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmAARBEICoNIgxgLDgABNgIkAxgEIAWLcQcuG1QJIxH2g1Fikf3zMDZmPlVpO+TkzGOKqSh7x72ISnjk/zbqZZtsE8VHPYJorayevdunEJBiYIWgImxioxEUkGJhCAJgSC//XUtJamsiRumSDHvFrbmmai5zvKWNf5lc1Scmt4JbGzEmAqnDyz7/z717LQs87NwGUKCJJ/LGvu2ta+NaYJ2OxwtoDS7gwkACDdOOxx8E/iDe+gK5C+oJBCoBkhCKQqBcI03E0OFjpypVgP8EIFCujXbSt9mqrF20db16EHLnU4yIM4qkY2kmxhxfjPl6+JWsDMODpk4ZxUDNrMma/etP1ixuNJNBVEnH0ExCQoZaMoFcV9ANpUolNDPBmv/EkAD674nN/8MCMb5hAh/JQSVkOItngAKwP6TcekBsWw6CAABjCI48jPMsl9iEthQeYhAKnQ10cBzGsABifKh3mYzhyA3u3IKG9LGvv64x7BNEA06AST+GDAsPrG8R7CMJ4sYLinMqvQLAAkV979hbRoaHhfrZ+8CeMdLgKVszhsGLYFVg55n4NQ/HpRc1es+xFVx4/tYH4cjkf6bUb3ILLn36rh7LJNpkfEPt3Onbivtm+O/CAhBvIR/bHztWIO6aYxPHsrJ0+USZfF8+O66jjUGHZP9Yujs6kbk+nzfEQTusjeZYFRcXqNVJj79SbbJkqI7UIONLGd4z1iUu0PA0E3NUrOm6zfJdU4Ikw2wChDQla/1EyVRLjyBpYi0pY5+TZqAg7K8ZIcGmynvrNpg8wVY5AIv6/GAfUM++hvY5wj60XqdRjf9fyFvz83eguOI+8ckp+/AxddC8Gr1z96GV53YYA5+wTW38uuz9XAoEIvLSI5fRCO6+X0vZsy/wcCT7u97G0qf//f/6F05lzZDwFIGisRXfflH8vT9GWClzb/yxMQ5vSDd0jpkaC+Suy0FCCAwE0CD6C8AMBAi5GQIkJeYJkGliqQCF71BU2WHIVXEaSrR1BUrVcKu/7AqVVPccKjvj8+UqGsQOmSiU4Wqc7UColAZAUiWNgUzfNKu/gEBRg3QRco3SNSgxPj2EUq2y+v1lCFTSIusHlaNZtmCqil6FJ1X8c6iDNzzslDG5cj86KGwDpQOo65XHBCrsMkQrE9ho12w8XLAlFZxLF5pZ1kuSSrMDm+saWz7M2pFFRWW4jAWBT0ioYj1fKddynOCluYOKueuH9nnSxi0Vl6oJ/RiiBehboE9ZWzydKfOANqloOnItQODs2nWmUGA/o/kx0D+yZTHXzQiAgBOLbQAapyRjZb0tMCSZatmahgaNSkzICddj+vbeb4O8eGkVSoQ6b4DnuC4cXoXYjw4K20CxUrBm/KYyAld1GaKVPRc32rXn+7SEHeQ30w9xh3GeIaxYKuCvlySVZncUZjGcyRNRg2B+I+r9OLKoqAyXsSCAsZ9wDU9YgkZRng+u5awHA+ghHcoa3xeDMnBGfEreRQqzjBjyfwFsZDrCcDgM8bkeZQn0Jovn6UEyok4gcU+xLj6Z5pi5KVFcZEbwg1XGZNQcQAmS+xk1O7GAayB0kGKWtVsLIrXtB0Y1UlkvaMkHU8IavCVv6xQKMiqDve31d48EJGJBbNtwrQo0llGJlevQXo8pvPN9ZZTo/loYXqiEtwIAAAA=) format('woff2'),
@@ -29,10 +21,12 @@
             }
         </style>
     </defs>
-    <g>
-        <g>
-            <g id="b39HwWji0r"><use xlink:href="#aw8J9AXFx" opacity="1" fill="#000000" fill-opacity="1"></use></g>
-            <g id="a2FajQu3Po"><use xlink:href="#g142qEn1Wr" opacity="1" fill="#090909" fill-opacity="1"></use></g>
-        </g>
+    <g fill="#6c6c6c" opacity="1" fill-opacity="1">
+        <text x="0" y="3" font-size="50" font-family="Allura" font-weight="normal" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" dominant-baseline="text-before-edge" style="line-height:100%" xml:space="preserve">
+            <tspan x="0" dy="0" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="start">Ok</tspan>
+        </text>
+        <text x="0" y="-3" font-size="50" font-family="Abril Fatface" font-weight="normal" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" dominant-baseline="text-before-edge" style="line-height:100%" xml:space="preserve">
+            <tspan x="63" dy="0" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="start">FILM</tspan>
+        </text>
     </g>
 </svg>
