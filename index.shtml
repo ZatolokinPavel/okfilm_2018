@@ -12,23 +12,29 @@
 <section class="sec-slogan">
     <div class="main-slogan">
         <div>
-            Фотографии<br>со вкусом счастья
+            <h2>Фотографии<br>со вкусом счастья</h2>
         </div>
     </div>
 </section>
 <section class="sec-about-me">
     <div class="box container">
-        <div class="pic1">fgbhfg</div>
         <div>
-            <p class="name">Оксана Найденко</p>
-            <p>Фотография и видео уже так давно стали частью меня, что даже не могу вспомнить ту часть жизни, где их не было.</p>
-            <p>Я ценю искренние эмоции, красоту, вижу их повсюду и стараюсь через фото и видео делиться ими со всеми.</p>
-            <p>Сделаю все, что в моих силах, чтобы лучшие моменты вашей жизни были достойно оформлены и радовали вас еще долгие годы.</p>
+            <div class="about-me pic1">fgbhfg</div>
+            <div class="about-me text">
+                <p class="name">Оксана Найденко</p>
+                <p>Фотография и видео уже так давно стали частью меня, что даже не могу вспомнить ту часть жизни, где их не было.</p>
+                <p>Я ценю искренние эмоции, красоту, вижу их повсюду и стараюсь через фото и видео делиться ими со всеми.</p>
+                <p>Сделаю все, что в моих силах, чтобы лучшие моменты вашей жизни были достойно оформлены и радовали вас еще долгие годы.</p>
+            </div>
+            <div class="about-me pic2">fgbhfg</div>
         </div>
-        <div class="pic2">fgbhfg</div>
     </div>
 </section>
-<section class="sec-main-portfolio"></section>
+<section class="sec-main-portfolio">
+    <div class="box container">
+        <h2 class="center">Портфолио</h2>
+    </div>
+</section>
 
 <!--#include virtual="/include/layout_end.html"-->
 
