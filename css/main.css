@@ -120,11 +120,12 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 .sec-about-me {padding: 1px 0; background: #f2f1ee;}
 .sec-about-me > div {position: relative; margin: -47px auto;}
 .sec-about-me > div > div {position: relative;}
-.sec-about-me .about-me {background: #fff; width: 30%; height: 100%; padding: 20px; text-align: center;}
+.sec-about-me .about-me {background: #fff; width: 30%; height: 100%; border: 20px solid #fff; text-align: center; overflow: hidden;}
 .sec-about-me .about-me.pic1 {position: absolute; top: 0; left: 0;}
 .sec-about-me .about-me.text {position: relative; margin: 0 auto;}
 .sec-about-me .about-me.pic2 {position: absolute; top: 0; right: 0;}
 .sec-about-me .name {text-transform: uppercase;}
+.sec-about-me .about-me > img {position: relative; max-width: none; min-width: 100%; min-height: 100%; top: 50%; left: 50%; transform: translate(-50%,-50%);}
 @media (max-width: 768px) {
     .sec-about-me .about-me {width: 47%;}
     .sec-about-me .about-me.text {margin-right: 0;}
