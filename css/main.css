@@ -36,6 +36,7 @@
 .center {text-align: center;}
 img {border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 ul {list-style: none; margin: 0; padding: 0;}
+p {margin: 16px 0;}
 
 /* Подгонка под старые браузеры: делаем HTML5 элементы блочными */
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
@@ -94,15 +95,21 @@ hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px
 
 h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 
+.sec-navbar .mMenuToggle {display: none;}
 .sec-navbar {position: relative; height: 80px; line-height: 80px; margin: 0; background: #fff;}
 .sec-navbar nav {display: inline-block; float: right; vertical-align: bottom; font-size: 16px; text-transform: uppercase;}
 .sec-navbar nav ul {display: none;}
 .sec-navbar nav > ul {display: block;}
 .sec-navbar nav > ul > li {float: left; margin-left: 40px;}
-.sec-navbar a {text-decoration: none; cursor: pointer; color: inherit;}
+.sec-navbar a {position: relative; padding: 3px 0; text-decoration: none; cursor: pointer; color: inherit;}
 .sec-navbar a:visited {color: inherit;}
-.sec-navbar nav a:hover {padding: 3px 0; border-bottom: 1px solid #6c6c6c;}
-.mMenuToggle {display: none;}
+.sec-navbar a.top:hover::after {left: 0; right: 0;}
+.sec-navbar a.top::after {content: ''; position: absolute; bottom: 0; left: 50%; right: 50%; height: 1px; background: #6c6c6c;
+    -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)}
 
 .sec-slogan {height: 100%; min-height: 600px; margin-bottom: -160px; padding-bottom: 160px; background: fixed center center no-repeat;}
 @media (min-width: 2049px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2048.jpg"); background-size: cover;}}
@@ -122,9 +129,11 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 .sec-about-me > div > div {position: relative;}
 .sec-about-me .about-me {background: #fff; width: 30%; height: 100%; border: 20px solid #fff; text-align: center; overflow: hidden;}
 .sec-about-me .about-me.pic1 {position: absolute; top: 0; left: 0;}
-.sec-about-me .about-me.text {position: relative; margin: 0 auto;}
+.sec-about-me .about-me.text {position: relative; margin: 0 auto; font-size: 16px;}
 .sec-about-me .about-me.pic2 {position: absolute; top: 0; right: 0;}
 .sec-about-me .name {text-transform: uppercase;}
+.sec-about-me p {margin: 18px 0;}
+.sec-about-me hr {margin: 40px 0 20px 0;}
 .sec-about-me .about-me > img {position: relative; max-width: none; min-width: 100%; min-height: 100%; top: 50%; left: 50%; transform: translate(-50%,-50%);}
 @media (max-width: 768px) {
     .sec-about-me .about-me {width: 47%;}
