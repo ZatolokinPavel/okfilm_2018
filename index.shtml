@@ -10,9 +10,11 @@
 <!--#include virtual="/include/menu.html"-->
 
 <section class="sec-slogan">
-    <div class="main-slogan">
-        <div>
-            <h2>Фотографии<br>со вкусом счастья</h2>
+    <div class="container">
+        <div class="main-slogan">
+            <div>
+                <img src="/img/slogan.svg" alt="Фотографии со вкусом счастья">
+            </div>
         </div>
     </div>
 </section>
@@ -20,7 +22,7 @@
     <div class="box container">
         <div>
             <div class="about-me pic1">
-                <img src="img/about-me-pic1.jpg">
+                <img src="/img/about-me-pic1.jpg">
             </div>
             <div class="about-me text">
                 <p class="name">Оксана Найденко</p>
@@ -30,7 +32,7 @@
                 <hr>
             </div>
             <div class="about-me pic2">
-                <img src="img/about-me-pic2.jpg">
+                <img src="/img/about-me-pic2.jpg">
             </div>
         </div>
     </div>

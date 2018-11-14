@@ -124,11 +124,11 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 @media (max-width: 600px) {
     .sec-navbar nav .fa {display: none;}
     .sec-navbar nav > ul > li {margin-left: 10px;}
-    body.page-main      .sec-navbar nav .page-main      {display: none;}
-    body.page-portfolio .sec-navbar nav .page-portfolio {display: none;}
-    body.page-video     .sec-navbar nav .page-video     {display: none;}
-    body.page-services  .sec-navbar nav .page-services  {display: none;}
-    body.page-price     .sec-navbar nav .page-price     {display: none;}
+    body.page-main  .sec-navbar nav .page-main  {display: none;}
+    body.page-photo .sec-navbar nav .page-photo {display: none;}
+    body.page-video .sec-navbar nav .page-video {display: none;}
+    body.page-more  .sec-navbar nav .page-more  {display: none;}
+    body.page-price .sec-navbar nav .page-price {display: none;}
 }
 
 .sec-slogan {height: 100%; min-height: 600px; margin-bottom: -160px; padding-bottom: 160px; background: fixed center center no-repeat;}
@@ -140,9 +140,10 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 @media (max-width:  960px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_960.jpg");}}
 @media (max-width:  768px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_768.jpg");}}
 @media (max-width:  480px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_480.jpg");}}
-.main-slogan {position: relative; width: 42%; height: 100%; margin: auto;}
+.sec-slogan > .container {height: 100%;}
+.main-slogan {position: relative; width: 45%; height: 100%; margin: auto;}
 .main-slogan > div {position: relative; top: 50%; transform: translateY(-50%); padding: 65px;
-    background: rgba(255,255,255,0.87)}
+    background: rgba(255,255,255,0.87); text-align: center;}
 
 .sec-about-me {padding: 1px 0; background: #f2f1ee;}
 .sec-about-me > div {position: relative; margin: -47px auto;}
