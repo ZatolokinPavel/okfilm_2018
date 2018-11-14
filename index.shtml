@@ -4,7 +4,7 @@
     <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
     <!--#include virtual="/include/head.html"-->
 </head>
-<body id="body" class="noscript main_page">
+<body id="body" class="noscript page-main">
 
 <!--#include virtual="/include/layout_start.html"-->
 <!--#include virtual="/include/menu.html"-->

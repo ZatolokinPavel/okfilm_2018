@@ -2,20 +2,19 @@
 
     <div class="container box">
         <!-- Логотип -->
-        <a class="logo" href="/">
-            <img src="/img/okfilm_logo.svg" alt="OkFILM">
-        </a>
-
-        <!-- Переключатель мобильного меню -->
-        <a id="mobile_menu_toggle" class="mMenuToggle" href="javascript:void(0);">
-            <i class="fa fa-bars"></i> Меню
-        </a>
+        <div class="logo">
+            <a href="/">
+                <img src="/img/okfilm_logo.svg" alt="OkFILM">
+            </a>
+        </div>
 
         <!-- Главное меню -->
         <nav id="main_menu">
-            <ul>
-                <li><a class="top" href="/">Главная</a></li>
-                <li>
+            <ul class="box">
+                <li class="page-main">
+                    <a class="top" href="/">Главная</a>
+                </li>
+                <li class="page-portfolio">
                     <a class="top" href="/portfolio">Портфолио</a>
                     <i class="fa fa-angle-down"></i>
                     <ul class="submenu">
@@ -23,7 +22,7 @@
                         <li><a href="/portfolio/wedding">Свадьба</a></li>
                     </ul>
                 </li>
-                <li>
+                <li class="page-video">
                     <a class="top">Видео</a>
                     <i class="fa fa-angle-down"></i>
                     <ul class="submenu">
@@ -31,15 +30,17 @@
                         <li><a href="/video/school">Школа</a></li>
                     </ul>
                 </li>
-                <li>
+                <li class="page-services">
                     <a class="top">Услуги</a>
                     <i class="fa fa-angle-down"></i>
                     <ul class="submenu">
-                        <li><a href="/uslugi/photobook">Фотокниги</a></li>
-                        <li><a href="/uslugi/files/">OkFILM диск</a></li>
+                        <li><a href="/services/photobook">Фотокниги</a></li>
+                        <li><a href="/services/files/">OkFILM диск</a></li>
                     </ul>
                 </li>
-                <li><a class="top" href="/price">Стоимость</a></li>
+                <li class="page-price">
+                    <a class="top" href="/price">Стоимость</a>
+                </li>
             </ul>
         </nav>
     </div>
