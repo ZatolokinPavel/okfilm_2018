@@ -138,10 +138,21 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 .sec-about-me p {margin: 18px 0;}
 .sec-about-me hr {margin: 40px 0 20px 0;}
 .sec-about-me .about-me > img {position: relative; max-width: none; min-width: 100%; min-height: 100%; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+@media (max-width:  992px) {
+    .sec-about-me .about-me {width: calc(33.334% + 13px);}
+}
 @media (max-width: 768px) {
-    .sec-about-me .about-me {width: 47%;}
+    .sec-about-me .about-me {width: calc(50% + 20px);}
     .sec-about-me .about-me.text {margin-right: 0;}
     .sec-about-me .about-me.pic2 {display: none;}
+}
+@media (max-width: 600px) {
+    .sec-about-me > div {margin: initial; padding: 0;}  /* тут padding перетирает класс .container */
+}
+@media (max-width:  480px) {
+    .sec-about-me .about-me {width: 100%;}
+    .sec-about-me .about-me.pic1 {position: relative; padding-bottom: 100%; border-bottom: none;}
+    .sec-about-me .about-me > img {position: absolute;}
 }
 
 .sec-main-portfolio {padding-top: 47px; height: 200px; background: #cac8c8;}
