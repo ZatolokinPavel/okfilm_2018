@@ -40,6 +40,14 @@
 <section class="sec-main-portfolio">
     <div class="box container">
         <h2 class="center">Портфолио</h2>
+        <div class="grid box">
+            <div><img src="/img/about-me-pic1.jpg"></div>
+            <div><img src="/img/about-me-pic1.jpg"></div>
+            <div><img src="/img/about-me-pic1.jpg"></div>
+            <div><img src="/img/about-me-pic1.jpg"></div>
+            <div><img src="/img/about-me-pic1.jpg"></div>
+            <div><img src="/img/about-me-pic1.jpg"></div>
+        </div>
     </div>
 </section>
 
