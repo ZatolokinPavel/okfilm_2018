@@ -40,13 +40,13 @@
 <section class="sec-main-portfolio">
     <div class="box container">
         <h2 class="center">Портфолио</h2>
-        <div class="grid box">
-            <div><img src="/img/about-me-pic1.jpg"></div>
-            <div><img src="/img/about-me-pic1.jpg"></div>
-            <div><img src="/img/about-me-pic1.jpg"></div>
-            <div><img src="/img/about-me-pic1.jpg"></div>
-            <div><img src="/img/about-me-pic1.jpg"></div>
-            <div><img src="/img/about-me-pic1.jpg"></div>
+        <div class="portfolio-grid grid box">
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1116.jpg"></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3301.jpg"></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3582.jpg"></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3430.jpg"></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1191.jpg"></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1700.jpg"></div>
         </div>
     </div>
 </section>

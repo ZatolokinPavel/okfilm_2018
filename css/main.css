@@ -174,8 +174,8 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 }
 
 .sec-main-portfolio {padding-top: 47px; background: #cac8c8;}
-.noscript .sec-main-portfolio .grid > div {float:left; width: 33.333%;}
-.sec-main-portfolio .grid img {width: 100%; border: 15px solid #fff;}
+.sec-main-portfolio .portfolio-grid img {width: 100%; border: 15px solid #fff;}
+.sec-main-portfolio .portfolio-item {float: left; width: 33.333%;}
 @media (max-width:  480px) {
-    .noscript .sec-main-portfolio .grid > div {width: 50%;}
+    .sec-main-portfolio .portfolio-item {width: 50%;}
 }
