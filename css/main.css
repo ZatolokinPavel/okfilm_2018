@@ -141,7 +141,7 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 @media (max-width:  768px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_768.jpg");}}
 @media (max-width:  480px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_480.jpg");}}
 .sec-slogan > .container {height: 100%;}
-.main-slogan {position: relative; width: 45%; height: 100%; margin: auto;}
+.main-slogan {position: relative; width: 45%; height: 100%; margin: auto; font-size: 27px;}
 .main-slogan > div {position: relative; top: 50%; transform: translateY(-50%); padding: 65px;
     background: rgba(255,255,255,0.87); text-align: center;}
 
@@ -196,6 +196,7 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 @media (max-width:  960px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg_960.jpg");}}
 @media (max-width:  768px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg_768.jpg");}}
 @media (max-width:  480px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg_480.jpg");}}
+.sec-main-services > .container {padding-top: 1px;}
 .main-services-grid {display: flex; flex-flow: row wrap; justify-content: space-around; align-items: flex-start;
     font-size: 24px; color: #4c4c4c;}
 .main-services-grid > div {width: 30%; text-align: center; margin-bottom: 100px;}
