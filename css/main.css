@@ -142,9 +142,11 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 @media (max-width:  480px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_480.jpg"); height: 320px;}}
 @media (max-width:  768px) {.sec-slogan { margin: 0; padding: 0; min-height: 0; background-attachment: scroll;}}
 .sec-slogan > .container {height: 100%; display: flex; justify-content: center; align-items: center;}
-.main-slogan {max-width: 100%; width: 513px; padding: 65px; background: rgba(255,255,255,0.87); text-align: center; font-size: 27px;}
-@media (max-width:  540px) { .main-slogan {padding: 50px;} }
-@media (max-width:  480px) { .main-slogan {padding: 25px;} }
+.main-slogan {background: rgba(255,255,255,0.87);}
+
+.slogan {max-width: 100%; width: 513px; margin: 0 auto; padding: 65px; text-align: center; font-size: 27px;}
+@media (max-width:  540px) { .slogan {padding: 50px;} }
+@media (max-width:  480px) { .slogan {padding: 25px;} }
 
 .sec-about-me {padding: 1px 0; background: #f2f1ee;}
 .sec-about-me > div {position: relative; margin: -47px auto;}

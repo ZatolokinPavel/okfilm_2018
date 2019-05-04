@@ -11,7 +11,7 @@
 
 <section class="sec-slogan">
     <div class="container">
-        <div class="main-slogan">
+        <div class="slogan main-slogan">
             <img src="/img/slogan.svg" alt="Фотографии со вкусом счастья">
         </div>
     </div>
@@ -61,10 +61,8 @@
         </div>
     </div>
 </section>
-<footer style="height: 300px;">
-    <div class="container"></div>
-</footer>
 
+<!--#include virtual="/include/footer.html"-->
 <!--#include virtual="/include/layout_end.html"-->
 
 </body>
