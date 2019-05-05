@@ -190,15 +190,15 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 
 .sec-main-services {position: relative; background: fixed center bottom no-repeat;}
 .sec-main-services::before {content: ''; display: block; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.7);}
-@media (min-width: 2893px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg2892.jpg"); background-size: cover;}}
-@media (max-width: 2892px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg2892.jpg");}}
-@media (max-width: 2048px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg2048.jpg");}}
-@media (max-width: 1920px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg1920.jpg");}}
-@media (max-width: 1600px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg1600.jpg");}}
-@media (max-width: 1220px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg1220.jpg");}}
-@media (max-width:  960px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg_960.jpg");}}
-@media (max-width:  768px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg_768.jpg");}}
-@media (max-width:  480px) {.sec-main-services {background-image: url("/img/footer_bg/footer_bg_480.jpg");}}
+@media (min-width: 2893px) {.sec-main-services {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}}
+@media (max-width: 2892px) {.sec-main-services {background-image: url("/img/footer/footer_bg2892.jpg");}}
+@media (max-width: 2048px) {.sec-main-services {background-image: url("/img/footer/footer_bg2048.jpg");}}
+@media (max-width: 1920px) {.sec-main-services {background-image: url("/img/footer/footer_bg1920.jpg");}}
+@media (max-width: 1600px) {.sec-main-services {background-image: url("/img/footer/footer_bg1600.jpg");}}
+@media (max-width: 1220px) {.sec-main-services {background-image: url("/img/footer/footer_bg1220.jpg");}}
+@media (max-width:  960px) {.sec-main-services {background-image: url("/img/footer/footer_bg_960.jpg");}}
+@media (max-width:  768px) {.sec-main-services {background-image: url("/img/footer/footer_bg_768.jpg");}}
+@media (max-width:  480px) {.sec-main-services {background-image: url("/img/footer/footer_bg_480.jpg");}}
 .sec-main-services > .container {padding-top: 1px;}
 .main-services-grid {display: flex; flex-flow: row wrap; justify-content: space-around; align-items: flex-start; font-size: 24px; color: #4c4c4c;}
 .main-services-grid > div {width: 30%; text-align: center; margin-bottom: 9%;}
@@ -209,12 +209,14 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 
 footer {position: relative; color: #fff; background: fixed center bottom no-repeat;}
 footer::before {content: ''; display: block; position: absolute; width: 100%; height: 100%; background: rgba(59,57,58,0.9)}
-@media (min-width: 2893px) {footer {background-image: url("/img/footer_bg/footer_bg2892.jpg"); background-size: cover;}}
-@media (max-width: 2892px) {footer {background-image: url("/img/footer_bg/footer_bg2892.jpg");}}
-@media (max-width: 2048px) {footer {background-image: url("/img/footer_bg/footer_bg2048.jpg");}}
-@media (max-width: 1920px) {footer {background-image: url("/img/footer_bg/footer_bg1920.jpg");}}
-@media (max-width: 1600px) {footer {background-image: url("/img/footer_bg/footer_bg1600.jpg");}}
-@media (max-width: 1220px) {footer {background-image: url("/img/footer_bg/footer_bg1220.jpg");}}
-@media (max-width:  960px) {footer {background-image: url("/img/footer_bg/footer_bg_960.jpg");}}
-@media (max-width:  768px) {footer {background-image: url("/img/footer_bg/footer_bg_768.jpg");}}
-@media (max-width:  480px) {footer {background-image: url("/img/footer_bg/footer_bg_480.jpg");}}
+@media (min-width: 2893px) {footer {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}}
+@media (max-width: 2892px) {footer {background-image: url("/img/footer/footer_bg2892.jpg");}}
+@media (max-width: 2048px) {footer {background-image: url("/img/footer/footer_bg2048.jpg");}}
+@media (max-width: 1920px) {footer {background-image: url("/img/footer/footer_bg1920.jpg");}}
+@media (max-width: 1600px) {footer {background-image: url("/img/footer/footer_bg1600.jpg");}}
+@media (max-width: 1220px) {footer {background-image: url("/img/footer/footer_bg1220.jpg");}}
+@media (max-width:  960px) {footer {background-image: url("/img/footer/footer_bg_960.jpg");}}
+@media (max-width:  768px) {footer {background-image: url("/img/footer/footer_bg_768.jpg");}}
+@media (max-width:  480px) {footer {background-image: url("/img/footer/footer_bg_480.jpg");}}
+footer .social-media {padding-bottom: 5%; text-align: center;}
+footer .social-media img {width: 60px; background: #fff;}
