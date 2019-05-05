@@ -20,7 +20,7 @@
     <div class="box container">
         <div>
             <div class="about-me pic1">
-                <img src="/img/about-me-pic1.jpg">
+                <img src="/img/about-me-pic1.jpg" alt="Оксана Найденко">
             </div>
             <div class="about-me text">
                 <p class="name">Оксана Найденко</p>
@@ -30,7 +30,7 @@
                 <hr>
             </div>
             <div class="about-me pic2">
-                <img src="/img/about-me-pic2.jpg">
+                <img src="/img/about-me-pic2.jpg" alt="">
             </div>
         </div>
     </div>
@@ -39,12 +39,12 @@
     <div class="box container">
         <h2 class="center">Портфолио</h2>
         <div class="portfolio-grid grid box">
-            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1116.jpg"></div>
-            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3301.jpg"></div>
-            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3582.jpg"></div>
-            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3430.jpg"></div>
-            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1191.jpg"></div>
-            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1700.jpg"></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1116.jpg" alt=""></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3301.jpg" alt=""></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3582.jpg" alt=""></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></div>
+            <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1700.jpg" alt=""></div>
         </div>
     </div>
 </section>
@@ -52,12 +52,12 @@
     <div class="container">
         <h2 class="center">Услуги</h2>
         <div class="main-services-grid">
-            <div class="srv-objects">Предметная съёмка</div>
-            <div class="srv-photobook">Создание фотокниги</div>
-            <div class="srv-locations">Варианты локаций для съёмки</div>
-            <div class="srv-advertising">Рекламная съёмка</div>
-            <div class="srv-polygraphy">Дизайн полиграфии</div>
-            <div class="srv-requisites">Реквизиты для фотосессии</div>
+            <div><div class="icon"><img src="/img/services/ice-cream.svg" alt="Мороженое"></div>Предметная съёмка</div>
+            <div><div class="icon"><img src="/img/services/photobook.svg" alt="Фотоальбом"></div>Создание фотокниги</div>
+            <div><div class="icon"><img src="/img/services/map.svg" alt="Карта"></div>Варианты локаций для съёмки</div>
+            <div><div class="icon"><img src="/img/services/super-8.svg" alt="Кинокамера"></div>Рекламная съёмка</div>
+            <div><div class="icon"><img src="/img/services/poster.svg" alt="Визитка"></div>Дизайн полиграфии</div>
+            <div><div class="icon"><img src="/img/services/umbrella.svg" alt="Зонт"></div>Реквизиты для фотосессии</div>
         </div>
     </div>
 </section>
