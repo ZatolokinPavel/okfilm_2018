@@ -146,7 +146,7 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 
 .slogan {max-width: 100%; width: 513px; margin: 0 auto; padding: 65px; text-align: center; font-size: 27px;}
 @media (max-width:  540px) { .slogan {padding: 50px;} }
-@media (max-width:  480px) { .slogan {padding: 25px;} }
+@media (max-width:  480px) { .slogan {padding: 40px 25px;} }
 
 .sec-about-me {padding: 1px 0; background: #f2f1ee;}
 .sec-about-me > div {position: relative; margin: -47px auto;}
@@ -218,5 +218,8 @@ footer::before {content: ''; display: block; position: absolute; width: 100%; he
 @media (max-width:  960px) {footer {background-image: url("/img/footer/footer_bg_960.jpg");}}
 @media (max-width:  768px) {footer {background-image: url("/img/footer/footer_bg_768.jpg");}}
 @media (max-width:  480px) {footer {background-image: url("/img/footer/footer_bg_480.jpg");}}
-footer .social-media {padding-bottom: 5%; text-align: center;}
-footer .social-media img {width: 60px; background: #fff;}
+
+footer .social-media {display: flex; justify-content: center; padding-bottom: 5%;}
+footer .social-media a {display:block; width: 60px; margin: 0 20px; background: #fff;}
+footer .social-media a img {width: 100%;}
+@media (max-width: 768px) {footer .social-media a {width: 40px; margin: 0 10px;}}
