@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page-main">
 <head>
     <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
     <!--#include virtual="/include/head.html"-->
 </head>
-<body id="body" class="noscript page-main">
+<body id="body" class="noscript">
 <script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
 
 <!--#include virtual="/include/menu.html"-->

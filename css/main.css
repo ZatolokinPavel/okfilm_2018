@@ -117,14 +117,14 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 @media (max-width: 600px) {
     .sec-navbar nav .fa {display: none;}
     .sec-navbar nav > ul > li {margin-left: 10px;}
-    body.page-main  .sec-navbar nav .page-main  {display: none;}
-    body.page-photo .sec-navbar nav .page-photo {display: none;}
-    body.page-video .sec-navbar nav .page-video {display: none;}
-    body.page-more  .sec-navbar nav .page-more  {display: none;}
-    body.page-price .sec-navbar nav .page-price {display: none;}
+    html.page-main  .sec-navbar nav .page-main  {display: none;}
+    html.page-photo .sec-navbar nav .page-photo {display: none;}
+    html.page-video .sec-navbar nav .page-video {display: none;}
+    html.page-more  .sec-navbar nav .page-more  {display: none;}
+    html.page-price .sec-navbar nav .page-price {display: none;}
 }
 
-.sec-slogan {height: 100vh; min-height: 600px; margin-bottom: -160px; padding-bottom: 160px; background: fixed center center no-repeat;}
+.sec-slogan {height: 100vh; min-height: 600px; margin-bottom: -160px; padding-bottom: 160px; background: fixed #fff center center no-repeat;}
 @media (min-width: 2049px)  or (min-height: 1366px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2048.jpg"); background-size: cover;}}
 @media (max-width: 2048px) and (max-height: 1365px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2048.jpg");}}
 @media (max-width: 1920px) and (max-height: 1280px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg1920.jpg");}}
@@ -181,17 +181,7 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
     .sec-main-portfolio .portfolio-item {width: 50%;}
 }
 
-.sec-main-services {position: relative; background: fixed center bottom no-repeat;}
-.sec-main-services::before {content: ''; display: block; position: absolute; width: 100%; height: 100%; background: rgba(255,255,255,0.7);}
-@media (min-width: 2893px)  or (min-height: 2170px) {.sec-main-services {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}}
-@media (max-width: 2892px) and (max-height: 2169px) {.sec-main-services {background-image: url("/img/footer/footer_bg2892.jpg");}}
-@media (max-width: 2048px) and (max-height: 1536px) {.sec-main-services {background-image: url("/img/footer/footer_bg2048.jpg");}}
-@media (max-width: 1920px) and (max-height: 1440px) {.sec-main-services {background-image: url("/img/footer/footer_bg1920.jpg");}}
-@media (max-width: 1600px) and (max-height: 1200px) {.sec-main-services {background-image: url("/img/footer/footer_bg1600.jpg");}}
-@media (max-width: 1220px) and (max-height:  915px) {.sec-main-services {background-image: url("/img/footer/footer_bg1220.jpg");}}
-@media (max-width:  960px) and (max-height:  720px) {.sec-main-services {background-image: url("/img/footer/footer_bg_960.jpg");}}
-@media (max-width:  768px) and (max-height:  576px) {.sec-main-services {background-image: url("/img/footer/footer_bg_768.jpg");}}
-@media (max-width:  480px) and (max-height:  360px) {.sec-main-services {background-image: url("/img/footer/footer_bg_480.jpg");}}
+.sec-main-services {position: relative; background: rgba(255,255,255,0.7);}
 .sec-main-services > .container {padding-top: 1px;}
 .main-services-grid {display: flex; flex-flow: row wrap; justify-content: space-around; align-items: flex-start; font-size: 24px; color: #4c4c4c;}
 .main-services-grid > div {width: 30%; text-align: center; margin-bottom: 9%;}
@@ -200,30 +190,9 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 @media (max-width:  768px) {.main-services-grid {font-size: 18px;}}
 @media (max-width:  480px) {.main-services-grid > div {width: 43%;}}
 
-footer {position: relative; color: #fff; background: fixed center bottom no-repeat;}
-footer::before {content: ''; display: block; position: absolute; width: 100%; height: 100%; background: rgba(59,57,58,0.9)}
+footer {position: relative; color: #fff; background: rgba(59,57,58,0.9);}
 footer a {color: inherit; text-decoration: none;}
 footer a:hover {text-decoration: underline;}
-@media (min-width: 2893px) {footer {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}}
-@media (max-width: 2892px) {footer {background-image: url("/img/footer/footer_bg2892.jpg");}}
-@media (max-width: 2048px) {footer {background-image: url("/img/footer/footer_bg2048.jpg");}}
-@media (max-width: 1920px) {footer {background-image: url("/img/footer/footer_bg1920.jpg");}}
-@media (max-width: 1600px) {footer {background-image: url("/img/footer/footer_bg1600.jpg");}}
-@media (max-width: 1220px) {footer {background-image: url("/img/footer/footer_bg1220.jpg");}}
-@media (max-width:  960px) {footer {background-image: url("/img/footer/footer_bg_960.jpg");}}
-@media (max-width:  768px) {footer {background-image: url("/img/footer/footer_bg_768.jpg");}}
-@media (max-width:  480px) {footer {background-image: url("/img/footer/footer_bg_480.jpg");}}
-
-@media (min-width: 2893px)  or (min-height: 2170px) {.page-main footer {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}}
-@media (max-width: 2892px) and (max-height: 2169px) {.page-main footer {background-image: url("/img/footer/footer_bg2892.jpg");}}
-@media (max-width: 2048px) and (max-height: 1536px) {.page-main footer {background-image: url("/img/footer/footer_bg2048.jpg");}}
-@media (max-width: 1920px) and (max-height: 1440px) {.page-main footer {background-image: url("/img/footer/footer_bg1920.jpg");}}
-@media (max-width: 1600px) and (max-height: 1200px) {.page-main footer {background-image: url("/img/footer/footer_bg1600.jpg");}}
-@media (max-width: 1220px) and (max-height:  915px) {.page-main footer {background-image: url("/img/footer/footer_bg1220.jpg");}}
-@media (max-width:  960px) and (max-height:  720px) {.page-main footer {background-image: url("/img/footer/footer_bg_960.jpg");}}
-@media (max-width:  768px) and (max-height:  576px) {.page-main footer {background-image: url("/img/footer/footer_bg_768.jpg");}}
-@media (max-width:  480px) and (max-height:  360px) {.page-main footer {background-image: url("/img/footer/footer_bg_480.jpg");}}
-
 footer .social-media {display: flex; justify-content: center; padding-bottom: 5%;}
 footer .social-media a {display:block; width: 60px; margin: 0 20px; background: #fff;}
 footer .social-media a img {width: 100%;}
@@ -232,3 +201,24 @@ footer .phone {padding-bottom: 5%; text-align: center; font-size: 18px;}
     footer .social-media a {width: 40px; margin: 0 10px;}
     footer .phone {padding-bottom: 6%; font-size: 16px;}
 }
+
+/* Статичный (fixed) фон, который видно под футером и под .sec-main-services */
+html {background: fixed center bottom no-repeat;}
+@media (min-width: 2893px) {html {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}}
+@media (max-width: 2892px) {html {background-image: url("/img/footer/footer_bg2892.jpg");}}
+@media (max-width: 2048px) {html {background-image: url("/img/footer/footer_bg2048.jpg");}}
+@media (max-width: 1920px) {html {background-image: url("/img/footer/footer_bg1920.jpg");}}
+@media (max-width: 1600px) {html {background-image: url("/img/footer/footer_bg1600.jpg");}}
+@media (max-width: 1220px) {html {background-image: url("/img/footer/footer_bg1220.jpg");}}
+@media (max-width:  960px) {html {background-image: url("/img/footer/footer_bg_960.jpg");}}
+@media (max-width:  768px) {html {background-image: url("/img/footer/footer_bg_768.jpg");}}
+@media (max-width:  480px) {html {background-image: url("/img/footer/footer_bg_480.jpg");}}
+@media (min-width: 2893px)  or (min-height: 2170px) {html.page-main {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}}
+@media (max-width: 2892px) and (max-height: 2169px) {html.page-main {background-image: url("/img/footer/footer_bg2892.jpg");}}
+@media (max-width: 2048px) and (max-height: 1536px) {html.page-main {background-image: url("/img/footer/footer_bg2048.jpg");}}
+@media (max-width: 1920px) and (max-height: 1440px) {html.page-main {background-image: url("/img/footer/footer_bg1920.jpg");}}
+@media (max-width: 1600px) and (max-height: 1200px) {html.page-main {background-image: url("/img/footer/footer_bg1600.jpg");}}
+@media (max-width: 1220px) and (max-height:  915px) {html.page-main {background-image: url("/img/footer/footer_bg1220.jpg");}}
+@media (max-width:  960px) and (max-height:  720px) {html.page-main {background-image: url("/img/footer/footer_bg_960.jpg");}}
+@media (max-width:  768px) and (max-height:  576px) {html.page-main {background-image: url("/img/footer/footer_bg_768.jpg");}}
+@media (max-width:  480px) and (max-height:  360px) {html.page-main {background-image: url("/img/footer/footer_bg_480.jpg");}}
