@@ -11,14 +11,15 @@
 
 <section class="sec-slogan">
     <div class="container">
-        <div class="slogan main-slogan">
+        <h2 class="slogan main-slogan">
             <img src="/img/slogan.svg" alt="Фотографии со вкусом счастья">
-        </div>
+        </h2>
     </div>
 </section>
 <section class="sec-about-me">
     <div class="box container">
         <div>
+            <h2 class="hidden">Обо мне</h2>
             <div class="about-me pic1">
                 <img src="/img/about-me-pic1.jpg" alt="Оксана Найденко">
             </div>
