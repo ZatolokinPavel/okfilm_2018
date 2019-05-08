@@ -42,18 +42,10 @@ p {margin: 16px 0;}
 /* Подгонка под старые браузеры: делаем HTML5 элементы блочными */
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
 
-html, body {position: relative; margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;}
+html, body {position: relative; margin: 0; padding: 0;}
+html {width: 100%; height: 100%; overflow: visible; -webkit-overflow-scrolling: touch;} /* для background-attachment:fixed на андроиде */
 body {color: #6c6c6c; font-size: 14px; font-family: a_AvanteLt, "Segoe UI", Arial, Helvetica, sans-serif;
       letter-spacing: 0.05em; -webkit-font-smoothing: subpixel-antialiased !important;}
-.layout__content, .layout__sidebar {
-    position: absolute; top: 0; right: 0; bottom: 0; max-width: 100%; height: 100%; overflow: auto;
-    transition: left 0.3s ease-in-out; -webkit-overflow-scrolling: touch;}
-.layout__content {z-index: 2; left: 0; width: 100%;}
-.layout__sidebar {z-index: 0; left: -270px; width: 270px; background: #33373b;}
-#sidebar_coating {position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.1); z-index: 3; display: none;}
-.sidebar-opened .layout__content {left: 270px; overflow: hidden;}   /* overflow:hidden - останавливает прокрутку блока в текущем положении */
-.sidebar-opened .layout__sidebar {left: 0;}
-.sidebar-opened #sidebar_coating {display: block;}
 .container {position: relative; margin: 0 auto; padding: 0 15px;}
 @media (min-width: 1200px) { .container {width: 1170px;} }
 @media (max-width: 1199px) { .container {width:  970px;} }

@@ -5,8 +5,8 @@
     <!--#include virtual="/include/head.html"-->
 </head>
 <body id="body" class="noscript page-main">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
 
-<!--#include virtual="/include/layout_start.html"-->
 <!--#include virtual="/include/menu.html"-->
 
 <section class="sec-slogan">
@@ -63,7 +63,7 @@
 </section>
 
 <!--#include virtual="/include/footer.html"-->
-<!--#include virtual="/include/layout_end.html"-->
+<!--#include virtual="/include/scripts.html"-->
 
 </body>
 </html>
