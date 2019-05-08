@@ -12,3 +12,8 @@ window.onload = function () {
         columnWidth: '.portfolio-item'      // по первому найденному такому элементу установить ширину колонок
     });
 };
+
+window.onscroll = function() {
+    var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    document.getElementById('body').classList.toggle("scrolled", scrolled > 700);
+};
