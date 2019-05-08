@@ -50,7 +50,9 @@
 </section>
 <section class="sec-main-services">
     <div class="container">
-        <h2 class="center">Услуги</h2>
+        <h2 class="center">
+            <img src="/img/services.svg" alt="Услуги">
+        </h2>
         <div class="main-services-grid">
             <div><div class="icon"><img src="/img/services/ice-cream.svg" alt="Мороженое"></div>Предметная съёмка</div>
             <div><div class="icon"><img src="/img/services/photobook.svg" alt="Фотоальбом"></div>Создание фотокниги</div>
