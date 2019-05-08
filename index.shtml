@@ -3,6 +3,7 @@
 <head>
     <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
     <!--#include virtual="/include/head.html"-->
+    <title>Фотограф, видеооператор Оксана Найденко | OkFILM</title>
 </head>
 <body id="body" class="page-main noscript">
 <script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
