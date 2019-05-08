@@ -21,7 +21,9 @@ window.onload = function () {
  * располагается снизу. Но когда страница прокручивается вниз, то высота фона становится 100%, и он хорошо
  * отображается под блоком .sec-main-services
  */
-window.onscroll = function() {
+function resize_footer_bg() {
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
     document.getElementById('body').classList.toggle("scrolled", scrolled > 700);
-};
+}
+resize_footer_bg();
+document.addEventListener('scroll', resize_footer_bg);
