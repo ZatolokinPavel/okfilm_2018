@@ -37,7 +37,9 @@
 </section>
 <section class="sec-main-portfolio">
     <div class="box container">
-        <h2 class="center">Портфолио</h2>
+        <h2 class="center">
+            <img src="/img/portfolio.svg" alt="Портфолио">
+        </h2>
         <div class="portfolio-grid grid box">
             <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1116.jpg" alt=""></div>
             <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3301.jpg" alt=""></div>

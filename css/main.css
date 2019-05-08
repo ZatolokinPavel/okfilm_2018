@@ -170,9 +170,11 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 }
 
 .sec-main-portfolio {padding: 47px 0 80px 0; background: #cac8c8; box-shadow: 0 3px 3px 0 #000;}
+.sec-main-portfolio h2 {margin: 25px 0 15px 0; font-size: 37px; font-style: italic;}
 .sec-main-portfolio .portfolio-item img {width: 100%; border: 15px solid #fff;}
 .sec-main-portfolio .portfolio-item {float: left; width: 33.333%;}
 @media (max-width:  600px) {
+    .sec-main-portfolio {padding-top: 1px;}
     .sec-main-portfolio .portfolio-item img {border-width: 8px;}
     .sec-main-portfolio .grid {margin: 0 0 -8px -8px;}
     .sec-main-portfolio .grid > * {padding: 0 0 8px 8px;}
@@ -183,7 +185,7 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 
 .sec-main-services {position: relative; background: rgba(255,255,255,0.7);}
 .sec-main-services > .container {padding-top: 1px;}
-.sec-main-services h2 {margin: 25px 0; font-size: 37px; font-style: italic;}
+.sec-main-services h2 {margin: 25px 0 15px 0; font-size: 37px; font-style: italic;}
 .main-services-grid {display: flex; flex-flow: row wrap; justify-content: space-around; align-items: flex-start; font-size: 24px; color: #4c4c4c;}
 .main-services-grid > div {width: 30%; text-align: center; margin-bottom: 9%;}
 .main-services-grid .icon {width: 58%; margin: 0 auto 7px auto; padding: 11%; border: 2px solid #acacac; border-radius: 50%; background: #fff;}
