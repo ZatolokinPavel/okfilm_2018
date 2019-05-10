@@ -90,14 +90,18 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 
 .sec-navbar {position: relative; min-height: 80px; line-height: 80px; margin: 0; background: #fff;}
 .sec-navbar .logo {display: inline-block;}
-.sec-navbar nav {display: inline-block; float: right; font-size: 16px; text-transform: uppercase;}
-.sec-navbar nav ul {display: none;}
-.sec-navbar nav > ul {display: block;}
-.sec-navbar nav > ul > li {float: left; margin-left: 40px;}
+.sec-navbar nav {display: inline-block; float: right; font-size: 16px; text-transform: uppercase; white-space: nowrap;}
+.sec-navbar nav ul {display: block;}
+.sec-navbar nav > ul > li {float: left; position: relative; margin-left: 40px;}
+.sec-navbar nav ul.submenu {position: absolute; right: 50%; transform: translateX(50%); height: 0; padding: 0 15px;
+    background: #fff; overflow: hidden; line-height: normal; text-transform: none; z-index: 2;
+    box-shadow: -2px 2px 2px -2px #6c6c6c, 2px 2px 2px -2px #6c6c6c; transition: height 0.1s linear, padding 0.1s linear;}
+.sec-navbar nav ul.submenu li {position: relative; padding: 5px 0;}
+.sec-navbar nav > ul > li:hover ul.submenu{height: 100%; padding: 15px;}
 .sec-navbar a {position: relative; padding: 3px 0; text-decoration: none; cursor: pointer; color: inherit;}
 .sec-navbar a:visited {color: inherit;}
-.sec-navbar a.top:hover::after {left: 0; right: 0;}
-.sec-navbar a.top::after {content: ''; position: absolute; bottom: 0; left: 50%; right: 50%; height: 1px; background: #6c6c6c;
+.sec-navbar nav a:hover::after {left: 0; right: 0;}
+.sec-navbar nav a::after {content: ''; position: absolute; bottom: 0; left: 50%; right: 50%; height: 1px; background: #6c6c6c;
     -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -moz-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
