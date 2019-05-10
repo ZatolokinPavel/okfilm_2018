@@ -42,7 +42,7 @@
         <h2 class="center">
             <img src="/img/portfolio.svg" alt="Портфолио">
         </h2>
-        <div class="portfolio-grid grid box">
+        <div class="portfolio-grid grid box pswp__gallery">
             <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1116.jpg" alt=""></div>
             <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3301.jpg" alt=""></div>
             <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3582.jpg" alt=""></div>
@@ -71,8 +71,8 @@
 </section>
 
 <!--#include virtual="/include/footer.html"-->
-<!--#include virtual="/include/scripts.html"-->
 <!--#include virtual="/include/photoswipe.html"-->
+<!--#include virtual="/include/scripts.html"-->
 
 </body>
 </html>
