@@ -72,6 +72,7 @@
 
 <!--#include virtual="/include/footer.html"-->
 <!--#include virtual="/include/scripts.html"-->
+<!--#include virtual="/include/photoswipe.html"-->
 
 </body>
 </html>
