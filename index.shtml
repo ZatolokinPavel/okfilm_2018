@@ -49,6 +49,8 @@
             <div class="portfolio-item"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></div>
             <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></div>
             <div class="portfolio-item"><img src="/img/main_portfolio/DSC_1700.jpg" alt=""></div>
+            <div class="portfolio-item mobile"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></div>
+            <div class="portfolio-item mobile"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></div>
         </div>
     </div>
 </section>

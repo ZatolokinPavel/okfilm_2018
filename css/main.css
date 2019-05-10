@@ -177,6 +177,7 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 .sec-main-portfolio h2 {margin: 25px 0 15px 0; font-size: 37px; font-style: italic;}
 .sec-main-portfolio .portfolio-item img {width: 100%; border: 15px solid #fff;}
 .sec-main-portfolio .portfolio-item {float: left; width: 33.333%;}
+.sec-main-portfolio .portfolio-item.mobile {display: none;}
 @media (max-width:  600px) {
     .sec-main-portfolio {padding-top: 1px;}
     .sec-main-portfolio .portfolio-item img {border-width: 8px;}
@@ -185,6 +186,7 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 }
 @media (max-width:  480px) {
     .sec-main-portfolio .portfolio-item {width: 50%;}
+    .sec-main-portfolio .portfolio-item.mobile {display: block;}
 }
 
 .sec-main-services {position: relative; background: rgba(255,255,255,0.7);}
