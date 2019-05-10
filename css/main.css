@@ -88,16 +88,16 @@ hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px
 
 h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 
-.sec-navbar {position: relative; min-height: 80px; line-height: 80px; margin: 0; background: #fff;}
-.sec-navbar .logo {display: inline-block;}
-.sec-navbar nav {display: inline-block; float: right; font-size: 16px; text-transform: uppercase; white-space: nowrap;}
+.sec-navbar {margin: 0; background: #fff;}
+.sec-navbar .container {display: flex; justify-content: space-between; align-items: center; min-height: 80px;}
+.sec-navbar nav {font-size: 16px; text-transform: uppercase; white-space: nowrap;}
 .sec-navbar nav ul {display: block;}
-.sec-navbar nav > ul > li {float: left; position: relative; margin-left: 40px;}
-.sec-navbar nav ul.submenu {position: absolute; right: 50%; transform: translateX(50%); height: 0; padding: 0 15px;
-    background: #fff; overflow: hidden; line-height: normal; text-transform: none; z-index: 2;
+.sec-navbar nav > ul > li {float: left; position: relative; margin-left: 40px; padding: 4px 0;}
+.sec-navbar nav ul.submenu {position: absolute; top: 100%; right: 50%; transform: translateX(50%); height: 0;
+    padding: 0 15px; background: #fff; overflow: hidden; text-transform: none; z-index: 2;
     box-shadow: -2px 2px 2px -2px #6c6c6c, 2px 2px 2px -2px #6c6c6c; transition: height 0.1s linear, padding 0.1s linear;}
 .sec-navbar nav ul.submenu li {position: relative; padding: 5px 0;}
-.sec-navbar nav > ul > li:hover ul.submenu{height: 100%; padding: 15px;}
+.sec-navbar nav > ul > li:hover ul.submenu{height: auto; padding: 15px;}
 .sec-navbar a {position: relative; padding: 3px 0; text-decoration: none; cursor: pointer; color: inherit;}
 .sec-navbar a:visited {color: inherit;}
 .sec-navbar nav a:hover::after {left: 0; right: 0;}
@@ -111,10 +111,10 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
     .sec-navbar nav > ul > li {margin-left: 20px;}
 }
 @media (max-width:  768px) {
-    .sec-navbar {line-height: unset;}
-    .sec-navbar .logo {display: block; padding: 2px; text-align: center;}
+    .sec-navbar .container {display: block;}
+    .sec-navbar .logo {padding: 2px; text-align: center;}
     .sec-navbar .logo img {height: 40px;}
-    .sec-navbar nav {display: block; float: none; padding: 12px 0;}
+    .sec-navbar nav {padding: 8px 0;}
     .sec-navbar nav > ul {text-align: center;}
     .sec-navbar nav > ul > li {float: none; display: inline-block;}
 }
