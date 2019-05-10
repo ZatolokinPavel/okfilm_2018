@@ -179,7 +179,7 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 .sec-main-portfolio .portfolio-item {float: left; width: 33.333%;}
 .sec-main-portfolio .portfolio-item.mobile {display: none;}
 @media (max-width:  600px) {
-    .sec-main-portfolio {padding-top: 1px;}
+    .sec-main-portfolio {padding: 1px 0 40px 0;}
     .sec-main-portfolio .portfolio-item img {border-width: 8px;}
     .sec-main-portfolio .grid {margin: 0 0 -8px -8px;}
     .sec-main-portfolio .grid > * {padding: 0 0 8px 8px;}
