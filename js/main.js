@@ -53,6 +53,7 @@ var initPhotoSwipeGallery = function(gallerySelector) {
         }
         var options = {
             index: firstSlide,      // start at first slide
+            loop: false,
             getThumbBoundsFn: function(index) {
                 var thumbnail = items[index].el,
                     pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
