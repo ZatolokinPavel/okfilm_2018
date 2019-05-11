@@ -175,6 +175,7 @@ h2 {font-size: 22px; font-style: italic; font-weight: normal;}
 
 .sec-main-portfolio {padding: 47px 0 80px 0; background: #cac8c8; box-shadow: 0 3px 3px 0 #000;}
 .sec-main-portfolio h2 {margin: 25px 0 15px 0; font-size: 37px; font-style: italic;}
+.sec-main-portfolio .portfolio-item a:focus {outline: none;}
 .sec-main-portfolio .portfolio-item img {width: 100%; border: 15px solid #fff;}
 .sec-main-portfolio .portfolio-item {float: left; width: 33.333%;}
 .sec-main-portfolio .portfolio-item.mobile {display: none;}

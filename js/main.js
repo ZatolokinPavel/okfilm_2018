@@ -57,8 +57,12 @@ var initPhotoSwipeGallery = function(gallerySelector) {
             getThumbBoundsFn: function(index) {
                 var thumbnail = items[index].el,
                     pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                    rect = thumbnail.getBoundingClientRect();
-                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+                    rect = thumbnail.getBoundingClientRect(),
+                    style = window.getComputedStyle(thumbnail, null),
+                    borderTop = parseInt(style.getPropertyValue('border-top-width'), 10),
+                    borderRight = parseInt(style.getPropertyValue('border-right-width'), 10),
+                    borderLeft = parseInt(style.getPropertyValue('border-left-width'), 10);
+                return {x: rect.left + borderLeft, y: rect.top + borderTop + pageYScroll, w: rect.width - borderRight - borderLeft};
             }
         };
         var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
