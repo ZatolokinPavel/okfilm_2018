@@ -119,26 +119,24 @@ h2 > img {font-style: italic; color: #6c6c6c;} /* если текст замещ
     -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)}
+body.page-main  .sec-navbar nav li.page-main  a::after {left: 0; right: 0;}
+body.page-photo .sec-navbar nav li.page-photo a::after {left: 0; right: 0;}
+body.page-video .sec-navbar nav li.page-video a::after {left: 0; right: 0;}
+body.page-more  .sec-navbar nav li.page-more  a::after {left: 0; right: 0;}
+body.page-price .sec-navbar nav li.page-price a::after {left: 0; right: 0;}
 @media (max-width: 992px) {
-    .sec-navbar nav > ul > li {margin-left: 20px;}
-}
+    .sec-navbar nav > ul > li {margin-left: 20px;} }
 @media (max-width:  768px) {
     .sec-navbar .container {display: block;}
     .sec-navbar .logo {padding: 2px; text-align: center;}
     .sec-navbar .logo img {height: 40px;}
     .sec-navbar nav {padding: 8px 0;}
     .sec-navbar nav > ul {text-align: center;}
-    .sec-navbar nav > ul > li {float: none; display: inline-block;}
-}
+    .sec-navbar nav > ul > li {float: none; display: inline-block;} }
 @media (max-width: 600px) {
     .sec-navbar nav .fa {display: none;}
     .sec-navbar nav > ul > li {margin-left: 10px;}
-    body.page-main  .sec-navbar nav .page-main  {display: none;}
-    body.page-photo .sec-navbar nav .page-photo {display: none;}
-    body.page-video .sec-navbar nav .page-video {display: none;}
-    body.page-more  .sec-navbar nav .page-more  {display: none;}
-    body.page-price .sec-navbar nav .page-price {display: none;}
-}
+    .sec-navbar nav .page-main {display: none;} }
 
 .sec-slogan {height: 100vh; min-height: 600px; margin-bottom: -160px; padding-bottom: 160px; background: fixed #fff center center no-repeat;}
 @media (min-width: 2049px)  or (min-height: 1366px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2048.jpg"); background-size: cover;}}
