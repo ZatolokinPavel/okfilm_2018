@@ -166,11 +166,11 @@ body.scrolled  #bg_helper::before {top: auto; bottom: 0; background: center bott
     -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)}
-body.page-main  .sec-navbar nav li.page-main  a::after {left: 0; right: 0;}
-body.page-photo .sec-navbar nav li.page-photo a::after {left: 0; right: 0;}
-body.page-video .sec-navbar nav li.page-video a::after {left: 0; right: 0;}
-body.page-more  .sec-navbar nav li.page-more  a::after {left: 0; right: 0;}
-body.page-price .sec-navbar nav li.page-price a::after {left: 0; right: 0;}
+body.page-main  .sec-navbar nav li.page-main  > a::after {left: 0; right: 0;}
+body.page-photo .sec-navbar nav li.page-photo > a::after {left: 0; right: 0;}
+body.page-video .sec-navbar nav li.page-video > a::after {left: 0; right: 0;}
+body.page-more  .sec-navbar nav li.page-more  > a::after {left: 0; right: 0;}
+body.page-price .sec-navbar nav li.page-price > a::after {left: 0; right: 0;}
 @media (max-width: 992px) {
     .sec-navbar nav > ul > li {margin-left: 20px;} }
 @media (max-width:  768px) {
