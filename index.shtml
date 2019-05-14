@@ -7,72 +7,74 @@
 </head>
 <body id="body" class="page-main noscript">
 <script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
 
-<!--#include virtual="/include/menu.html"-->
+    <!--#include virtual="/include/menu.html"-->
 
-<section class="sec-slogan">
-    <div class="container">
-        <h2 class="slogan main-slogan">
-            <img src="/img/slogan.svg" alt="Фотографии со вкусом счастья">
-        </h2>
-    </div>
-</section>
-<section class="sec-about-me">
-    <div class="box container">
-        <div>
-            <h2 class="hidden">Обо мне</h2>
-            <div class="about-me pic1">
-                <img src="/img/about-me-pic1.jpg" alt="Оксана Найденко">
-            </div>
-            <div class="about-me text">
-                <p class="name">Оксана Найденко</p>
-                <p>Фотография и видео уже так давно стали частью меня, что даже не могу вспомнить ту часть жизни, где их не было.</p>
-                <p>Я ценю искренние эмоции, красоту, вижу их повсюду и стараюсь через фото и видео делиться ими со всеми.</p>
-                <p>Сделаю все, что в моих силах, чтобы лучшие моменты вашей жизни были достойно оформлены и радовали вас еще долгие годы.</p>
-                <hr>
-            </div>
-            <div class="about-me pic2">
-                <img src="/img/about-me-pic2.jpg" alt="">
+    <section class="sec-slogan">
+        <div class="container">
+            <h2 class="slogan main-slogan">
+                <img src="/img/slogan.svg" alt="Фотографии со вкусом счастья">
+            </h2>
+        </div>
+    </section>
+    <section class="sec-about-me">
+        <div class="box container">
+            <div>
+                <h2 class="hidden">Обо мне</h2>
+                <div class="about-me pic1">
+                    <img src="/img/about-me-pic1.jpg" alt="Оксана Найденко">
+                </div>
+                <div class="about-me text">
+                    <p class="name">Оксана Найденко</p>
+                    <p>Фотография и видео уже так давно стали частью меня, что даже не могу вспомнить ту часть жизни, где их не было.</p>
+                    <p>Я ценю искренние эмоции, красоту, вижу их повсюду и стараюсь через фото и видео делиться ими со всеми.</p>
+                    <p>Сделаю все, что в моих силах, чтобы лучшие моменты вашей жизни были достойно оформлены и радовали вас еще долгие годы.</p>
+                    <hr>
+                </div>
+                <div class="about-me pic2">
+                    <img src="/img/about-me-pic2.jpg" alt="">
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="sec-main-portfolio">
-    <div class="box container">
-        <h2 class="center">
-            <img src="/img/portfolio.svg" alt="Портфолио">
-        </h2>
-        <div class="portfolio-grid grid box pswp__gallery">
-            <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1116.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_1116.jpg" alt=""></a></div>
-            <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3301.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_3301.jpg" alt=""></a></div>
-            <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3582.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3582.jpg" alt=""></a></div>
-            <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>
-            <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>
-            <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1700.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1700.jpg" alt=""></a></div>
-            <div class="portfolio-item mobile"><a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>
-            <div class="portfolio-item mobile"><a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>
+    </section>
+    <section class="sec-main-portfolio">
+        <div class="box container">
+            <h2 class="center">
+                <img src="/img/portfolio.svg" alt="Портфолио">
+            </h2>
+            <div class="portfolio-grid grid box pswp__gallery">
+                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1116.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_1116.jpg" alt=""></a></div>
+                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3301.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_3301.jpg" alt=""></a></div>
+                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3582.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3582.jpg" alt=""></a></div>
+                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>
+                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>
+                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1700.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1700.jpg" alt=""></a></div>
+                <div class="portfolio-item mobile"><a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>
+                <div class="portfolio-item mobile"><a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>
+            </div>
         </div>
-    </div>
-</section>
-<section class="sec-main-services">
-    <div class="container">
-        <h2 class="center">
-            <img src="/img/services.svg" alt="Услуги">
-        </h2>
-        <div class="main-services-grid">
-            <div><div class="icon"><img src="/img/services/ice-cream.svg" alt="Мороженое"></div>Предметная съёмка</div>
-            <div><div class="icon"><img src="/img/services/photobook.svg" alt="Фотоальбом"></div>Создание фотокниги</div>
-            <div><div class="icon"><img src="/img/services/map.svg" alt="Карта"></div>Варианты локаций для съёмки</div>
-            <div><div class="icon"><img src="/img/services/super-8.svg" alt="Кинокамера"></div>Рекламная съёмка</div>
-            <div><div class="icon"><img src="/img/services/poster.svg" alt="Визитка"></div>Дизайн полиграфии</div>
-            <div><div class="icon"><img src="/img/services/umbrella.svg" alt="Зонт"></div>Реквизиты для фотосессии</div>
+    </section>
+    <section class="sec-main-services">
+        <div class="container">
+            <h2 class="center">
+                <img src="/img/services.svg" alt="Услуги">
+            </h2>
+            <div class="main-services-grid">
+                <div><div class="icon"><img src="/img/services/ice-cream.svg" alt="Мороженое"></div>Предметная съёмка</div>
+                <div><div class="icon"><img src="/img/services/photobook.svg" alt="Фотоальбом"></div>Создание фотокниги</div>
+                <div><div class="icon"><img src="/img/services/map.svg" alt="Карта"></div>Варианты локаций для съёмки</div>
+                <div><div class="icon"><img src="/img/services/super-8.svg" alt="Кинокамера"></div>Рекламная съёмка</div>
+                <div><div class="icon"><img src="/img/services/poster.svg" alt="Визитка"></div>Дизайн полиграфии</div>
+                <div><div class="icon"><img src="/img/services/umbrella.svg" alt="Зонт"></div>Реквизиты для фотосессии</div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!--#include virtual="/include/footer.html"-->
-<!--#include virtual="/include/photoswipe.html"-->
-<!--#include virtual="/include/scripts.html"-->
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/photoswipe.html"-->
+    <!--#include virtual="/include/scripts.html"-->
 
+</div>
 </body>
 </html>

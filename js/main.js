@@ -12,8 +12,22 @@
     }
 })();
 
+/**
+ * При прокрутке добавляет к body класс "scrolled", который помогает
+ * менять фон для верхней части страницы и футера.
+ */
+change_page_background();
+document.addEventListener('scroll', change_page_background);
+function change_page_background() {
+    var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    document.getElementById('body').classList.toggle("scrolled", scrolled > 700);
+}
 
 
+
+/**
+ * Подключение просмотрщика фотографий к галереям фото.
+ */
 var initPhotoSwipeGallery = function(gallerySelector) {
 
     var _init = function () {
