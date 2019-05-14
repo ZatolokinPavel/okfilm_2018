@@ -263,12 +263,12 @@ h3, h4, h5 {text-transform: uppercase;}
 footer {position: relative; color: #fff; background: rgba(59,57,58,0.9);}
 footer a {color: inherit; text-decoration: none;}
 footer a:hover {text-decoration: underline;}
-footer .social-media {display: flex; justify-content: center; padding-bottom: 5%;}
-footer .social-media a {display:block; margin: 0 20px; background: #fff;}
-footer .social-media a img {width: 60px; height: 60px;}
+footer .soc-net-buttons {display: flex; justify-content: center; padding-bottom: 5%;}
+footer .soc-net-buttons a {display:block; margin: 0 20px; background: #fff;}
+footer .soc-net-buttons a img {width: 60px; height: 60px;}
 footer .phone {padding-bottom: 5%; text-align: center; font-size: 18px;}
 @media (max-width: 768px) {
-    footer .social-media a {margin: 0 10px;}
-    footer .social-media a img {width: 40px; height: 40px;}
+    footer .soc-net-buttons a {margin: 0 10px;}
+    footer .soc-net-buttons a img {width: 40px; height: 40px;}
     footer .phone {padding-bottom: 6%; font-size: 16px;}
 }
