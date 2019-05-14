@@ -109,6 +109,16 @@ html, body {-webkit-overflow-scrolling: touch;} /* для background-attachment:
 body           #bg_helper::before {top: 0; bottom: auto; background: center top no-repeat;}
 body.page-main #bg_helper::before {top: 0; bottom: auto; background: center center no-repeat;}
 body.scrolled  #bg_helper::before {top: auto; bottom: 0; background: center bottom no-repeat;}
+@media (min-width: 3201px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg3200.jpg"); background-size: cover;}}
+@media (max-width: 3200px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg3200.jpg");}}
+@media (max-width: 2560px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg2560.jpg");}}
+@media (max-width: 2048px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg2048.jpg");}}
+@media (max-width: 1920px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg1920.jpg");}}
+@media (max-width: 1600px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg1600.jpg");}}
+@media (max-width: 1220px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg1220.jpg");}}
+@media (max-width:  960px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg_960.jpg");}}
+@media (max-width:  768px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg_768.jpg");}}
+@media (max-width:  480px) {body #bg_helper::before {background-image: url("/img/header_bg/header_bg_480.jpg");}}
 @media (min-width: 3201px)  or (min-height: 2134px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg3200.jpg"); background-size: cover;}}
 @media (max-width: 3200px) and (max-height: 2133px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg3200.jpg");}}
 @media (max-width: 2560px) and (max-height: 1707px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg2560.jpg");}}
