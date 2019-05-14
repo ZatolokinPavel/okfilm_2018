@@ -106,8 +106,17 @@ h2 > img {font-style: italic; color: #6c6c6c;} /* если текст замещ
 html, body {-webkit-overflow-scrolling: touch;} /* для background-attachment:fixed на iPad */
 #bg_helper {overflow: auto;}                    /* для background-attachment:fixed на iPad */
 #bg_helper::before {content: ''; display: block; position: fixed; height: 100%; left: 0; right: 0; z-index: -1;}
-body          #bg_helper::before {top: 0; bottom: auto; background: center top no-repeat;}
-body.scrolled #bg_helper::before {top: auto; bottom: 0; background: center bottom no-repeat;}
+body           #bg_helper::before {top: 0; bottom: auto; background: center top no-repeat;}
+body.page-main #bg_helper::before {top: 0; bottom: auto; background: center center no-repeat;}
+body.scrolled  #bg_helper::before {top: auto; bottom: 0; background: center bottom no-repeat;}
+@media (min-width: 3201px)  or (min-height: 2134px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg3200.jpg"); background-size: cover;}}
+@media (max-width: 3200px) and (max-height: 2133px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg3200.jpg");}}
+@media (max-width: 2560px) and (max-height: 1707px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg2560.jpg");}}
+@media (max-width: 2048px) and (max-height: 1365px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg2048.jpg");}}
+@media (max-width: 1920px) and (max-height: 1280px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg1920.jpg");}}
+@media (max-width: 1600px) and (max-height: 1067px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg1600.jpg");}}
+@media (max-width: 1220px) and (max-height:  813px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg1220.jpg");}}
+@media (max-width:  960px) and (max-height:  640px) {body.page-main #bg_helper::before {background-image: url("/img/slogan_bg/slogan_bg_960.jpg");}}
 @media (min-width: 2893px) {body.scrolled #bg_helper::before {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}}
 @media (max-width: 2892px) {body.scrolled #bg_helper::before {background-image: url("/img/footer/footer_bg2892.jpg");}}
 @media (max-width: 2048px) {body.scrolled #bg_helper::before {background-image: url("/img/footer/footer_bg2048.jpg");}}
@@ -166,15 +175,7 @@ body.page-price .sec-navbar nav li.page-price a::after {left: 0; right: 0;}
     .sec-navbar nav > ul > li {margin-left: 10px;}
     .sec-navbar nav .page-main {display: none;} }
 
-.sec-slogan {height: 100vh; min-height: 600px; margin-bottom: -160px; padding-bottom: 160px; background: fixed #fff center center no-repeat;}
-@media (min-width: 3201px)  or (min-height: 2134px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg3200.jpg"); background-size: cover;}}
-@media (max-width: 3200px) and (max-height: 2133px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg3200.jpg");}}
-@media (max-width: 2560px) and (max-height: 1707px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2560.jpg");}}
-@media (max-width: 2048px) and (max-height: 1365px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg2048.jpg");}}
-@media (max-width: 1920px) and (max-height: 1280px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg1920.jpg");}}
-@media (max-width: 1600px) and (max-height: 1067px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg1600.jpg");}}
-@media (max-width: 1220px) and (max-height:  813px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg1220.jpg");}}
-@media (max-width:  960px) and (max-height:  640px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_960.jpg");}}
+.sec-slogan {height: 100vh; min-height: 600px; margin-bottom: -160px; padding-bottom: 160px; background: fixed center center no-repeat;}
 @media (max-width:  768px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_768.jpg"); height: 512px;}}
 @media (max-width:  480px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_480.jpg"); height: 320px;}}
 @media (max-width:  768px) {.sec-slogan { margin: 0; padding: 0; min-height: 0; background-attachment: scroll;}}
