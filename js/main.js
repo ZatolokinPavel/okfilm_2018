@@ -102,3 +102,38 @@ var initPhotoSwipeGallery = function(gallerySelector) {
     _init();
 };
 initPhotoSwipeGallery('.pswp__gallery');
+
+
+/**
+ * На все ссылки всех галерей навешиваем обработку события наведения и убирания мыши
+ */
+var gallerySliderOKFilm = function() {
+
+    // Расширение картинки, над которой сейчас курсор, сжатие всех остальных
+    var selectSliderElement = function() {
+        var li = this.parentNode;
+        var ul = li.parentNode;
+        var listItems = ul.children;
+        var W = (ul.clientWidth / 2 - 345) / 5;
+        for (var i=0; i < listItems.length; i++) {
+            if (listItems[i] === li) continue;
+            listItems[i].style.width = W+'px';
+        }
+        li.style.width = '345px';
+    };
+
+    // Восстановление обычного размера картинок
+    var deselectSliderElement = function() {
+        var listItems = this.parentNode.parentNode.children;
+        for (var i=0; i < listItems.length; i++) {
+            listItems[i].style.width = '';
+        }
+    };
+
+    var sliders = document.querySelectorAll('.gallery_slider a');
+    for (var i=0; i < sliders.length; i++) {
+        sliders[i].addEventListener('mouseover', selectSliderElement);
+        sliders[i].addEventListener('mouseleave', deselectSliderElement);
+    }
+};
+gallerySliderOKFilm();

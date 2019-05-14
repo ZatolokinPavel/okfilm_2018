@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
+    <!--#include virtual="/include/head.html"-->
+    <title>Портфолио — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+</head>
+<body id="body" class="page-photo noscript">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
+
+    <!--#include virtual="/include/menu.html"-->
+
+    <main>
+        <article class="container">
+
+            <h1 class="article-title">Bолшебство в мгновениях</h1>
+            <h3>LoveStory</h3>
+            <div class="gallery_slider">
+                <ul>
+                    <li style="background-image: url('/img/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_05.jpg')"><a href="/portfolio/lovestory/mikhail-i-tatyana"></a></li>
+                    <li style="background-image: url('/img/portfolio/Vlad_and_Kristina_LoveStory/thumbnails/Vlad_and_Kristina_LoveStory_01.jpg')"><a href="/portfolio/lovestory/vlad-i-kristina"></a></li>
+                    <li style="background-image: url('/img/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_06.jpg')"><a href="/portfolio/lovestory/artjom-i-lena"></a></li>
+                    <li style="background-image: url('/img/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_06.jpg')"><a href="/portfolio/lovestory/zhenya-i-natasha"></a></li>
+                    <li style="background-image: url('/img/portfolio/Misha_and_Lena_LoveStory/thumbnails/Misha_and_Lena_LoveStory_08.jpg')"><a href="/portfolio/lovestory/misha-i-lenochka"></a></li>
+                </ul>
+            </div>
+
+            <h3>Свадьба</h3>
+            <div class="gallery_slider">
+                <ul>
+                    <li style="background-image: url('/img/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_08.jpg')"><a href="/portfolio/wedding/artjom-i-liza"></a></li>
+                    <li style="background-image: url('/img/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_04.jpg')"><a href="/portfolio/wedding/artjom-i-natalya"></a></li>
+                    <li style="background-image: url('/img/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_04.jpg')"><a href="/portfolio/wedding/sasha-i-liza"></a></li>
+                    <li style="background-image: url('/img/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_19.jpg')"><a href="/portfolio/wedding/slavik-i-yulya"></a></li>
+                </ul>
+            </div>
+
+        </article>
+    </main>
+
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/scripts.html"-->
+
+</div>
+</body>
+</html>
