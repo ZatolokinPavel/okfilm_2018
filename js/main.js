@@ -53,8 +53,8 @@ var mainMenu = function() {
     };
 
     var closingEvent = function (evt) {
-        if (!unfolded) return;
-        if (closestById(evt.target, 'main_menu')) return;
+        if (!unfolded) return;                              // если все подменю уже закрыты, то не надо обрабатывать каждое нажатие
+        if (closestById(evt.target, 'main_menu')) return;   // если нажатие внутри блока меню, то там сами разберутся
         var topItems = document.querySelectorAll('#main_menu > ul > li');
         for (var i=0; i < topItems.length; i++) {
             topItems[i].classList.remove('unfold');
