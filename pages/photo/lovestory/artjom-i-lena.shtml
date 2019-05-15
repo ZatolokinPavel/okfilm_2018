@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
+    <!--#include virtual="/include/head.html"-->
+    <title>LoveStory Артёма и Лены | Фотограф, видеооператор Оксана Найденко</title>
+</head>
+<body id="body" class="page-photo noscript">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
+
+    <!--#include virtual="/include/menu.html"-->
+
+    <main>
+        <article class="container">
+            <h1 class="article-title">Артём и Лена</h1>
+            <p class="back-to-portfolio"><a href="/photo">&larr; Назад к портфолио</a></p>
+            <div class="gallery-wrapper box">
+                <div class="gallery pswp__gallery">
+                    <ul>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_01.jpg" title="Артём и Лена" data-size="1200x797"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_01.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_02.jpg" title="Артём и Лена" data-size="1200x797"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_02.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_03.jpg" title="Артём и Лена" data-size="1200x797"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_03.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_04.jpg" title="Артём и Лена" data-size="797x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_04.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_05.jpg" title="Артём и Лена" data-size="797x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_05.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_06.jpg" title="Артём и Лена" data-size="797x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_06.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_07.jpg" title="Артём и Лена" data-size="797x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_07.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_08.jpg" title="Артём и Лена" data-size="797x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_08.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_09.jpg" title="Артём и Лена" data-size="803x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_09.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_10.jpg" title="Артём и Лена" data-size="797x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_10.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_11.jpg" title="Артём и Лена" data-size="797x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_11.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_12.jpg" title="Артём и Лена" data-size="1200x797"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_12.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_13.jpg" title="Артём и Лена" data-size="797x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_13.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/Artem_and_Lena_LoveStory_14.jpg" title="Артём и Лена" data-size="797x1200"><img src="//cdn.okfilm.com.ua/portfolio/Artem_and_Lena_LoveStory/thumbnails/Artem_and_Lena_LoveStory_14.jpg" alt="Артём и Лена" height="300" width="345"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/photoswipe.html"-->
+    <!--#include virtual="/include/scripts.html"-->
+
+</div>
+</body>
+</html>

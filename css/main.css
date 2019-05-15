@@ -99,6 +99,11 @@ h6{font-size: 14px; line-height: 20px;}
 
 h2 > img {font-style: italic; color: #6c6c6c;} /* если текст замещает отсутсвующий svg */
 
+a {background: transparent;}       /* Remove the gray background color from active links in IE 10. */
+a:active, a:hover {outline: 0;}    /* Improves readability when focused and also mouse hovered in all browsers. */
+a, .link {color: #41656f; text-decoration: none; cursor: pointer;}
+a:hover, .link:hover {color: #41656f; text-decoration: underline;}
+
 /**
  * Статичный фон (fixed).
  * Его видно в верхней части страницы (сразу после меню), под футером и под .sec-main-services
@@ -260,6 +265,17 @@ body.page-price .sec-navbar nav li.page-price > a::after {left: 0; right: 0;}
 .gallery_slider ul li {width: 8.3333%; height: 100%; display: block; float: left; border-right: 3px solid #f6f8f9;
     background: center center no-repeat; transition: width 0.5s ease 0s;}
 .gallery_slider a {display: block; width: 100%; height: 100%;}
+
+.gallery-wrapper {width: auto; margin: 0 -15px -15px 0;}
+.gallery {width: auto; text-align: center; margin: 0 auto;}
+.gallery ul {list-style: outside none none; margin: 0; padding: 0; width: auto;}
+.gallery li {display: block; float: left; margin: 0 15px 15px 0; max-width: 345px; max-height: 300px; overflow: hidden;}
+@media (max-width: 834px) {
+    .gallery {max-width: 345px}
+    .gallery-wrapper {margin: 0 0 -15px 0}
+    .gallery li {margin: 0 0 15px 0} }
+@media (min-width: 835px) { .gallery{max-width: 720px} }
+@media (min-width:1195px) { .gallery{max-width:1080px} }
 
 /**
  * Стили для калькулятора стоимости фотокниг
