@@ -156,7 +156,8 @@ body.scrolled  #bg_helper::before {top: auto; bottom: 0; background: center bott
     padding: 0 15px; background: #fff; overflow: hidden; text-transform: none; z-index: 2;
     box-shadow: -2px 2px 2px -2px #6c6c6c, 2px 2px 2px -2px #6c6c6c; transition: height 0.1s linear, padding 0.1s linear;}
 .sec-navbar nav ul.submenu li {position: relative; padding: 5px 0;}
-.sec-navbar nav > ul > li:hover ul.submenu{height: auto; padding: 15px;}
+.noscript .sec-navbar nav > ul > li:hover ul.submenu,
+.sec-navbar nav > ul > li.unfold ul.submenu {height: auto; padding: 15px;}
 .sec-navbar a {position: relative; padding: 3px 0; text-decoration: none; cursor: pointer; color: inherit;}
 .sec-navbar a:visited {color: inherit;}
 .sec-navbar nav a:hover::after {left: 0; right: 0;}

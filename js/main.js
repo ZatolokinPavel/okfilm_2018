@@ -1,3 +1,70 @@
+/**
+ * Скрипты для всех страниц
+ */
+
+
+/**
+ * Открывалка выпадающих меню в главном меню.
+ * Открывает и закрывает подменю по наведению и уходу мыши, а также по клику.
+ * Закрывает открытые подменю по клику за пределами блока меню.
+ */
+var mainMenu = function() {
+    var unfolded = false;       // есть ли открытые меню
+
+    var _init = function () {
+        var topItems = document.querySelectorAll('#main_menu > ul > li');
+        for (var i=0; i < topItems.length; i++) {
+            if (topItems[i].getElementsByClassName('submenu').length > 0) {
+                topItems[i].addEventListener('click', menuToggler);
+                topItems[i].addEventListener('mouseenter', menuToggler);
+                topItems[i].addEventListener('mouseleave', menuToggler);
+            }
+        }
+        document.body.addEventListener('click', closingEvent);
+    };
+
+    var menuToggler = function (evt) {
+        switch (evt.type) {
+            case 'mouseenter': this.classList.add('unfold'); break;
+            case 'mouseleave': this.classList.remove('unfold'); break;
+            case 'click':
+                var unfold = this.classList.toggle('unfold');
+                var prevSibling = this.previousElementSibling;
+                var nextSibling = this.nextElementSibling;
+                while (prevSibling) {
+                    prevSibling.classList.remove('unfold');
+                    prevSibling = prevSibling.previousElementSibling;
+                }
+                while (nextSibling) {
+                    nextSibling.classList.remove('unfold');
+                    nextSibling = nextSibling.nextElementSibling;
+                }
+                unfolded = unfold;
+                break;
+        }
+    };
+
+    var closingEvent = function (evt) {
+        if (!unfolded) return;
+        if (closestById(evt.target, 'main_menu')) return;
+        var topItems = document.querySelectorAll('#main_menu > ul > li');
+        for (var i=0; i < topItems.length; i++) {
+            topItems[i].classList.remove('unfold');
+        }
+        unfolded = false;
+    };
+
+    var closestById = function (node, id) {
+        while (node) {
+            if (node.tagName && node.id === id) return node;
+            else node = node.parentElement;
+        }
+        return null;
+    };
+
+    _init();
+};
+mainMenu();
 
 /**
  * При прокрутке добавляет к body класс "scrolled", который помогает
