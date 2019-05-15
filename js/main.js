@@ -21,6 +21,7 @@ var mainMenu = function() {
             }
         }
         document.body.addEventListener('click', closingEvent);
+        document.body.addEventListener('touchstart', closingEvent);
     };
 
     var menuToggler = function (evt) {
