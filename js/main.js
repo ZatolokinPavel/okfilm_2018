@@ -7,6 +7,8 @@
  * Открывалка выпадающих меню в главном меню.
  * Открывает и закрывает подменю по наведению и уходу мыши, а также по клику.
  * Закрывает открытые подменю по клику за пределами блока меню.
+ * Не круто, что флаг 'unfolded' чаще ставится, чем снимается. Но так проще.
+ * А после первого же нажатия вне меню, он снимется.
  */
 var mainMenu = function() {
     var unfolded = false;       // есть ли открытые меню
@@ -26,8 +28,13 @@ var mainMenu = function() {
 
     var menuToggler = function (evt) {
         switch (evt.type) {
-            case 'mouseenter': this.classList.add('unfold'); break;
-            case 'mouseleave': this.classList.remove('unfold'); break;
+            case 'mouseenter':
+                this.classList.add('unfold');
+                unfolded = true;
+                break;
+            case 'mouseleave':
+                this.classList.remove('unfold');
+                break;
             case 'click':
                 var unfold = this.classList.toggle('unfold');
                 var prevSibling = this.previousElementSibling;
