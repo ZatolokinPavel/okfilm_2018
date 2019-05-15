@@ -1,16 +1,3 @@
-(function preparePhotoSwipeGallery() {
-    var allGallerys = document.getElementsByClassName('pswp__gallery');
-    for (var i=0; i < allGallerys.length; i++) {
-        allGallerys[i].addEventListener('click', function (evt) {
-            if (evt.target.tagName === 'IMG') {
-                var gallery = evt.currentTarget;
-                var currentImage = evt.target;
-                var allImages = gallery.getElementsByTagName('IMG');
-                openPhotoSwipeGallery(allImages, currentImage);
-            }
-        });
-    }
-})();
 
 /**
  * При прокрутке добавляет к body класс "scrolled", который помогает
