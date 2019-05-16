@@ -83,13 +83,14 @@ mainMenu();
  */
 var change_page_background = function() {
 
-    var mainContent,        // основной контент сайта, выше и ниже которого виден фон
+    var helper_btm,         // этот div отображает фон для футера
+        mainContent,        // основной контент сайта, выше и ниже которого виден фон
         sectionTop,         // блок главной страницы, выше которого виден верхний фон
         sectionBtm,         // блок главной страницы, ниже которого виден нижний фон
         isMainPage,         // это главная страница сайта, или все остальные?
         viewHeight,         // высота видимой области окна
         resizeTimeout,
-        helper_btm;         // этот div отображает фон для футера
+        touchmoveTimeout;
 
     var _init = function () {
         createHelperDiv();
@@ -99,6 +100,7 @@ var change_page_background = function() {
         window.addEventListener("load", bgAdjustment);      // точное определение размеров
         window.addEventListener("resize", resizeThrottler); // переопределение размеров при изменении размера окна
         document.addEventListener('scroll', bgAdjustment);
+        document.addEventListener("touchmove", touchmoveThrottler);
     };
 
     var createHelperDiv = function () {
@@ -144,6 +146,15 @@ var change_page_background = function() {
                 viewHeight = document.documentElement.clientHeight;
                 bgAdjustment();                     // The actualResizeHandler will execute at a rate of 5fps
             }, 200);
+        }
+    };
+
+    var touchmoveThrottler = function () {
+        if (!touchmoveTimeout) {
+            touchmoveTimeout = setTimeout(function() {
+                touchmoveTimeout = null;
+                bgAdjustment();
+            }, 100);
         }
     };
 
