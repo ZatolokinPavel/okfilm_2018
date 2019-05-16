@@ -74,16 +74,82 @@ var mainMenu = function() {
 };
 mainMenu();
 
+
+
 /**
- * При прокрутке добавляет к body класс "scrolled", который помогает
- * менять фон для верхней части страницы и футера.
+ * Создаёт div#bg_helper_btm, который рисует фон на футере.
+ * При прокрутке меняет высоту этого блока от нуля и до
+ * максимума, так что он перекрывает собой верхний фон.
  */
+var change_page_background = function() {
+
+    var mainContent,        // основной контент сайта, выше и ниже которого виден фон
+        sectionTop,         // блок главной страницы, выше которого виден верхний фон
+        sectionBtm,         // блок главной страницы, ниже которого виден нижний фон
+        isMainPage,         // это главная страница сайта, или все остальные?
+        viewHeight,         // высота видимой области окна
+        resizeTimeout,
+        helper_btm;         // этот div отображает фон для футера
+
+    var _init = function () {
+        createHelperDiv();
+        isMainPage = document.body.classList.contains('page-main');
+        viewHeight = document.documentElement.clientHeight;
+        bgAdjustment();                                     // приблизительное определение размеров
+        window.addEventListener("load", bgAdjustment);      // точное определение размеров
+        window.addEventListener("resize", resizeThrottler); // переопределение размеров при изменении размера окна
+        document.addEventListener('scroll', bgAdjustment);
+    };
+
+    var createHelperDiv = function () {
+        var helper_top = document.getElementById('bg_helper');
+        helper_btm = document.createElement('DIV');
+        helper_btm.id = 'bg_helper_btm';
+        helper_top.appendChild(helper_btm);
+    };
+
+    var bgAdjustment = function () {
+        var main = sizeOfMainBlock(),
+            helper = helper_btm.getBoundingClientRect(),
+            topLimit = main.top + (main.bottom - main.top) / 4,
+            btmLimit = main.bottom - (main.bottom - main.top) / 4;
+        if (helper.top > btmLimit) {
+            helper_btm.style.height = (viewHeight - topLimit) + 'px';
+        }
+        if (helper.top < topLimit && (helper.bottom - helper.top) > 0) {
+            var height = viewHeight - btmLimit;
+            if (height < 0) height = 0;
+            helper_btm.style.height = height + 'px';
+        }
+    };
+
+    var sizeOfMainBlock = function () {
+        if (isMainPage) {
+            sectionTop = sectionTop || document.getElementsByClassName('sec-about-me')[0];
+            sectionBtm = sectionBtm || document.getElementsByClassName('sec-main-portfolio')[0];
+            var rectTop = sectionTop.getBoundingClientRect();
+            var rectBtm = sectionBtm.getBoundingClientRect();
+            return {top: rectTop.top, bottom: rectBtm.bottom}
+        } else {
+            mainContent = mainContent || document.getElementsByTagName('MAIN')[0];
+            var rect = mainContent.getBoundingClientRect();
+            return {top: rect.top, bottom: rect.bottom}
+        }
+    };
+
+    var resizeThrottler = function () {
+        if (!resizeTimeout) {                       // ignore resize events as long as an actualResizeHandler execution is in the queue
+            resizeTimeout = setTimeout(function() {
+                resizeTimeout = null;
+                viewHeight = document.documentElement.clientHeight;
+                bgAdjustment();                     // The actualResizeHandler will execute at a rate of 5fps
+            }, 200);
+        }
+    };
+
+    _init();
+};
 change_page_background();
-document.addEventListener('scroll', change_page_background);
-function change_page_background() {
-    var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-    document.getElementById('body').classList.toggle("scrolled", scrolled > 700);
-}
 
 
 
