@@ -84,23 +84,24 @@ mainMenu();
 var change_page_background = function() {
 
     var helper_btm,         // этот div отображает фон для футера
-        mainContent,        // основной контент сайта, выше и ниже которого виден фон
-        sectionTop,         // блок главной страницы, выше которого виден верхний фон
-        sectionBtm,         // блок главной страницы, ниже которого виден нижний фон
+        mainContent,        // блок, под которым будет происходить смена фона
         isMainPage,         // это главная страница сайта, или все остальные?
         viewHeight,         // высота видимой области окна
-        resizeTimeout,
-        touchmoveTimeout;
+        resizeTimeout;
 
     var _init = function () {
         createHelperDiv();
         isMainPage = document.body.classList.contains('page-main');
         viewHeight = document.documentElement.clientHeight;
+        if (isMainPage) {
+            mainContent = document.getElementsByClassName('sec-main-portfolio')[0];
+        } else {
+            mainContent = document.getElementsByTagName('MAIN')[0];
+        }
         bgAdjustment();                                     // приблизительное определение размеров
         window.addEventListener("load", bgAdjustment);      // точное определение размеров
         window.addEventListener("resize", resizeThrottler); // переопределение размеров при изменении размера окна
         document.addEventListener('scroll', bgAdjustment);
-        document.addEventListener("touchmove", touchmoveThrottler);
     };
 
     var createHelperDiv = function () {
@@ -111,32 +112,11 @@ var change_page_background = function() {
     };
 
     var bgAdjustment = function () {
-        var main = sizeOfMainBlock(),
-            helper = helper_btm.getBoundingClientRect(),
-            topLimit = main.top + (main.bottom - main.top) / 4,
-            btmLimit = main.bottom - (main.bottom - main.top) / 4;
-        if (helper.top > btmLimit) {
-            helper_btm.style.height = (viewHeight - topLimit) + 'px';
-        }
-        if (helper.top < topLimit && (helper.bottom - helper.top) > 0) {
-            var height = viewHeight - btmLimit;
-            if (height < 0) height = 0;
-            helper_btm.style.height = height + 'px';
-        }
-    };
-
-    var sizeOfMainBlock = function () {
-        if (isMainPage) {
-            sectionTop = sectionTop || document.getElementsByClassName('sec-about-me')[0];
-            sectionBtm = sectionBtm || document.getElementsByClassName('sec-main-portfolio')[0];
-            var rectTop = sectionTop.getBoundingClientRect();
-            var rectBtm = sectionBtm.getBoundingClientRect();
-            return {top: rectTop.top, bottom: rectBtm.bottom}
-        } else {
-            mainContent = mainContent || document.getElementsByTagName('MAIN')[0];
-            var rect = mainContent.getBoundingClientRect();
-            return {top: rect.top, bottom: rect.bottom}
-        }
+        var rect = mainContent.getBoundingClientRect();
+        var limit = rect.top + (rect.bottom - rect.top) / 2;
+        var height = viewHeight - limit;
+        if (height < 0) height = 0;
+        helper_btm.style.height = height + 'px';
     };
 
     var resizeThrottler = function () {
@@ -146,15 +126,6 @@ var change_page_background = function() {
                 viewHeight = document.documentElement.clientHeight;
                 bgAdjustment();                     // The actualResizeHandler will execute at a rate of 5fps
             }, 200);
-        }
-    };
-
-    var touchmoveThrottler = function () {
-        if (!touchmoveTimeout) {
-            touchmoveTimeout = setTimeout(function() {
-                touchmoveTimeout = null;
-                bgAdjustment();
-            }, 100);
         }
     };
 
