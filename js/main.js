@@ -11,7 +11,8 @@
  * А после первого же нажатия вне меню, он снимется.
  */
 var mainMenu = function() {
-    var unfolded = false;       // есть ли открытые меню
+    var unfolded = false,       // есть ли открытые меню
+        lock = null;            // блокируем 'click' на короткое время после 'mouseenter'
 
     var _init = function () {
         var topItems = document.querySelectorAll('#main_menu > ul > li');
@@ -31,11 +32,13 @@ var mainMenu = function() {
             case 'mouseenter':
                 this.classList.add('unfold');
                 unfolded = true;
+                if (!lock) lock = setTimeout(function() {lock = null;}, 50);
                 break;
             case 'mouseleave':
                 this.classList.remove('unfold');
                 break;
             case 'click':
+                if (lock) {unfolded = true; break;}
                 var unfold = this.classList.toggle('unfold');
                 var prevSibling = this.previousElementSibling;
                 var nextSibling = this.nextElementSibling;
