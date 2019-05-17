@@ -6,54 +6,90 @@
 html, body {-webkit-overflow-scrolling: touch;} /* для background-attachment:fixed на iPad */
 #bg_helper {overflow: auto;}                    /* для background-attachment:fixed на iPad */
 
+.bg-image(@file) {
+    background-image: url("@{file}.jpg");
+}
+.bg-image(@file; 1x; 1.5x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x);
+}
+.bg-image(@file; 1x; 1.5x; 2x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x);
+}
+.bg-image(@file; 1x; 1.5x; 2x; 2.5x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x);
+}
+.bg-image(@file; 1x; 1.5x; 2x; 2.5x; 3x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x);
+}
+.bg-image(@file; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x, url("@{file}_3x5.jpg") 3.5x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x, url("@{file}_3x5.jpg") 3.5x);
+}
+.bg-image(@file; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x, url("@{file}_3x5.jpg") 3.5x, url("@{file}_4x0.jpg") 4x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x, url("@{file}_3x5.jpg") 3.5x, url("@{file}_4x0.jpg") 4x);
+}
+
+
+
 #bg_helper::before {
     content: ''; display: block; position: fixed; height: 100%; left: 0; right: 0; top: 0; z-index: -1; background: center top no-repeat;
-    @media (min-width: 3201px) {background-image: url("/img/header_bg/header_bg3200.jpg"); background-size: cover;}
-    @media (max-width: 3200px) {background-image: url("/img/header_bg/header_bg3200.jpg");}
-    @media (max-width: 2560px) {background-image: url("/img/header_bg/header_bg2560.jpg");}
-    @media (max-width: 2048px) {background-image: url("/img/header_bg/header_bg2048.jpg");}
-    @media (max-width: 1920px) {background-image: url("/img/header_bg/header_bg1920.jpg");}
-    @media (max-width: 1600px) {background-image: url("/img/header_bg/header_bg1600.jpg");}
-    @media (max-width: 1220px) {background-image: url("/img/header_bg/header_bg1220.jpg");}
-    @media (max-width:  960px) {background-image: url("/img/header_bg/header_bg_960.jpg");}
-    @media (max-width:  768px) {background-image: url("/img/header_bg/header_bg_768.jpg");}
-    @media (max-width:  480px) {background-image: url("/img/header_bg/header_bg_480.jpg");}
+    @media (min-width: 3201px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg3200"); background-size: cover;}
+    @media (max-width: 3200px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg3200");}
+    @media (max-width: 2560px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg2560");}
+    @media (max-width: 2048px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg2048");}
+    @media (max-width: 1920px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg1920"; 1x; 1.5x; 2x; 2.5x; 3x);}
+    @media (max-width: 1600px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg1600"; 1x; 1.5x; 2x; 2.5x; 3x);}
+    @media (max-width: 1220px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg1220"; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
+    @media (max-width:  960px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg_960"; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
+    @media (max-width:  768px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg_768"; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
+    @media (max-width:  480px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg_480"; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
 }
 
 #bg_helper_btm {
     position: fixed; height: 0; left: 0; right: 0; bottom: 0; z-index: -1; background: center bottom no-repeat;
-    @media (min-width: 2893px) {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}
-    @media (max-width: 2892px) {background-image: url("/img/footer/footer_bg2892.jpg");}
-    @media (max-width: 2048px) {background-image: url("/img/footer/footer_bg2048.jpg");}
-    @media (max-width: 1920px) {background-image: url("/img/footer/footer_bg1920.jpg");}
-    @media (max-width: 1600px) {background-image: url("/img/footer/footer_bg1600.jpg");}
-    @media (max-width: 1220px) {background-image: url("/img/footer/footer_bg1220.jpg");}
-    @media (max-width:  960px) {background-image: url("/img/footer/footer_bg_960.jpg");}
-    @media (max-width:  768px) {background-image: url("/img/footer/footer_bg_768.jpg");}
-    @media (max-width:  480px) {background-image: url("/img/footer/footer_bg_480.jpg");}
+    @media (min-width: 2893px) {.bg-image("/img/footer/footer_bg2892"); background-size: cover;}
+    @media (max-width: 2892px) {.bg-image("/img/footer/footer_bg2892");}
+    @media (max-width: 2048px) {.bg-image("/img/footer/footer_bg2048");}
+    @media (max-width: 1920px) {.bg-image("/img/footer/footer_bg1920");}
+    @media (max-width: 1600px) {.bg-image("/img/footer/footer_bg1600");}
+    @media (max-width: 1220px) {.bg-image("/img/footer/footer_bg1220");}
+    @media (max-width:  960px) {.bg-image("/img/footer/footer_bg_960");}
+    @media (max-width:  768px) {.bg-image("/img/footer/footer_bg_768");}
+    @media (max-width:  480px) {.bg-image("/img/footer/footer_bg_480");}
 }
 
 body.page-main #bg_helper::before {
     background: center center no-repeat;
-    @media (min-width: 3201px)  or (min-height: 2134px) {background-image: url("/img/slogan_bg/slogan_bg3200.jpg"); background-size: cover;}
-    @media (max-width: 3200px) and (max-height: 2133px) {background-image: url("/img/slogan_bg/slogan_bg3200.jpg");}
-    @media (max-width: 2560px) and (max-height: 1707px) {background-image: url("/img/slogan_bg/slogan_bg2560.jpg");}
-    @media (max-width: 2048px) and (max-height: 1365px) {background-image: url("/img/slogan_bg/slogan_bg2048.jpg");}
-    @media (max-width: 1920px) and (max-height: 1280px) {background-image: url("/img/slogan_bg/slogan_bg1920.jpg");}
-    @media (max-width: 1600px) and (max-height: 1067px) {background-image: url("/img/slogan_bg/slogan_bg1600.jpg");}
-    @media (max-width: 1220px) and (max-height:  813px) {background-image: url("/img/slogan_bg/slogan_bg1220.jpg");}
-    @media (max-width:  960px) and (max-height:  640px) {background-image: url("/img/slogan_bg/slogan_bg_960.jpg");}
+    @media (min-width: 3201px)  or (min-height: 2134px) {.bg-image("/img/slogan_bg/slogan_bg3200"); background-size: cover;}
+    @media (max-width: 3200px) and (max-height: 2133px) {.bg-image("/img/slogan_bg/slogan_bg3200");}
+    @media (max-width: 2560px) and (max-height: 1707px) {.bg-image("/img/slogan_bg/slogan_bg2560");}
+    @media (max-width: 2048px) and (max-height: 1365px) {.bg-image("/img/slogan_bg/slogan_bg2048");}
+    @media (max-width: 1920px) and (max-height: 1280px) {.bg-image("/img/slogan_bg/slogan_bg1920");}
+    @media (max-width: 1600px) and (max-height: 1067px) {.bg-image("/img/slogan_bg/slogan_bg1600");}
+    @media (max-width: 1220px) and (max-height:  813px) {.bg-image("/img/slogan_bg/slogan_bg1220");}
+    @media (max-width:  960px) and (max-height:  640px) {.bg-image("/img/slogan_bg/slogan_bg_960");}
 }
 
 body.page-main #bg_helper_btm {
-    @media (min-width: 2893px)  or (min-height: 2170px) {background-image: url("/img/footer/footer_bg2892.jpg"); background-size: cover;}
-    @media (max-width: 2892px) and (max-height: 2169px) {background-image: url("/img/footer/footer_bg2892.jpg");}
-    @media (max-width: 2048px) and (max-height: 1536px) {background-image: url("/img/footer/footer_bg2048.jpg");}
-    @media (max-width: 1920px) and (max-height: 1440px) {background-image: url("/img/footer/footer_bg1920.jpg");}
-    @media (max-width: 1600px) and (max-height: 1200px) {background-image: url("/img/footer/footer_bg1600.jpg");}
-    @media (max-width: 1220px) and (max-height:  915px) {background-image: url("/img/footer/footer_bg1220.jpg");}
-    @media (max-width:  960px) and (max-height:  650px) {background-image: url("/img/footer/footer_bg_960.jpg");} /* 650=720-70 */
-    @media (max-width:  768px) and (max-height:  516px) {background-image: url("/img/footer/footer_bg_768.jpg");} /* 516=576-60 */
-    @media (max-width:  480px) and (max-height:  310px) {background-image: url("/img/footer/footer_bg_480.jpg");} /* 310=360-50 */
+    @media (min-width: 2893px)  or (min-height: 2170px) {.bg-image("/img/footer/footer_bg2892"); background-size: cover;}
+    @media (max-width: 2892px) and (max-height: 2169px) {.bg-image("/img/footer/footer_bg2892");}
+    @media (max-width: 2048px) and (max-height: 1536px) {.bg-image("/img/footer/footer_bg2048");}
+    @media (max-width: 1920px) and (max-height: 1440px) {.bg-image("/img/footer/footer_bg1920");}
+    @media (max-width: 1600px) and (max-height: 1200px) {.bg-image("/img/footer/footer_bg1600");}
+    @media (max-width: 1220px) and (max-height:  915px) {.bg-image("/img/footer/footer_bg1220");}
+    @media (max-width:  960px) and (max-height:  650px) {.bg-image("/img/footer/footer_bg_960");} /* 650=720-70 */
+    @media (max-width:  768px) and (max-height:  516px) {.bg-image("/img/footer/footer_bg_768");} /* 516=576-60 */
+    @media (max-width:  480px) and (max-height:  310px) {.bg-image("/img/footer/footer_bg_480");} /* 310=360-50 */
     /* max-height уменьшено потому что андроид скрывает строку адреса, но не увеличивает при этом значение размера видимой области */
 }
