@@ -44,10 +44,10 @@ html, body {-webkit-overflow-scrolling: touch;} /* для background-attachment:
 
 #bg_helper::before {
     content: ''; display: block; position: fixed; height: 100%; left: 0; right: 0; top: 0; z-index: -1; background: center top no-repeat;
-    @media (min-width: 3201px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg3200"); background-size: cover;}
-    @media (max-width: 3200px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg3200");}
-    @media (max-width: 2560px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg2560");}
-    @media (max-width: 2048px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg2048");}
+    @media (min-width: 3201px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg3200"; 1x; 1.5x); background-size: cover;}
+    @media (max-width: 3200px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg3200"; 1x; 1.5x);}
+    @media (max-width: 2560px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg2560"; 1x; 1.5x; 2x);}
+    @media (max-width: 2048px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg2048"; 1x; 1.5x; 2x; 2.5x);}
     @media (max-width: 1920px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg1920"; 1x; 1.5x; 2x; 2.5x; 3x);}
     @media (max-width: 1600px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg1600"; 1x; 1.5x; 2x; 2.5x; 3x);}
     @media (max-width: 1220px) {.bg-image("//cdn.okfilm.com.ua/header_bg/header_bg1220"; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
