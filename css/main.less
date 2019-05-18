@@ -116,11 +116,13 @@ body.page-price .sec-navbar nav li.page-price > a::after {left: 0; right: 0;}
   .sec-navbar nav > ul > li {margin-left: 10px;}
   .sec-navbar nav .page-main {display: none;} }
 
-.sec-slogan {height: 100vh; min-height: 600px; margin-bottom: -160px; padding-bottom: 160px; background: fixed center center no-repeat;}
-@media (max-width:  768px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_768.jpg"); height: 512px;}}
-@media (max-width:  480px) {.sec-slogan {background-image: url("/img/slogan_bg/slogan_bg_480.jpg"); height: 320px;}}
-@media (max-width:  768px) {.sec-slogan { margin: 0; padding: 0; min-height: 0; background-attachment: scroll;}}
-.sec-slogan > .container {height: 100%; display: flex; justify-content: center; align-items: center;}
+.sec-slogan {
+    height: 100vh; min-height: 600px; margin-bottom: -160px; padding-bottom: 160px; background: fixed center center no-repeat;
+    @media (max-width:  768px) {height: 512px; .bg-image("//cdn.okfilm.com.ua/slogan_bg/slogan_bg_768"; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
+    @media (max-width:  480px) {height: 320px; .bg-image("//cdn.okfilm.com.ua/slogan_bg/slogan_bg_480"; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
+    @media (max-width:  768px) {margin: 0; padding: 0; min-height: 0; background-attachment: scroll;}
+    & > .container {height: 100%; display: flex; justify-content: center; align-items: center;}
+}
 .main-slogan {background: rgba(255,255,255,0.87);}
 
 .slogan {max-width: 100%; width: 513px; margin: 0 auto; padding: 65px; text-align: center; font-size: 27px;}
