@@ -1,0 +1,36 @@
+.bg-image(@file) {
+    background-image: url("@{file}.jpg");
+}
+.bg-image(@file; 1x) {
+    background-image: url("@{file}_1x0.jpg");
+}
+.bg-image(@file; 1x; 1.5x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x);
+}
+.bg-image(@file; 1x; 1.5x; 2x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x);
+}
+.bg-image(@file; 1x; 1.5x; 2x; 2.5x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x);
+}
+.bg-image(@file; 1x; 1.5x; 2x; 2.5x; 3x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x);
+}
+.bg-image(@file; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x, url("@{file}_3x5.jpg") 3.5x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x, url("@{file}_3x5.jpg") 3.5x);
+}
+.bg-image(@file; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x) {
+    background-image: url("@{file}_1x0.jpg");
+    background-image: -webkit-image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x, url("@{file}_3x5.jpg") 3.5x, url("@{file}_4x0.jpg") 4x);
+    background-image:         image-set(url("@{file}_1x0.jpg") 1x, url("@{file}_1x5.jpg") 1.5x, url("@{file}_2x0.jpg") 2x, url("@{file}_2x5.jpg") 2.5x, url("@{file}_3x0.jpg") 3x, url("@{file}_3x5.jpg") 3.5x, url("@{file}_4x0.jpg") 4x);
+}
