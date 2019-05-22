@@ -13,6 +13,7 @@ img {border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 ul {list-style: none; margin: 0; padding: 0;}
 .classic-lists ul {list-style: initial; padding-left: 30px;}
 p {margin: 16px 0;}
+hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
 
 /* Подгонка под старые браузеры: делаем HTML5 элементы блочными */
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
@@ -21,12 +22,13 @@ html, body {position: relative; margin: 0; padding: 0;}
 body {color: #6c6c6c; font-size: 15px; font-family: a_AvanteLt, "Segoe UI", Arial, Helvetica, sans-serif;
       letter-spacing: 0.05em; -webkit-font-smoothing: subpixel-antialiased !important;}
 main {width: 100%; margin-top: 150px; padding: 40px 0; background: #fff;}
-.container {position: relative; margin: 0 auto; padding: 0 15px;}
-@media (min-width: 1200px) { .container {width: 1170px;} }
-@media (max-width: 1199px) { .container {width:  970px;} }
-@media (max-width:  992px) { .container {width:  750px;} }
-@media (max-width:  768px) { .container {width:  100%; } }
-hr {box-sizing: content-box; height:0; margin: 15px 0; border:0; border-top: 1px solid #d2d3d4;}
+.container {
+    position: relative; margin: 0 auto; padding: 0 15px;
+    @media (min-width: 1200px) {width: 1170px;}
+    @media (max-width: 1199px) {width:  970px;}
+    @media (max-width:  992px) {width:  750px;}
+    @media (max-width:  768px) {width:  100%; }
+}
 
 /**
  *  ЗАРЕЗЕРВИРОВАННЫЕ ИМЕНА КЛАССОВ
