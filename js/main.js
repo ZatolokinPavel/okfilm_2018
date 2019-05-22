@@ -172,7 +172,7 @@ var initPhotoSwipeGallery = function(gallerySelector) {
             var size = link.getAttribute('data-size').split('x');
             items.push({
                 src: link.getAttribute('href'),
-                msrc: images[i].getAttribute('src'),
+                // msrc: images[i].getAttribute('src'),
                 w: parseInt(size[0], 10),
                 h: parseInt(size[1], 10),
                 el: images[i]
@@ -181,16 +181,16 @@ var initPhotoSwipeGallery = function(gallerySelector) {
         var options = {
             index: firstSlide,      // start at first slide
             loop: false,
-            getThumbBoundsFn: function(index) {
-                var thumbnail = items[index].el,
-                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                    rect = thumbnail.getBoundingClientRect(),
-                    style = window.getComputedStyle(thumbnail, null),
-                    borderTop = parseInt(style.getPropertyValue('border-top-width'), 10),
-                    borderRight = parseInt(style.getPropertyValue('border-right-width'), 10),
-                    borderLeft = parseInt(style.getPropertyValue('border-left-width'), 10);
-                return {x: rect.left + borderLeft, y: rect.top + borderTop + pageYScroll, w: rect.width - borderRight - borderLeft};
-            }
+            // getThumbBoundsFn: function(index) {
+            //     var thumbnail = items[index].el,
+            //         pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+            //         rect = thumbnail.getBoundingClientRect(),
+            //         style = window.getComputedStyle(thumbnail, null),
+            //         borderTop = parseInt(style.getPropertyValue('border-top-width'), 10),
+            //         borderRight = parseInt(style.getPropertyValue('border-right-width'), 10),
+            //         borderLeft = parseInt(style.getPropertyValue('border-left-width'), 10);
+            //     return {x: rect.left + borderLeft, y: rect.top + borderTop + pageYScroll, w: rect.width - borderRight - borderLeft};
+            // }
         };
         var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
         gallery.init();

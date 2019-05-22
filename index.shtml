@@ -43,15 +43,25 @@
             <h2 class="center">
                 <img src="/img/portfolio.svg" alt="Портфолио">
             </h2>
+<!--            <div class="portfolio-grid grid box pswp__gallery">-->
+<!--                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1116.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_1116.jpg" alt=""></a></div>-->
+<!--                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3301.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_3301.jpg" alt=""></a></div>-->
+<!--                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3582.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3582.jpg" alt=""></a></div>-->
+<!--                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>-->
+<!--                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>-->
+<!--                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1700.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1700.jpg" alt=""></a></div>-->
+<!--                <div class="portfolio-item mobile"><a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>-->
+<!--                <div class="portfolio-item mobile"><a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>-->
+<!--            </div>-->
             <div class="portfolio-grid grid box pswp__gallery">
-                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1116.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_1116.jpg" alt=""></a></div>
-                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3301.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_3301.jpg" alt=""></a></div>
-                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3582.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3582.jpg" alt=""></a></div>
-                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>
-                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>
-                <div class="portfolio-item"><a href="/img/main_portfolio/DSC_1700.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1700.jpg" alt=""></a></div>
-                <div class="portfolio-item mobile"><a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>
-                <div class="portfolio-item mobile"><a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>
+                <div class="portfolio-item">       <a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_7026.jpg" data-size="800x1200"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_7026_370_1x0.jpg" alt=""></a></div>
+                <div class="portfolio-item">       <a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_9643.jpg" data-size="1200x801"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_9643_370_1x0.jpg" alt=""></a></div>
+                <div class="portfolio-item">       <a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_7220.jpg" data-size="1200x801"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_7220_370_1x0.jpg" alt=""></a></div>
+                <div class="portfolio-item">       <a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_0090.jpg" data-size="801x1200"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_0090_370_1x0.jpg" alt=""></a></div>
+                <div class="portfolio-item">       <a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_7343.jpg" data-size="1200x801"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_7343_370_1x0.jpg" alt=""></a></div>
+                <div class="portfolio-item">       <a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_7539.jpg" data-size="1200x800"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_7539_370_1x0.jpg" alt=""></a></div>
+                <div class="portfolio-item mobile"><a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_9855.jpg" data-size="1200x801"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_9855_370_1x0.jpg" alt=""></a></div>
+                <div class="portfolio-item mobile"><a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_9878.jpg" data-size="1200x801"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_9878_370_1x0.jpg" alt=""></a></div>
             </div>
         </div>
     </section>
