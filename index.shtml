@@ -45,19 +45,19 @@
             </h2>
             <form class="switch" name="main_portfolio">
                 <input id="portfolio1" type="radio" name="switch" value="set1">
-                <label for="portfolio1">Портфолио 1</label>
+                <label for="portfolio1">Саша и Аня</label>
                 <input id="portfolio2" type="radio" name="switch" value="set2">
-                <label for="portfolio2">Портфолио 2</label>
+                <label for="portfolio2">Дима и Лера</label>
             </form>
             <div class="portfolio-grid grid box pswp__gallery">
-                <div class="set1 portfolio-item">    <a href="/img/main_portfolio/DSC_1116.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_1116.jpg" alt=""></a></div>
-                <div class="set1 portfolio-item">    <a href="/img/main_portfolio/DSC_3301.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_3301.jpg" alt=""></a></div>
-                <div class="set1 portfolio-item">    <a href="/img/main_portfolio/DSC_3582.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3582.jpg" alt=""></a></div>
-                <div class="set1 portfolio-item">    <a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>
-                <div class="set1 portfolio-item">    <a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>
-                <div class="set1 portfolio-item">    <a href="/img/main_portfolio/DSC_1700.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1700.jpg" alt=""></a></div>
-                <div class="set1 portfolio-item mob"><a href="/img/main_portfolio/DSC_3430.jpg" data-size="358x536"><img src="/img/main_portfolio/DSC_3430.jpg" alt=""></a></div>
-                <div class="set1 portfolio-item mob"><a href="/img/main_portfolio/DSC_1191.jpg" data-size="358x358"><img src="/img/main_portfolio/DSC_1191.jpg" alt=""></a></div>
+                <div class="set1 portfolio-item">    <a href="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/DSC_1116.jpg" data-size="801x1200">                <img src="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_1116_370_1x0.jpg" alt=""></a></div>
+                <div class="set1 portfolio-item">    <a href="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_3301.jpg" data-size="800x1200"> <img src="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_3301_370_1x0.jpg" alt=""></a></div>
+                <div class="set1 portfolio-item">    <a href="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/DSC_3582.jpg" data-size="801x1200">                <img src="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_3582_370_1x0.jpg" alt=""></a></div>
+                <div class="set1 portfolio-item">    <a href="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/DSC_3430.jpg" data-size="801x1200">                <img src="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_3430_370_1x0.jpg" alt=""></a></div>
+                <div class="set1 portfolio-item">    <a href="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/DSC_1193.jpg" data-size="1200x801">                <img src="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_1191_370_1x0.jpg" alt=""></a></div>
+                <div class="set1 portfolio-item">    <a href="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/DSC_1700.jpg" data-size="1200x801">                <img src="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_1700_370_1x0.jpg" alt=""></a></div>
+                <div class="set1 portfolio-item mob"><a href="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_3347.jpg" data-size="533x800">  <img src="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_3347_370_1x0.jpg" alt=""></a></div>
+                <div class="set1 portfolio-item mob"><a href="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_3480.jpg" data-size="1200x1200"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_3480_370_1x0.jpg" alt=""></a></div>
 
                 <div class="set2 portfolio-item">    <a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_7026.jpg" data-size="800x1200"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_7026_370_1x0.jpg" alt=""></a></div>
                 <div class="set2 portfolio-item">    <a href="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_9643.jpg" data-size="1200x801"><img src="//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/main_portfolio/DSC_9643_370_1x0.jpg" alt=""></a></div>
