@@ -165,7 +165,14 @@ body.page-price .sec-navbar nav li.page-price > a::after {left: 0; right: 0;}
 .sec-main-portfolio .portfolio-item a:focus {outline: none;}
 .sec-main-portfolio .portfolio-item img {width: 100%; border: 15px solid #fff;}
 .sec-main-portfolio .portfolio-item {float: left; width: 33.333%;}
-.sec-main-portfolio .portfolio-item.mobile {display: none;}
+.sec-main-portfolio .portfolio-item.mob {display: none;}
+.sec-main-portfolio form.switch {
+    margin-bottom: 30px; text-align: center; font-size: 18px;
+    input {display: none;}
+    label {display: inline-block; margin: 5px; padding: 10px; border: 2px dotted #fff; border-radius: 22px; transition: background-color 0.2s ease 0s;}
+    label:hover {background-color: rgba(255,255,255,0.3);}
+    input:checked + label {background-color: rgba(255,255,255,0.5);}
+}
 @media (max-width:  600px) {
     .sec-main-portfolio {padding: 1px 0 40px 0;}
     .sec-main-portfolio .portfolio-item img {border-width: 8px;}
@@ -174,7 +181,7 @@ body.page-price .sec-navbar nav li.page-price > a::after {left: 0; right: 0;}
 }
 @media (max-width:  480px) {
     .sec-main-portfolio .portfolio-item {width: 50%;}
-    .sec-main-portfolio .portfolio-item.mobile {display: block;}
+    .sec-main-portfolio .portfolio-item.mob {display: block;}
 }
 
 .sec-main-services {position: relative; background: rgba(255,255,255,0.7);}
