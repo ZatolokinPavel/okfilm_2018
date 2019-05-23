@@ -257,7 +257,8 @@ footer a:hover {text-decoration: underline;}
 footer .soc-net-buttons {display: flex; justify-content: center; padding-bottom: 5%;}
 footer .soc-net-buttons a {display:block; margin: 0 20px; background: #fff;}
 footer .soc-net-buttons a img {width: 60px; height: 60px;}
-footer .phone {padding-bottom: 5%; text-align: center; font-size: 18px;}
+footer .phone {padding-bottom: 5%; text-align: center; font-size: 18px;
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {.font-family-a-avante();}}
 @media (max-width: 768px) {
     footer .soc-net-buttons a {margin: 0 10px;}
     footer .soc-net-buttons a img {width: 40px; height: 40px;}
