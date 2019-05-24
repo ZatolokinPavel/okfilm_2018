@@ -45,9 +45,10 @@
             </h2>
             <form class="switch" name="main_portfolio">
                 <input id="portfolio1" type="radio" name="switch" value="set1">
-                <label for="portfolio1">Саша и Аня</label>
+                <label for="portfolio1">Саша <br> и Аня</label>
                 <input id="portfolio2" type="radio" name="switch" value="set2">
-                <label for="portfolio2">Дима и Лера</label>
+                <label for="portfolio2">Дима <br> и Лера</label>
+                <div><a href="/photo">Больше...</a></div>
             </form>
             <div class="portfolio-grid grid box pswp__gallery">
                 <div class="set1 portfolio-item">    <a href="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/DSC_1116.jpg" data-size="801x1200">                <img src="//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/main_portfolio/DSC_1116_370_1x0.jpg" alt=""></a></div>

@@ -170,9 +170,11 @@ body.page-price .sec-navbar nav li.page-price > a::after {left: 0; right: 0;}
 .sec-main-portfolio form.switch {
     margin-bottom: 30px; text-align: center; .font-family-a-avante(); font-size: 18px;
     input {display: none;}
-    label {display: inline-block; margin: 5px; padding: 10px; border: 2px dotted #fff; border-radius: 22px; transition: background-color 0.2s ease 0s;}
-    label:hover {background-color: rgba(255,255,255,0.3);}
-    input:checked + label {background-color: rgba(255,255,255,0.5);}
+    label, a {display: inline-block; margin: 5px; padding: 10px; border: 2px dotted #fff; border-radius: 22px; transition: background-color 0.2s ease 0s;}
+    label br {@media (min-width: 480px) {display: none;}}
+    label:hover, a:hover {background-color: rgba(255,255,255,0.3); text-decoration: none;}
+    input:checked + label {background-color: rgba(255,255,255,0.6);}
+    a {padding: 5px 15px 5px 20px; color: inherit; outline: none;}
 }
 @media (max-width:  600px) {
     .sec-main-portfolio {padding: 1px 0 40px 0;}
