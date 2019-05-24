@@ -166,8 +166,10 @@ var initPhotoSwipeGallery = function(gallerySelector) {
     var openPhotoSwipeGallery = function (images, currImage) {
         var pswpElement = document.getElementById('photoswipe');
         var items = [], firstSlide = 0;
-        for (var i=0; i < images.length; i++) {
-            if (images[i] === currImage) firstSlide = i;
+        for (var i=0, j=0; i < images.length; i++) {
+            if (!images[i].offsetWidth && !images[i].offsetHeight) continue;    // если изображение не видно, то не включаем его в просмотр
+            if (images[i] === currImage) firstSlide = j;
+            j++;    // счётчик видимых изображений
             var link = images[i].parentNode;
             var size = link.getAttribute('data-size').split('x');
             items.push({
@@ -180,7 +182,7 @@ var initPhotoSwipeGallery = function(gallerySelector) {
         }
         var options = {
             index: firstSlide,      // start at first slide
-            loop: false,
+            loop: false
             // getThumbBoundsFn: function(index) {
             //     var thumbnail = items[index].el,
             //         pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
