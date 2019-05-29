@@ -226,6 +226,7 @@ var gallerySliderOKFilm = function() {
 
     // Расширение картинки, над которой сейчас курсор, сжатие всех остальных
     var selectSliderElement = function() {
+        if (window.matchMedia("(max-width: 768px)").matches) return;
         var li = this.parentNode;
         var ul = li.parentNode;
         var listItems = ul.children;
@@ -239,6 +240,7 @@ var gallerySliderOKFilm = function() {
 
     // Восстановление обычного размера картинок
     var deselectSliderElement = function() {
+        if (window.matchMedia("(max-width: 768px)").matches) return;
         var listItems = this.parentNode.parentNode.children;
         for (var i=0; i < listItems.length; i++) {
             listItems[i].style.width = '';
