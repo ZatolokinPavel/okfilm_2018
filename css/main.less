@@ -27,7 +27,7 @@ main {width: 100%; margin-top: 150px; padding: 40px 0; background: #fff;}
     @media (min-width: 1200px) {width: 1170px;}
     @media (max-width: 1199px) {width:  970px;}
     @media (max-width:  992px) {width:  750px;}
-    @media (max-width:  768px) {width:  100%; }
+    @media (max-width:  768px) {width:  100%; max-width: 730px;}    /* max-width нужен чтобы фотки 230x200 в портфолио хорошо разместились */
 }
 
 /**
@@ -206,21 +206,24 @@ body.page-price .sec-navbar nav li.page-price > a::after {left: 0; right: 0;}
     ul li {width: 8.3333%; height: 300px; display: block; float: left; background: center center no-repeat;
            border-right: 3px solid #fff; border-bottom: 3px solid #fff; transition: width 0.5s ease 0s;}
     a {display: block; width: 100%; height: 100%;}
-    @media (max-width: 768px) {
-        ul {width: 100%}
-        ul li {width: 33.33%; height: 200px;}
-    }
     .mikhail-tatyana{.bg-image('//cdn.okfilm.com.ua/portfolio/Misha_and_Tanya_LoveStory/thumbnails/Misha_and_Tanya_LoveStory_05');}
     .vlad-kristina  {.bg-image('//cdn.okfilm.com.ua/portfolio/Vlad_and_Kristina_LoveStory/thumbnails/Vlad_and_Kristina_LoveStory_01');}
     .artjom-lena    {.bg-image('//cdn.okfilm.com.ua/portfolio/lovestory/Artem_and_Lena/DSC_0454'; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
     .zhenya-natasha {.bg-image('//cdn.okfilm.com.ua/portfolio/Zhenya_and_Nata_LoveStory/thumbnails/Zhenya_and_Nata_LoveStory_06');}
     .misha-lenochka {.bg-image('//cdn.okfilm.com.ua/portfolio/Misha_and_Lena_LoveStory/thumbnails/Misha_and_Lena_LoveStory_08');}
-    .sasha-anya     {.bg-image('//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/DSC_6833'; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
-    .artjom-liza    {.bg-image('//cdn.okfilm.com.ua/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_08');}
     .artjom-natalya {.bg-image('//cdn.okfilm.com.ua/portfolio/Artem_and_Natalia_Wedding/thumbnails/Artem_and_Natalia_Wedding_04');}
+    .artjom-liza    {.bg-image('//cdn.okfilm.com.ua/portfolio/Artem_and_Liza_Wedding/thumbnails/Artem_and_Liza_Wedding_07');}
+    .sasha-anya     {.bg-image('//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/DSC_3411'; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
     .sasha-liza     {.bg-image('//cdn.okfilm.com.ua/portfolio/Sasha_and_Liza_Wedding/thumbnails/Sasha_and_Liza_Wedding_04');}
     .slavik-yulya   {.bg-image('//cdn.okfilm.com.ua/portfolio/Slava_and_Yulia_Wedding/thumbnails/Slava_and_Yulia_Wedding_10');}
     .dima-lera      {.bg-image('//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_0090'; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
+    @media (max-width: 768px) {
+        ul {width: 100%}
+        ul li {width: 33.33%; height: 200px;}
+        .artjom-lena    {.bg-image('//cdn.okfilm.com.ua/portfolio/lovestory/Artem_and_Lena/DSC_0454_230'; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
+        .sasha-anya     {.bg-image('//cdn.okfilm.com.ua/portfolio/wedding/Sasha_and_Anya/DSC_3411_230'; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
+        .dima-lera      {.bg-image('//cdn.okfilm.com.ua/portfolio/wedding/Dima_and_Lera/DSC_0090_230'; 1x; 1.5x; 2x; 2.5x; 3x; 3.5x; 4x);}
+    }
 }
 
 .gallery-wrapper {width: auto; margin: 0 -15px -15px 0;}
