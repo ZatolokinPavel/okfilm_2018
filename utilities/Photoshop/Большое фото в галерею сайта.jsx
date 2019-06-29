@@ -13,10 +13,10 @@ function main() {
 
     if (originWidth >= originHeight) {
         if (originWidth < needMaxSize) needMaxSize = originWidth;
-        SaveForWebWithResize(newFile, 30, needMaxSize, null);
+        SaveForWebWithResize(newFile, 50, needMaxSize, null);
     } else {
         if (originHeight < needMaxSize) needMaxSize = originHeight;
-        SaveForWebWithResize(newFile, 30, null, needMaxSize);
+        SaveForWebWithResize(newFile, 50, null, needMaxSize);
     }
 }
 main();
