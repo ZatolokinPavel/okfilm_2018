@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
+    <!--#include virtual="/include/head.html"-->
+    <title>LoveStory Жени и Наташи | Фотограф, видеооператор Оксана Найденко</title>
+</head>
+<body id="body" class="page-photo noscript">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
+
+    <!--#include virtual="/include/menu.html"-->
+
+    <main>
+        <article class="container">
+            <h1 class="article-title">Женя и Наташа</h1>
+            <p class="back-to-portfolio"><a href="/photo">&larr; Назад к портфолио</a></p>
+            <div class="gallery-wrapper box">
+                <div class="gallery pswp__gallery">
+                    <ul>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0120.jpg" title="Женя и Наташа" data-size="823x1200"><img src="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0120_1x0.jpg" srcset="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0120_1x0.jpg 1x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0120_1x5.jpg 1.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0120_2x0.jpg 2x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0120_2x5.jpg 2.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0120_3x0.jpg 3x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0120_3x5.jpg 3.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0120_4x0.jpg 4x" alt="Женя и Наташа" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0150.jpg" title="Женя и Наташа" data-size="754x1200"><img src="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0150_1x0.jpg" srcset="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0150_1x0.jpg 1x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0150_1x5.jpg 1.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0150_2x0.jpg 2x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0150_2x5.jpg 2.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0150_3x0.jpg 3x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0150_3x5.jpg 3.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0150_4x0.jpg 4x" alt="Женя и Наташа" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0251.jpg" title="Женя и Наташа" data-size="793x1200"><img src="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0251_1x0.jpg" srcset="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0251_1x0.jpg 1x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0251_1x5.jpg 1.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0251_2x0.jpg 2x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0251_2x5.jpg 2.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0251_3x0.jpg 3x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0251_3x5.jpg 3.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0251_4x0.jpg 4x" alt="Женя и Наташа" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0264.jpg" title="Женя и Наташа" data-size="1200x675"><img src="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0264_1x0.jpg" srcset="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0264_1x0.jpg 1x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0264_1x5.jpg 1.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0264_2x0.jpg 2x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0264_2x5.jpg 2.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0264_3x0.jpg 3x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0264_3x5.jpg 3.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0264_4x0.jpg 4x" alt="Женя и Наташа" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0301.jpg" title="Женя и Наташа" data-size="801x1200"><img src="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0301_1x0.jpg" srcset="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0301_1x0.jpg 1x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0301_1x5.jpg 1.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0301_2x0.jpg 2x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0301_2x5.jpg 2.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0301_3x0.jpg 3x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0301_3x5.jpg 3.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0301_4x0.jpg 4x" alt="Женя и Наташа" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0302.jpg" title="Женя и Наташа" data-size="801x1200"><img src="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0302_1x0.jpg" srcset="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0302_1x0.jpg 1x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0302_1x5.jpg 1.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0302_2x0.jpg 2x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0302_2x5.jpg 2.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0302_3x0.jpg 3x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0302_3x5.jpg 3.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0302_4x0.jpg 4x" alt="Женя и Наташа" height="300" width="345"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0303.jpg" title="Женя и Наташа" data-size="1200x675"><img src="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0303_1x0.jpg" srcset="//cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0303_1x0.jpg 1x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0303_1x5.jpg 1.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0303_2x0.jpg 2x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0303_2x5.jpg 2.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0303_3x0.jpg 3x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0303_3x5.jpg 3.5x, //cdn.okfilm.com.ua/portfolio/lovestory/Zhenya_and_Nata/0303_4x0.jpg 4x" alt="Женя и Наташа" height="300" width="345"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/photoswipe.html"-->
+    <!--#include virtual="/include/scripts.html"-->
+
+</div>
+</body>
+</html>
