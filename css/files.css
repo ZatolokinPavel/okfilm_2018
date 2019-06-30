@@ -4,7 +4,7 @@
 
 .shared-files{overflow: hidden; background-color: #fff; font-family: serif; font-size: 105%;
               border-radius: 5px; box-shadow: 0 0 3px #ccc;}
-.shared-files h1{font-size: 90%; font-weight: 400; margin: 0; padding: 1em 1em 0 1em; color: #555;
+.shared-files h1{font-size: 100%; font-weight: 400; margin: 0; padding: 1em 1em 0 1em; color: #555;
                  text-transform: none; line-height: normal;}
 .shared-files pre{overflow: auto; margin: 1em; line-height: 2em; position: relative; text-align: right;}
 .shared-files a{color: #1c6094; text-decoration: none; position: absolute; left: 0;}
