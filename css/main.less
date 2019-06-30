@@ -139,6 +139,7 @@ body.page-price .sec-navbar nav li.page-price > a::after {left: 0; right: 0;}
 .sec-about-me .about-me.text {position: relative; margin: 0 auto; font-size: 16px;}
 .sec-about-me .about-me.pic2 {position: absolute; top: 0; right: 0;}
 .sec-about-me .name {text-transform: uppercase;}
+.sec-about-me .inline-photo {display: none;}
 .sec-about-me p {margin: 18px 0;}
 .sec-about-me hr {margin: 40px 0 20px 0;}
 .sec-about-me .about-me > img {position: relative; max-width: none; min-width: 100%; min-height: 100%; top: 50%; left: 50%; transform: translate(-50%,-50%);}
@@ -155,7 +156,9 @@ body.page-price .sec-navbar nav li.page-price > a::after {left: 0; right: 0;}
 }
 @media (max-width:  480px) {
     .sec-about-me .about-me {width: 100%;}
-    .sec-about-me .about-me.pic1 {position: relative; padding-bottom: 100%; border-bottom: none;}
+    .sec-about-me .about-me.pic1 {display: none;}
+    .sec-about-me .inline-photo {display: block;}
+    .sec-about-me .about-me.text {margin: 0 auto;}
     .sec-about-me .about-me > img {position: absolute;}
 }
 

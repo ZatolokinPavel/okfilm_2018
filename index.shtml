@@ -23,17 +23,41 @@
             <div>
                 <h2 class="hidden">Обо мне</h2>
                 <div class="about-me pic1">
-                    <img src="/img/about-me-pic1.jpg" alt="Оксана Найденко">
+                    <img src="//cdn.okfilm.com.ua/about_me/image00039_370_1x0.jpg" srcset="
+                    //cdn.okfilm.com.ua/about_me/image00039_370_1x0.jpg 1x,
+                    //cdn.okfilm.com.ua/about_me/image00039_370_1x5.jpg 1.5x,
+                    //cdn.okfilm.com.ua/about_me/image00039_370_2x0.jpg 2x,
+                    //cdn.okfilm.com.ua/about_me/image00039_370_2x5.jpg 2.5x,
+                    //cdn.okfilm.com.ua/about_me/image00039_370_3x0.jpg 3x,
+                    //cdn.okfilm.com.ua/about_me/image00039_370_3x5.jpg 3.5x,
+                    //cdn.okfilm.com.ua/about_me/image00039_370_4x0.jpg 4x" alt="Оксана Найденко">
                 </div>
                 <div class="about-me text">
                     <p class="name">Оксана Найденко</p>
                     <p>Фотография и видео уже так давно стали частью меня, что даже не могу вспомнить ту часть жизни, где их не было.</p>
+                    <p class="inline-photo">
+                        <img src="//cdn.okfilm.com.ua/about_me/image00039_mob_250_1x0.jpg" srcset="
+                    //cdn.okfilm.com.ua/about_me/image00039_mob_250_1x0.jpg 1x,
+                    //cdn.okfilm.com.ua/about_me/image00039_mob_250_1x5.jpg 1.5x,
+                    //cdn.okfilm.com.ua/about_me/image00039_mob_250_2x0.jpg 2x,
+                    //cdn.okfilm.com.ua/about_me/image00039_mob_250_2x5.jpg 2.5x,
+                    //cdn.okfilm.com.ua/about_me/image00039_mob_250_3x0.jpg 3x,
+                    //cdn.okfilm.com.ua/about_me/image00039_mob_250_3x5.jpg 3.5x,
+                    //cdn.okfilm.com.ua/about_me/image00039_mob_250_4x0.jpg 4x" alt="Оксана Найденко">
+                    </p>
                     <p>Я ценю искренние эмоции, красоту, вижу их повсюду и стараюсь через фото и видео делиться ими со всеми.</p>
                     <p>Сделаю все, что в моих силах, чтобы лучшие моменты вашей жизни были достойно оформлены и радовали вас еще долгие годы.</p>
                     <hr>
                 </div>
                 <div class="about-me pic2">
-                    <img src="/img/about-me-pic2.jpg" alt="">
+                    <img src="//cdn.okfilm.com.ua/about_me/image00191_370_1x0.jpg" srcset="
+                    //cdn.okfilm.com.ua/about_me/image00191_370_1x0.jpg 1x,
+                    //cdn.okfilm.com.ua/about_me/image00191_370_1x5.jpg 1.5x,
+                    //cdn.okfilm.com.ua/about_me/image00191_370_2x0.jpg 2x,
+                    //cdn.okfilm.com.ua/about_me/image00191_370_2x5.jpg 2.5x,
+                    //cdn.okfilm.com.ua/about_me/image00191_370_3x0.jpg 3x,
+                    //cdn.okfilm.com.ua/about_me/image00191_370_3x5.jpg 3.5x,
+                    //cdn.okfilm.com.ua/about_me/image00191_370_4x0.jpg 4x" alt="">
                 </div>
             </div>
         </div>
