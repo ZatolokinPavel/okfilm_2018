@@ -13,11 +13,37 @@
 
     <main>
         <article class="container">
+
+            <h2>Михаил и Елена</h2>
+            <h4>Sweet Video</h4>
+            <div class="lg__video_gallery">
+                <a href="https://www.youtube.com/watch?v=iJVQTlaHMCs" >
+                    <img src="https://img.youtube.com/vi/iJVQTlaHMCs/0.jpg" alt="Sweet Video: Михаил и Елена" />
+                </a>
+            </div>
+
+            <h2>Артем и Даша</h2>
+            <h4>Видеоприглашение</h4>
+            <div class="lg__video_gallery">
+                <a href="https://www.youtube.com/watch?v=h4dcDDV6uRQ" >
+                    <img src="https://img.youtube.com/vi/h4dcDDV6uRQ/0.jpg" alt="Артем и Даша видеоприглашение" />
+                </a>
+            </div>
+
+            <h2>Артём и Елена</h2>
+            <h4>В ожидании чуда</h4>
+            <div class="lg__video_gallery">
+                <a href="https://vimeo.com/135396026" >
+                    <img src="https://i.vimeocdn.com/video/529320736.jpg?mw=480&mh=360" alt="В ожидании чуда =)" />
+                </a>
+            </div>
+
         </article>
     </main>
 
     <!--#include virtual="/include/footer.html"-->
     <!--#include virtual="/include/scripts.html"-->
+    <!--#include virtual="/include/lightgallery.html"-->
 
 </div>
 </body>
