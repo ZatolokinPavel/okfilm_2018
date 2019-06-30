@@ -18,7 +18,7 @@
             <h1 class="article-title">OkFILM диск</h1>
 
             <div class="shared-files">
-                <!-- # include virtual="$shared_files" -->
+                <!--#include virtual="$shared_files" -->
                 <div class="files-footer">OkFILM</div>
             </div>
 
