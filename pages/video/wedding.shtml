@@ -22,6 +22,14 @@
                 </a>
             </div>
 
+            <h2>Илья и Жанна</h2>
+            <h4>Wedding</h4>
+            <div class="lg__video_gallery">
+                <a href="https://www.youtube.com/watch?v=H1Lra3LtEYw" >
+                    <img src="https://img.youtube.com/vi/H1Lra3LtEYw/0.jpg" alt="Wedding: Илья и Жанна" />
+                </a>
+            </div>
+
             <h2>Артем и Даша</h2>
             <h4>Видеоприглашение</h4>
             <div class="lg__video_gallery">
