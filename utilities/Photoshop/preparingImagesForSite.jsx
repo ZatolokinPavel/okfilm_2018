@@ -19,7 +19,7 @@ function main() {
         var whole = ~~dprRatio[i];
         var fract = (dprRatio[i] - whole) * 10;
         var newFile = File(doc.path+'/'+name+ u +needWidth+'_'+whole+'x'+fract+'.jpg');
-        SaveForWebWithResize(newFile, 30, width);
+        SaveForWebWithResize(newFile, 50, width);
     }
 }
 main();
