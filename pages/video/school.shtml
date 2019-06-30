@@ -14,12 +14,12 @@
     <main>
         <article class="container">
 
-            <h2>Первый Звонок 108 школа (4 класс)</h2>
-            <div class="lg__video_gallery">
-                <a href="https://www.youtube.com/watch?v=DrdCAB8z7Xo" >
-                    <img src="https://img.youtube.com/vi/DrdCAB8z7Xo/0.jpg" alt="Первый Звонок 108 школа (4 класс)" />
-                </a>
-            </div>
+<!--            <h2>Первый Звонок 108 школа (4 класс)</h2>-->
+<!--            <div class="lg__video_gallery">-->
+<!--                <a href="https://www.youtube.com/watch?v=DrdCAB8z7Xo" >-->
+<!--                    <img src="https://img.youtube.com/vi/DrdCAB8z7Xo/0.jpg" alt="Первый Звонок 108 школа (4 класс)" />-->
+<!--                </a>-->
+<!--            </div>-->
 
             <h2>Клип Happy (11 класс)</h2>
             <div class="lg__video_gallery">
