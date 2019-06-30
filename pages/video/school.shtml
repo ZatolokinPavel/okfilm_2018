@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
+    <!--#include virtual="/include/head.html"-->
+    <title>Видео — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+</head>
+<body id="body" class="page-video noscript">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
+
+    <!--#include virtual="/include/menu.html"-->
+
+    <main>
+        <article class="container">
+
+            <h2>Первый Звонок 108 школа (4 класс)</h2>
+            <div class="lg__video_gallery">
+                <a href="https://www.youtube.com/watch?v=DrdCAB8z7Xo" >
+                    <img src="https://img.youtube.com/vi/DrdCAB8z7Xo/0.jpg" alt="Первый Звонок 108 школа (4 класс)" />
+                </a>
+            </div>
+
+            <h2>Клип Happy (11 класс)</h2>
+            <div class="lg__video_gallery">
+                <a href="https://www.youtube.com/watch?v=U6cdSNYxuFs" >
+                    <img src="https://img.youtube.com/vi/U6cdSNYxuFs/0.jpg" alt="Клип Happy (11 класс)" />
+                </a>
+            </div>
+
+            <h2>Кораблики (прощание с детством) 71 школа (11 класс)</h2>
+            <div class="lg__video_gallery">
+                <a href="https://www.youtube.com/watch?v=hfSIQ9s3aJA" >
+                    <img src="https://img.youtube.com/vi/hfSIQ9s3aJA/0.jpg" alt="Кораблики (прощание с детством) 71 школа (11 класс)" />
+                </a>
+            </div>
+
+            <h2>11 архитектурный класс</h2>
+            <div class="lg__video_gallery">
+                <a href="https://www.youtube.com/watch?v=qiP49r_kZwk" >
+                    <img src="https://img.youtube.com/vi/qiP49r_kZwk/0.jpg" alt="11 архитектурный класс" />
+                </a>
+            </div>
+
+            <h2>Последний Звонок 71 школа (11 класс)</h2>
+            <div class="lg__video_gallery">
+                <a href="https://www.youtube.com/watch?v=n7vLzdeCbgw" >
+                    <img src="https://img.youtube.com/vi/n7vLzdeCbgw/0.jpg" alt="Последний Звонок 71 школа (11 класс)" />
+                </a>
+            </div>
+
+        </article>
+    </main>
+
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/scripts.html"-->
+    <!--#include virtual="/include/lightgallery.html"-->
+
+</div>
+</body>
+</html>
