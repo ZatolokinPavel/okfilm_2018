@@ -17,8 +17,6 @@
 
             <h1 class="article-title">OkFILM диск</h1>
 
-            <img src="https://appyogi.com/wordpress/wp-content/uploads/2017/04/Disk_Cleaner_256x256.png"> <!-- TEST -->
-
             <div class="shared-files">
                 <!--#include virtual="$shared_files" -->
                 <div class="files-footer">OkFILM</div>
