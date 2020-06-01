@@ -14,6 +14,13 @@
     <main>
         <article class="container">
 
+            <h2>Михаил и Валерия</h2>
+            <div class="lg__video_gallery">
+                <a href="https://www.youtube.com/watch?v=VFrhw5ovHDc" >
+                    <img src="https://img.youtube.com/vi/VFrhw5ovHDc/0.jpg" alt="Sweet Video: Михаил и Елена" />
+                </a>
+            </div>
+
             <h2>Михаил и Елена</h2>
             <h4>Sweet Video</h4>
             <div class="lg__video_gallery">
