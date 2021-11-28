@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
+    <!--#include virtual="/include/head.html"-->
+    <title>Фотокниги — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+</head>
+<body id="body" class="page-more noscript">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
+
+    <!--#include virtual="/include/menu.html"-->
+
+    <main>
+        <article class="container classic-lists">
+
+            <h1>Поездка в Турцию 2021</h1>
+
+            <p>
+                В мордокниге не все зареганы, но есть вот такой вот странный способ почитать.
+                Разве что комментарии не доступны, но ладно уж, можно и без них обойтись.
+            </p>
+
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Foksana.naydenko%2Fposts%2F3038113582994998&show_text=true&width=500" width="500" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+        </article>
+    </main>
+
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/scripts.html"-->
+
+</div>
+</body>
+</html>
