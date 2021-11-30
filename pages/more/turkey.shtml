@@ -3,7 +3,7 @@
 <head>
     <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
     <!--#include virtual="/include/head.html"-->
-    <title>Фотокниги — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+    <title>Турция 2021 — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
 </head>
 <body id="body" class="page-more noscript">
 <script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
@@ -14,14 +14,36 @@
     <main>
         <article class="container classic-lists">
 
-            <h1>Поездка в Турцию 2021</h1>
+            <h1>Поездка в Турцию, ноябрь 2021</h1>
 
             <p>
-                В мордокниге не все зареганы, но есть вот такой вот странный способ почитать.
-                Разве что комментарии не доступны, но ладно уж, можно и без них обойтись.
+                Для тех, кто не зарегистрирован в фейсбуке, но не прочь почитать и фотки посмотреть.
+                Разве что комментарии здесь не доступны, но ладно уж, можно и без них обойтись.
             </p>
 
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Foksana.naydenko%2Fposts%2F3038113582994998&show_text=true&width=500" width="500" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <h3>День первый</h3>
+            <p>
+                Сложный день и длинный. Для меня по крайней мере. В Турцию вчера прилетели. Без олинклюзивов. Взяли машину напрокат и попёрли 700 с лишним км в Измир с Анкары. Фотки только те, что из окна получилось захватить. Кстати доехалось достаточно легко, дороги скоростные, удобно. В Анкаре отличный отель, но мы только на ночь там. В Измире тоже ненадолго, задержимся в Бодруме, Олюденизе и Кемере (пошастаем по окрестностям).
+                Внезапно именно здесь полюбила кинзу. Хотя это наверное помутнение было. В нетуристической Турции английского почти не знают. Приходя в ресторан, тыкаем пальцами на мясо, хозяин показывает оно бекало, мукало, блеяло или кукарекало и потом готовит. Ну как готовит... При заказе нескольких люля и каклетки несут... несут в 4 руки салаты, овощи на гриле, кашу, лаваши, воду. К этому надо привыкнуть. Тут очень большие порции, огромные просто.
+                Сейчас на террасе, потому что вай фай сволочь в номере не ловит, сверчки орут, прибой слышно и где-то 18-19 градусов тепла.
+                Завтра будет полегче. Сегодня чуть подустала
+            </p>
+            <div class="gallery-wrapper box">
+                <div class="gallery pswp__gallery">
+                    <ul>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1n1_257428337_3038112749661748_4405264499261284331_n.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1n1_257428337_3038112749661748_4405264499261284331_n.jpg" alt=""></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1n2_257268086_3038112786328411_1719321242959279834_n.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1n2_257268086_3038112786328411_1719321242959279834_n.jpg" alt=""></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1n3_257584446_3038112659661757_5847810218022665634_n.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1n3_257584446_3038112659661757_5847810218022665634_n.jpg" alt=""></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1n4_257276570_3038112919661731_4381774078438548614_n.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1n4_257276570_3038112919661731_4381774078438548614_n.jpg" alt=""></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1n5_257742693_3038112929661730_6618762771444467863_n.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1n5_257742693_3038112929661730_6618762771444467863_n.jpg" alt=""></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1n6_257406631_3038112949661728_1425541444702319363_n.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1n6_257406631_3038112949661728_1425541444702319363_n.jpg" alt=""></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1n7_257306410_3038113039661719_1396545231159846344_n.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1n7_257306410_3038113039661719_1396545231159846344_n.jpg" alt=""></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1n8_257478911_3038113119661711_2289541445364202965_n.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1n8_257478911_3038113119661711_2289541445364202965_n.jpg" alt=""></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1n9_257508442_3038113162995040_2409342432669228480_n.jpg" data-size="1125x2000"><img src="//cdn.okfilm.com.ua/turkey_2021/d1n9_257508442_3038113162995040_2409342432669228480_n.jpg" alt=""></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1na_257986044_3038113199661703_5535916572021191474_n.jpg" data-size="2000x862"> <img src="//cdn.okfilm.com.ua/turkey_2021/d1na_257986044_3038113199661703_5535916572021191474_n.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
 
         </article>
     </main>
