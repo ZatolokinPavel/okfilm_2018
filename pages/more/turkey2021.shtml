@@ -125,6 +125,16 @@
                     </ul>
                 </div>
             </div>
+            <p>А вот и "бутик-отель"))</p>
+            <div class="gallery-wrapper box">
+                <div class="gallery pswp__gallery">
+                    <ul>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d2/d2n21_hotel.jpg" data-size="1440x811" ><img src="//cdn.okfilm.com.ua/turkey_2021/d2/d2n21_hotel_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d2/d2n21_hotel_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n21_hotel_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n21_hotel_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n21_hotel_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n21_hotel_3x0.jpg 3x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n21_hotel_3x5.jpg 3.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n21_hotel_4x0.jpg 4x"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d2/d2n22_hotel.jpg" data-size="1440x811" ><img src="//cdn.okfilm.com.ua/turkey_2021/d2/d2n22_hotel_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d2/d2n22_hotel_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n22_hotel_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n22_hotel_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n22_hotel_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n22_hotel_3x0.jpg 3x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n22_hotel_3x5.jpg 3.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n22_hotel_4x0.jpg 4x"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d2/d2n23_hotel.jpg" data-size="1440x811" ><img src="//cdn.okfilm.com.ua/turkey_2021/d2/d2n23_hotel_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d2/d2n23_hotel_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n23_hotel_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n23_hotel_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n23_hotel_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n23_hotel_3x0.jpg 3x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n23_hotel_3x5.jpg 3.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n23_hotel_4x0.jpg 4x"></a></li>
+                    </ul>
+                </div>
+            </div>
 
         </article>
     </main>
