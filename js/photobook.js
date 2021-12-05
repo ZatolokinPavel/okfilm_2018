@@ -2,15 +2,17 @@
  * Скрипт калькулятора стоимости фотокниг.
  */
 
-// Запуск рассчёта после загрузки страницы
+// Запуск расчёта после загрузки страницы
 (function startCalc() {
-    var pb_type = document.getElementById('pbook_type');
-    var objSel = document.getElementById('pbook_type');
-    for (var key in photobook_params) {
-        objSel.options[objSel.options.length] = new Option(photobook_params[key].pb_name, key);
+    if (typeof photobook_params !== 'undefined') {
+        var pb_type = document.getElementById('pbook_type');
+        var objSel = document.getElementById('pbook_type');
+        for (var key in photobook_params) {
+            objSel.options[objSel.options.length] = new Option(photobook_params[key].pb_name, key);
+        }
+        changeType(pb_type);
+        pb_type.addEventListener('change', changeType);
     }
-    changeType(pb_type);
-    pb_type.addEventListener('change', changeType);
 })();
 
 // Смена типа фотокниги, перерисовка всех полей параметров и пересчёт цены

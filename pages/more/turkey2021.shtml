@@ -60,7 +60,7 @@
                 турецкий цемент для горшков и по качеству он превосходен.
             </p>
             <div class="gallery-wrapper box">
-                <div class="gallery pswp__gallery">
+                <div id="masonry_grid_day1" class="gallery pswp__gallery">
                     <ul>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1/d1n01.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1/d1n01_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d1/d1n01_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n01_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n01_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n01_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n01_3x0.jpg 3x"></a></li>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1/d1n02.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1/d1n02_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d1/d1n02_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n02_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n02_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n02_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n02_3x0.jpg 3x"></a></li>
@@ -69,8 +69,8 @@
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1/d1n05.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1/d1n05_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d1/d1n05_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n05_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n05_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n05_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n05_3x0.jpg 3x"></a></li>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1/d1n06.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1/d1n06_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d1/d1n06_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n06_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n06_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n06_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n06_3x0.jpg 3x"></a></li>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1/d1n07.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1/d1n07_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d1/d1n07_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n07_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n07_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n07_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n07_3x0.jpg 3x"></a></li>
+                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1/d1n09.jpg" data-size="1125x2000"><img src="//cdn.okfilm.com.ua/turkey_2021/d1/d1n09_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d1/d1n09_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n09_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n09_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n09_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n09_3x0.jpg 3x"></a></li>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1/d1n08.jpg" data-size="2000x1125"><img src="//cdn.okfilm.com.ua/turkey_2021/d1/d1n08_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d1/d1n08_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n08_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n08_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n08_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n08_3x0.jpg 3x"></a></li>
-                        <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1/d1n09.jpg" data-size="1125x2000"><img src="//cdn.okfilm.com.ua/turkey_2021/d1/d1n09_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d1/d1n09_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n09_1x5.jpg 1.5x"></a></li>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d1/d1n10.jpg" data-size="2000x862" ><img src="//cdn.okfilm.com.ua/turkey_2021/d1/d1n10_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d1/d1n10_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n10_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n10_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n10_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n10_3x0.jpg 3x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n10_3x5.jpg 3.5x, //cdn.okfilm.com.ua/turkey_2021/d1/d1n10_4x0.jpg 4x"></a></li>
                     </ul>
                 </div>
@@ -100,7 +100,7 @@
                 Завтра в Фетхие выдвигаемся. Утром попробую проснуться, чтобы сбегать на пляж.
             </p>
             <div class="gallery-wrapper box">
-                <div class="gallery pswp__gallery">
+                <div id="masonry_grid_day2" class="gallery pswp__gallery">
                     <ul>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d2/d2n01.jpg" data-size="1600x875" ><img src="//cdn.okfilm.com.ua/turkey_2021/d2/d2n01_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d2/d2n01_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n01_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n01_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n01_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n01_3x0.jpg 3x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n01_3x5.jpg 3.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n01_4x0.jpg 4x"></a></li>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d2/d2n02.jpg" data-size="1600x901" ><img src="//cdn.okfilm.com.ua/turkey_2021/d2/d2n02_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d2/d2n02_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n02_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n02_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n02_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n02_3x0.jpg 3x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n02_3x5.jpg 3.5x, //cdn.okfilm.com.ua/turkey_2021/d2/d2n02_4x0.jpg 4x"></a></li>
@@ -172,7 +172,7 @@
                 Пока что в Олюденизе мне не очень, посмотрим завтра что к чему.
             </p>
             <div class="gallery-wrapper box">
-                <div class="gallery pswp__gallery">
+                <div id="masonry_grid_day3" class="gallery pswp__gallery">
                     <ul>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d3/d3n01.jpg" data-size="1600x901" ><img src="//cdn.okfilm.com.ua/turkey_2021/d3/d3n01_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d3/d3n01_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d3/d3n01_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d3/d3n01_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d3/d3n01_2x5.jpg 2.5x, //cdn.okfilm.com.ua/turkey_2021/d3/d3n01_3x0.jpg 3x, //cdn.okfilm.com.ua/turkey_2021/d3/d3n01_3x5.jpg 3.5x, //cdn.okfilm.com.ua/turkey_2021/d3/d3n01_4x0.jpg 4x"></a></li>
                         <li><a href="//cdn.okfilm.com.ua/turkey_2021/d3/d3n02.jpg" data-size="955x1601" ><img src="//cdn.okfilm.com.ua/turkey_2021/d3/d3n02_1x0.jpg" srcset="//cdn.okfilm.com.ua/turkey_2021/d3/d3n02_1x0.jpg 1x, //cdn.okfilm.com.ua/turkey_2021/d3/d3n02_1x5.jpg 1.5x, //cdn.okfilm.com.ua/turkey_2021/d3/d3n02_2x0.jpg 2x, //cdn.okfilm.com.ua/turkey_2021/d3/d3n02_2x5.jpg 2.5x"></a></li>
@@ -197,6 +197,25 @@
     <!--#include virtual="/include/footer.html"-->
     <!--#include virtual="/include/photoswipe.html"-->
     <!--#include virtual="/include/scripts.html"-->
+    <script>
+        window.addEventListener('load', function() {
+            const gridsId = ['masonry_grid_day1','masonry_grid_day2','masonry_grid_day3'];
+            const masonryList = [];
+            for (let i=0; i < gridsId.length; i++) {
+                const id = gridsId[i];
+                const msnry = new Masonry(`#${id} > ul`, {      // Красиво располагает фотки
+                    itemSelector: `#${id} > ul > li`,           // какие именно элементы обрабатывать
+                    columnWidth: `#${id} > ul > li`             // по первому найденному такому элементу установить ширину колонок
+                });
+                masonryList.push(msnry);
+            }
+            let timeout;
+            window.addEventListener('resize', () => {
+                clearTimeout(timeout);
+                timeout = setTimeout(() => masonryList.forEach(item => item.layout()), 1000);
+            });
+        });
+    </script>
 
 </div>
 </body>
