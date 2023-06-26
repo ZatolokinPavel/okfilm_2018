@@ -144,7 +144,7 @@
     <!--#include virtual="/include/scripts.html"-->
     <script>
         window.addEventListener('load', function() {
-            const gridsId = ['masonry_grid_pre','masonry_grid_day1'];
+            const gridsId = ['masonry_grid_pre','masonry_grid_day1','masonry_grid_day2'];
             const masonryList = [];
             for (let i=0; i < gridsId.length; i++) {
                 const id = gridsId[i];
