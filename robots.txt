@@ -6,5 +6,6 @@
 
 User-agent: *
 Disallow: /files/
+Disallow: /more/travel/
 
 Host: okfilm.com.ua

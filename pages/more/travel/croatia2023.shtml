@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
+    <!--#include virtual="/include/head.html"-->
+    <title>Хорватия 2023 — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+</head>
+<body id="body" class="page-more noscript">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
+
+    <!--#include virtual="/include/menu.html"-->
+
+    <main>
+        <article class="container classic-lists">
+
+            <h1>Хорватія</h1>
+            <h4>червень 2023</h4>
+
+            <p>
+                Писать вам про то, куди мене знов понесло, чи воно бісить буде?
+                Я колись писала як щоденник з подорожей, думаю може повернутись до того формату
+            </p>
+            <div class="gallery-wrapper box">
+                <div id="masonry_grid_pre" class="gallery pswp__gallery">
+                    <ul></ul>
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/photoswipe.html"-->
+    <!--#include virtual="/include/scripts.html"-->
+    <script>
+        window.addEventListener('load', function() {
+            const gridsId = ['masonry_grid_pre','masonry_grid_day1'];
+            const masonryList = [];
+            for (let i=0; i < gridsId.length; i++) {
+                const id = gridsId[i];
+                const msnry = new Masonry(`#${id} > ul`, {      // Красиво располагает фотки
+                    itemSelector: `#${id} > ul > li`,           // какие именно элементы обрабатывать
+                    columnWidth: `#${id} > ul > li`             // по первому найденному такому элементу установить ширину колонок
+                });
+                masonryList.push(msnry);
+            }
+            let timeout;
+            window.addEventListener('resize', () => {
+                clearTimeout(timeout);
+                timeout = setTimeout(() => masonryList.forEach(item => item.layout()), 1000);
+            });
+        });
+    </script>
+
+</div>
+</body>
+</html>
