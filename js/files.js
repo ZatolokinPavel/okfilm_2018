@@ -20,7 +20,7 @@ const DownloadFiles = function () {
             const link = document.createElement('a');
             link.href = item.name;
             link.append(item.name);
-            list.append(link, item.mtime);
+            list.append(link, item.mtime, '\n');
         });
     };
 
