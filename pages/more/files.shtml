@@ -22,7 +22,7 @@
                 <div class="files-footer">OkFILM</div>
             </div>
 
-            <div style="display: none"><!--#echo var="shared_files_json" --></div>
+            <div style="display: none"><!--#echo var="$shared_files_json" --></div>
 
         </article>
     </main>
