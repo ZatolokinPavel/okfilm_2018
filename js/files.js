@@ -17,9 +17,10 @@ const DownloadFiles = function () {
         console.log('flist', json);
         const list = document.getElementById('shared_files');
         json.forEach(item => {
+            const slash = item.type === 'directory' ? '/' : '';
             const link = document.createElement('a');
-            link.href = item.name;
-            link.append(item.name);
+            link.href = item.name + slash;
+            link.append(item.name + slash);
             list.append(link, item.mtime, '\n');
         });
     };
