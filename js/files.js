@@ -15,6 +15,13 @@ const DownloadFiles = function () {
 
     const drawFilesList = function (json) {
         console.log('flist', json);
+        const list = document.getElementById('shared_files');
+        json.forEach(item => {
+            const link = document.createElement('a');
+            link.href = item.name;
+            link.append(item.name);
+            list.append(link, item.mtime);
+        });
     };
 
     init();

@@ -23,6 +23,12 @@
             </div>
 
             <div style="display: none"><!--#echo var="shared_files_json" --></div>
+            <div class="shared-files" style="display: none">
+                <h1>Index</h1>
+                <hr>
+                <pre id="shared_files"></pre>
+                <div class="files-footer">OkFILM</div>
+            </div>
 
         </article>
     </main>
