@@ -18,15 +18,10 @@
             <h1 class="article-title">OkFILM диск</h1>
 
             <div class="shared-files">
-                <!--#include virtual="$shared_files" -->
-                <div class="files-footer">OkFILM</div>
-            </div>
-
-            <div style="display: none"><!--#echo var="shared_files_json" --></div>
-            <div class="shared-files" style="display: none">
-                <h1>Index</h1>
+                <h1 id="shared_dir"></h1>
                 <hr>
-                <pre id="shared_files"></pre>
+                <div id="shared_files" class="shared-files-content"></div>
+                <hr>
                 <div class="files-footer">OkFILM</div>
             </div>
 
