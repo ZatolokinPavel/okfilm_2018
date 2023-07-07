@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
+    <!--#include virtual="/include/head.html"-->
+    <title>Выбор фото — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+</head>
+<body id="body" class="page-more noscript">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
+
+    <!--#include virtual="/include/menu.html"-->
+
+    <main>
+        <article class="container">
+
+            <h1 class="article-title">Выбор фото</h1>
+
+            <div id="shared_files" class="preview-photo"></div>
+
+            <div id="template_photo_card" style="display: none">
+                <div class="preview-photo-card">
+                    <div class="preview-photo-card-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="preview-photo-card-name"></div>
+                </div>
+            </div>
+            <div id="template_photo_processing" style="display: none">
+                <div class="preview-photo-processing">
+                    <div class="caption">Фотографии подготавливаются...</div>
+                    <div>обработано <span class="processed-count"></span> из <span class="processed-total"></span></div>
+                    <div>Зайдите, пожалуйста, через несколько минут.</div>
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/scripts.html"-->
+
+</div>
+</body>
+</html>
