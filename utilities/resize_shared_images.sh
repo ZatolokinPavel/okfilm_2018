@@ -20,4 +20,4 @@ do
     [[ -f "$(dirname "$file")/.thumbnails/$(basename "$file")" ]] && continue # миниатюра уже создана
     convert "$file" -resize '1200x1200' "$(dirname "$file")/.thumbnails/$(basename "$file")"
     sleep 2s
-done <   <(find /srv/shared-global/test/ -type f -iname '*.jpg' -print0)
+done <   <(find /srv/shared-global/ -type f -iname '*.jpg' -print0)
