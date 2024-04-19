@@ -16,12 +16,14 @@
 
             <h1 class="article-title">Выбор фото</h1>
 
-            <div id="shared_files" class="preview-photo"></div>
+            <div id="shared_files" class="preview-photo pswp__gallery"></div>
 
             <div id="template_photo_card" style="display: none">
                 <div class="preview-photo-card">
                     <div class="preview-photo-card-image">
-                        <img src="" alt="">
+                        <a href="" disabled>
+                            <img src="" alt="">
+                        </a>
                     </div>
                     <div class="preview-photo-card-name"></div>
                 </div>
@@ -38,6 +40,7 @@
     </main>
 
     <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/photoswipe.html"-->
     <!--#include virtual="/include/scripts.html"-->
 
 </div>

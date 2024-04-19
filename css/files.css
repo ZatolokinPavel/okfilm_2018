@@ -66,6 +66,7 @@ a[href$=".mp3"]:before {background: url(//cdn.okfilm.com.ua/files_icons/mp3.png)
 a[href$=".wav"]:before {background: url(//cdn.okfilm.com.ua/files_icons/wav.png);}
 a[href$=".bmp"]:before {background: url(//cdn.okfilm.com.ua/files_icons/bmp.png);}
 a[href$=".gif"]:before {background: url(//cdn.okfilm.com.ua/files_icons/gif.png);}
+a[href$=".JPG"]:before,
 a[href$=".jpg"]:before,
 a[href$=".jpeg"]:before{background: url(//cdn.okfilm.com.ua/files_icons/jpg.png);}
 a[href$=".png"]:before {background: url(//cdn.okfilm.com.ua/files_icons/png.png);}
