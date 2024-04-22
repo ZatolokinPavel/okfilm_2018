@@ -95,7 +95,8 @@ const ShowPhotosForPreview = function () {
     const listURI = '/api/files';
     const viewURI = '/api/preview';
     const filesList = new FilesList();
-    const templateCard = document.getElementById('template_photo_card').children[0];
+    const templateCard = document.getElementById('template_photo_card').content;
+    let _loadingImages = []; // список фотографий, которые ещё загружаются
 
     const init = () => {
         const path = window.location.pathname.replace(new RegExp(`^${pageURI}`), '');
@@ -117,18 +118,39 @@ const ShowPhotosForPreview = function () {
 
     const drawFilesList = function (jsonPhotos, jsonThumbs, path) {
         if (jsonThumbs.length < jsonPhotos.length) {
-            const processing = document.getElementById('template_photo_processing').children[0].cloneNode(true);
+            const processing = document.getElementById('template_photo_processing').content.cloneNode(true);
             processing.querySelector('.processed-count').append(jsonThumbs.length);
             processing.querySelector('.processed-total').append(jsonPhotos.length);
             document.getElementById('shared_files').append(processing);
         } else {
             jsonPhotos.forEach(file => {
                 const card = templateCard.cloneNode(true);
-                card.querySelector('img').src = filesList.formatURI(`${viewURI}/${path}/.thumbnails/${file.name}`);
+                card.querySelector('a').href = filesList.formatURI(`${viewURI}/${path}/.thumbnails/${file.name}`);
+                card.querySelector('a').dataset.size = '1200x1200';
+                const img = card.querySelector('img');
+                img.src = filesList.formatURI(`${viewURI}/${path}/.thumbnails/${file.name}`);
+                img.addEventListener('load', setImageDimensions);
+                _loadingImages.push(img);
                 card.querySelector('.preview-photo-card-name').append(file.name.replace(/\.jpg$/i, ''));
                 document.getElementById('shared_files').append(card);
             });
+            checkForImageDimensions(); // как можно скорее пытаемся прописать размеры фоток для просмотрщика
         }
+    };
+
+    // Когда изображение только начало загружаться, браузер уже знает его размеры, но событие никакое не генерит.
+    const checkForImageDimensions = () => {
+        _loadingImages.forEach(setImageDimensions);
+        if (_loadingImages.length) setTimeout(checkForImageDimensions, 500);
+    };
+
+    const setImageDimensions = (event) => {
+        const img = event.target || event;
+        const imgW = img.naturalWidth;
+        const imgH = img.naturalHeight;
+        if (!imgW || !imgH) return;
+        img.parentNode.dataset.size = `${imgW}x${imgH}`;
+        _loadingImages = _loadingImages.filter(i => i !== img);
     };
 
     init();

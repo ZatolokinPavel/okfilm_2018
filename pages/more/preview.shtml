@@ -18,7 +18,7 @@
 
             <div id="shared_files" class="preview-photo pswp__gallery"></div>
 
-            <div id="template_photo_card" style="display: none">
+            <template id="template_photo_card">
                 <div class="preview-photo-card">
                     <div class="preview-photo-card-image">
                         <a href="">
@@ -27,14 +27,15 @@
                     </div>
                     <div class="preview-photo-card-name"></div>
                 </div>
-            </div>
-            <div id="template_photo_processing" style="display: none">
+            </template>
+
+            <template id="template_photo_processing">
                 <div class="preview-photo-processing">
                     <div class="caption">Фотографії готуються...</div>
                     <div>оброблено <span class="processed-count"></span> із <span class="processed-total"></span></div>
                     <div>Зайдіть, будь ласка, за кілька хвилин.</div>
                 </div>
-            </div>
+            </template>
 
         </article>
     </main>
