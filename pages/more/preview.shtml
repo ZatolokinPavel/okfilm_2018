@@ -3,7 +3,7 @@
 <head>
     <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
     <!--#include virtual="/include/head.html"-->
-    <title>Выбор фото — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+    <title>Вибір фото — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
 </head>
 <body id="body" class="page-more noscript">
 <script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
@@ -14,7 +14,7 @@
     <main>
         <article class="container">
 
-            <h1 class="article-title">Выбор фото</h1>
+            <h1 class="article-title">Вибір фото</h1>
 
             <div id="shared_files" class="preview-photo pswp__gallery"></div>
 
@@ -30,9 +30,9 @@
             </div>
             <div id="template_photo_processing" style="display: none">
                 <div class="preview-photo-processing">
-                    <div class="caption">Фотографии подготавливаются...</div>
-                    <div>обработано <span class="processed-count"></span> из <span class="processed-total"></span></div>
-                    <div>Зайдите, пожалуйста, через несколько минут.</div>
+                    <div class="caption">Фотографії готуються...</div>
+                    <div>оброблено <span class="processed-count"></span> із <span class="processed-total"></span></div>
+                    <div>Зайдіть, будь ласка, за кілька хвилин.</div>
                 </div>
             </div>
 
