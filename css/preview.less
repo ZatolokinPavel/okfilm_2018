@@ -2,9 +2,10 @@
     display: flex; flex-wrap: wrap; gap: 16px;
     &-card {width: 30%; padding: 16px; background: #eee;
         @media (max-width: 600px) {width: 47%; padding: 8px;} }
-    &-card-image {height: 250px;
+    &-card-image {height: 250px; text-align: center; font-size: 0; // fs:0 чтобы не было пробела между ::before и картинкой
         @media (max-width: 600px) {height: 210px;} }
-    &-card-image a {width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;}
+    &-card-image::before {content: ''; display: inline-block; height: 100%; vertical-align: middle;} // для выравнивания строки с картинкой по высоте
+    &-card-image a {display: inline;} // то есть да, стандартное поведение
     &-card-image a img {max-width: 100%; max-height: 100%;}
     &-card-name {margin-top: 8px; padding: 2px 4px; width: fit-content; word-break: break-word; border-radius: 2px; background: #ddd;}
 

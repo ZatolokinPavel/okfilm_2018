@@ -21,7 +21,7 @@
             <div id="template_photo_card" style="display: none">
                 <div class="preview-photo-card">
                     <div class="preview-photo-card-image">
-                        <a href="" disabled>
+                        <a href="">
                             <img src="" alt="">
                         </a>
                     </div>
