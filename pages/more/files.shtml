@@ -4,7 +4,7 @@
     <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
     <!--#include virtual="/include/head.html"-->
     <title>OkFILM диск — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
-    <link rel="stylesheet" href="/css/files.css?v=20200202" type="text/css">
+    <link rel="stylesheet" href="/css/files.css?v=20240501" type="text/css">
 </head>
 <body id="body" class="page-more noscript">
 <script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
