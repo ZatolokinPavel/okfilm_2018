@@ -21,6 +21,8 @@
                     <!-- Эта картинка невидима, но она задаёт высоту всей книги. Напомню, что все листы должны быть одинакового размера. -->
                     <img src="https://cdn.okfilm.com.ua/portfolio/photobook/C1.jpg" alt="">
                 </div>
+                <div class="page-flip-hint page-flip-hint-l">Натисніть на сторінку,<br>щоб перегорнути її</div>
+                <div class="page-flip-hint page-flip-hint-s">Натисніть на<br>сторінку, щоб<br>перегорнути її</div>
                 <div class="page-flip-cover back-cover" onclick="pageFlip(this);">
                     <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/C2.jpg')"></figure>
                     <figure class="page-flip-front flyleaf" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/20_2.jpg')"></figure>

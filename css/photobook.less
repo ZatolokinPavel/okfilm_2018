@@ -1,3 +1,5 @@
+@import "mixin";
+
 .page-flip {
     position: relative; max-width: 1000px; margin: 16px auto; perspective: 1200px;
     &-size-setter {width: 50%; opacity: 0;} // для простого задания высоты всей книге
@@ -14,4 +16,10 @@
     &-cover.front-cover::before, &-cover.back-cover::before { // тень от приклеенного к обложке листа
         content: ''; position: absolute; top: 1%; bottom: 1%; right: 2%; left: 0; border-radius: 0 2px 2px 0; box-shadow: 2px 0 8px -2px rgba(0,0,0,0.3);}
     &-cover.flip, &-paper.flip {transform: rotateY(-180deg);}
+
+    &-hint {display: none; position: absolute; top: 50%; left: 25%; transform: translate(-50%,-50%); opacity: 0.7;}
+    @media (min-width: 501px) {&-hint-l {display: block;}}
+    @media (max-width: 500px) {&-hint-s {display: block; left: 10px; transform: translate(0,-50%)}}
+    &-hint::after {content: ''; position: absolute; display: block; width: 2em; height: 2em; top: 50%; left: 100%;
+        transform: rotate(45deg) translate(-40%,-25%); transform-origin: center; border-top: 1px solid #777; border-right: 1px solid @font-color;}
 }
