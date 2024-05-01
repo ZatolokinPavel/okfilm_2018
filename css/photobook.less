@@ -1,8 +1,9 @@
 @import "mixin";
 
 .page-flip {
-    position: relative; max-width: 1000px; margin: 16px auto; perspective: 1200px;
+    position: relative; max-width: 1000px; margin: 16px auto;
     &-size-setter {width: 50%; opacity: 0;} // для простого задания высоты всей книге
+    &-book {position: absolute; top: 0; right: 0; bottom: 0; left: 0; perspective: 1200px;}
     &-cover {position: absolute; width: 50%; height: 100%; top: 0; left: 50%;}
     &-paper {position: absolute; width: 49%; height: 98%; top: 1%; left: 50%;}
     &-cover, &-paper {transform-origin: left; transform-style: preserve-3d; transition: 0.7s ease-in-out;}

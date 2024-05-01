@@ -23,77 +23,79 @@
                 </div>
                 <div class="page-flip-hint page-flip-hint-l">Натисніть на сторінку,<br>щоб перегорнути її</div>
                 <div class="page-flip-hint page-flip-hint-s">Натисніть на<br>сторінку, щоб<br>перегорнути її</div>
-                <div class="page-flip-cover back-cover" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/C2.jpg')"></figure>
-                    <figure class="page-flip-front flyleaf" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/20_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/20_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/18_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/18_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/17_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/17_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/16_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/16_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/15_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/15_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/14_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/14_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/13_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/13_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/12_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/12_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/11_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/11_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/10_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/10_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/09_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/09_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/07_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/07_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/06_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/06_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/05_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/05_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/04_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/04_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/03_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-paper" onclick="pageFlip(this);">
-                    <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/03_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/02_2.jpg')"></figure>
-                </div>
-                <div class="page-flip-cover front-cover" onclick="pageFlip(this);">
-                    <figure class="page-flip-back flyleaf" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/02_1.jpg')"></figure>
-                    <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/C1.jpg')"></figure>
+                <div class="page-flip-book">
+                    <div class="page-flip-cover back-cover" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/C2.jpg')"></figure>
+                        <figure class="page-flip-front flyleaf" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/20_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/20_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/18_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/18_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/17_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/17_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/16_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/16_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/15_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/15_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/14_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/14_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/13_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/13_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/12_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/12_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/11_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/11_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/10_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/10_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/09_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/09_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/07_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/07_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/06_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/06_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/05_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/05_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/04_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/04_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/03_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-paper" onclick="pageFlip(this);">
+                        <figure class="page-flip-back" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/03_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/02_2.jpg')"></figure>
+                    </div>
+                    <div class="page-flip-cover front-cover" onclick="pageFlip(this);">
+                        <figure class="page-flip-back flyleaf" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/02_1.jpg')"></figure>
+                        <figure class="page-flip-front" style="background-image: url('https://cdn.okfilm.com.ua/portfolio/photobook/C1.jpg')"></figure>
+                    </div>
                 </div>
             </div>
 
