@@ -1,0 +1,17 @@
+.page-flip {
+    position: relative; max-width: 1000px; margin: 16px auto; perspective: 1200px;
+    &-size-setter {width: 50%; opacity: 0;} // для простого задания высоты всей книге
+    &-cover {position: absolute; width: 50%; height: 100%; top: 0; left: 50%;}
+    &-paper {position: absolute; width: 49%; height: 98%; top: 1%; left: 50%;}
+    &-cover, &-paper {transform-origin: left; transform-style: preserve-3d; transition: 0.7s ease-in-out;}
+    &-front, &-back {position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin: 0; overflow: hidden;
+        background-size: 100%; background-repeat: no-repeat; backface-visibility: hidden;}
+    &-front {border-radius: 0 2px 2px 0; background-position:  left; box-shadow: 2px 2px 8px -2px rgba(0,0,0,0.2);}
+    &-back  {border-radius: 2px 0 0 2px; background-position: right; box-shadow: -2px 2px 8px -2px rgba(0,0,0,0.2); transform: rotateY(180deg);}
+    &-cover &-front {border-radius: 0 8px 8px 0; box-shadow: 2px 2px 8px -2px rgba(0,0,0,0.8);}
+    &-cover &-back  {border-radius: 8px 0 0 8px; box-shadow: -2px 2px 8px -2px rgba(0,0,0,0.8);}
+    &-cover .flyleaf {background-size: 98%;} // приклеенный к обложке лист меньше самой обложки
+    &-cover.front-cover::before, &-cover.back-cover::before { // тень от приклеенного к обложке листа
+        content: ''; position: absolute; top: 1%; bottom: 1%; right: 2%; left: 0; border-radius: 0 2px 2px 0; box-shadow: 2px 0 8px -2px rgba(0,0,0,0.3);}
+    &-cover.flip, &-paper.flip {transform: rotateY(-180deg);}
+}

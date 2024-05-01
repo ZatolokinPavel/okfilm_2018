@@ -55,3 +55,46 @@ function resultPrice() {
     document.getElementById('pbook_result').innerHTML = price.toString();
     document.getElementById('photo_book_format').src = "/img/photo_book_formats/photo_book_" + sizes + ".png";
 }
+
+
+
+// Листает фотокнигу
+const pageFlip = function (page) {
+    const flipped = page.classList.contains('flip');
+    const isCover = page.classList.contains('page-flip-cover');
+    let zIndex = 0;
+    const prev = page.previousElementSibling;
+    let sib = page.nextElementSibling;
+    while (sib) {
+        zIndex += 1;
+        sib = sib.nextElementSibling;
+    }
+    if (isCover && zIndex === 0 && flipped) {
+        // закрываем переднюю обложку
+        let interior = prev;
+        while (interior) {
+            interior.style.zIndex = '0';
+            interior.classList.toggle('flip', !flipped);
+            interior = interior.previousElementSibling;
+        }
+    } else if (isCover && zIndex > 0 && !flipped) {
+        // закрываем заднюю обложку
+        let interior = page.nextElementSibling;
+        let sibZ = zIndex;
+        while (interior) {
+            sibZ -= 1;
+            interior.style.zIndex = sibZ.toString();
+            interior.classList.toggle('flip', !flipped);
+            interior = interior.nextElementSibling;
+        }
+    }
+    if (isCover && zIndex > 0 && flipped) { zIndex -= 1; } // чтобы тень посередине разворота была не столь тёмная
+    page.style.zIndex = zIndex.toString();
+    page.classList.toggle('flip', !flipped);
+    flipped
+        ? prev.style.zIndex = '0'
+        : setTimeout(function(){
+            const incr = prev.classList.contains('page-flip-cover') ? 0 : 1; // чтобы тень посередине разворота была не столь тёмная
+            prev.style.zIndex = (zIndex + incr).toString();
+        },350);
+};
