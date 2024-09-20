@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
+    <!--#include virtual="/include/head.html"-->
+    <title>Подорожі — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+</head>
+<body id="body" class="page-photo noscript">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
+
+    <!--#include virtual="/include/menu.html"-->
+
+    <main>
+        <article class="container">
+
+            <h1 class="article-title">Подорожі</h1>
+            <div><a href="/travel/turkey2021">Турция 2021</a></div>
+            <div><a href="/travel/croatia2023">Хорватія 2023</a></div>
+            <div><a href="/travel/kayaking20240914">На каяку з Кірою, 14.09.2024</a></div>
+
+        </article>
+    </main>
+
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/scripts.html"-->
+
+</div>
+</body>
+</html>
