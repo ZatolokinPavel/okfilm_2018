@@ -142,6 +142,7 @@
     <!--#include virtual="/include/footer.html"-->
     <!--#include virtual="/include/photoswipe.html"-->
     <!--#include virtual="/include/scripts.html"-->
+    <script src="/js/masonry.pkgd.min.js"></script>
     <script>
         window.addEventListener('load', function() {
             const gridsId = ['masonry_grid_pre','masonry_grid_day1','masonry_grid_day2'];
