@@ -21,7 +21,7 @@
                 Вчора Кіра навчилася ходити, так що вона вже готова до пригод!
             </p>
             <div class="gallery-wrapper box">
-                <div id="masonry_grid_pre" class="gallery pswp__gallery">
+                <div id="masonry_grid" class="gallery pswp__gallery">
                     <ul>
                         <li><a href="//cdn.okfilm.com.ua/travel/kayaking_2024/n1.jpg" data-size="1154x2048"><img src="//cdn.okfilm.com.ua/travel/kayaking_2024/n1_1x0.jpg" srcset="//cdn.okfilm.com.ua/travel/kayaking_2024/n1_1x0.jpg 1x, //cdn.okfilm.com.ua/travel/kayaking_2024/n1_1x5.jpg 1.5x, //cdn.okfilm.com.ua/travel/kayaking_2024/n1_2x0.jpg 2x, //cdn.okfilm.com.ua/travel/kayaking_2024/n1_2x5.jpg 2.5x, //cdn.okfilm.com.ua/travel/kayaking_2024/n1_3x0.jpg 3x, //cdn.okfilm.com.ua/travel/kayaking_2024/n1_3x5.jpg 3.5x, //cdn.okfilm.com.ua/travel/kayaking_2024/n1_4x0.jpg 4x"></a></li>
                         <li><a href="//cdn.okfilm.com.ua/travel/kayaking_2024/n2.jpg" data-size="1154x2048"><img src="//cdn.okfilm.com.ua/travel/kayaking_2024/n2_1x0.jpg" srcset="//cdn.okfilm.com.ua/travel/kayaking_2024/n2_1x0.jpg 1x, //cdn.okfilm.com.ua/travel/kayaking_2024/n2_1x5.jpg 1.5x, //cdn.okfilm.com.ua/travel/kayaking_2024/n2_2x0.jpg 2x, //cdn.okfilm.com.ua/travel/kayaking_2024/n2_2x5.jpg 2.5x, //cdn.okfilm.com.ua/travel/kayaking_2024/n2_3x0.jpg 3x, //cdn.okfilm.com.ua/travel/kayaking_2024/n2_3x5.jpg 3.5x, //cdn.okfilm.com.ua/travel/kayaking_2024/n2_4x0.jpg 4x"></a></li>
