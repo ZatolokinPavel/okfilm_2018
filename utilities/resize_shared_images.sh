@@ -13,11 +13,22 @@ if pidof -x "$script_name" -o $$ >/dev/null; then
     exit 1
 fi
 
+# Создаём временный файл со списком уже существующих миниатюр
+temp_thumbnails_file=$(mktemp)
+find /srv/shared-global/ -path '*/thumbnails/*' -type f -iname '*.jpg' -print0 > "$temp_thumbnails_file"
+
 while IFS= read -r -d '' file
 do
-    [[ "$file" =~ /\.thumbnails/[^/]+$ ]] && continue # пропускаем все уже созданные миниатюры
+    thumbnail_path="$(dirname "$file")/.thumbnails/$(basename "$file")"
+    grep -qs --null-data "$thumbnail_path" "$temp_thumbnails_file" && continue # миниатюра уже создана
     mkdir -p "$(dirname "$file")/.thumbnails/"
-    [[ -f "$(dirname "$file")/.thumbnails/$(basename "$file")" ]] && continue # миниатюра уже создана
-    convert "$file" -resize '1200x1200' "$(dirname "$file")/.thumbnails/$(basename "$file")"
+    convert "$file" -resize '1200x1200' "$thumbnail_path"
     sleep 2s
-done <   <(find /srv/shared-global/ -type f -iname '*.jpg' -print0)
+done <   <(find /srv/shared-global/ -path '*/thumbnails' -prune -o -type f -iname '*.jpg' -print0)
+
+rm "$temp_thumbnails_file"
+
+# Здесь параметры для команды find:
+# -path '*/thumbnails' -prune   не будет спускаться в директории thumbnails
+# -o                            ИЛИ
+# -type f -iname '*.jpg'        ищет только файлы *.jpg
