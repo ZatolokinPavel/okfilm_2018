@@ -15,7 +15,7 @@ fi
 
 # Создаём временный файл со списком уже существующих миниатюр
 temp_thumbnails_file=$(mktemp)
-find /srv/shared-global/ -path '*/thumbnails/*' -type f -iname '*.jpg' -print0 > "$temp_thumbnails_file"
+find /srv/shared-global/ -path '*/.thumbnails/*' -type f -iname '*.jpg' -print0 > "$temp_thumbnails_file"
 
 while IFS= read -r -d '' file
 do
@@ -24,11 +24,11 @@ do
     mkdir -p "$(dirname "$file")/.thumbnails/"
     convert "$file" -resize '1200x1200' "$thumbnail_path"
     sleep 2s
-done <   <(find /srv/shared-global/ -path '*/thumbnails' -prune -o -type f -iname '*.jpg' -print0)
+done <   <(find /srv/shared-global/ -path '*/.thumbnails' -prune -o -type f -iname '*.jpg' -print0)
 
 rm "$temp_thumbnails_file"
 
 # Здесь параметры для команды find:
-# -path '*/thumbnails' -prune   не будет спускаться в директории thumbnails
+# -path '*/.thumbnails' -prune  не будет спускаться в директории .thumbnails
 # -o                            ИЛИ
 # -type f -iname '*.jpg'        ищет только файлы *.jpg
