@@ -19,7 +19,7 @@ temp_thumbnails_file=$(mktemp)
 while IFS= read -r -d '' folder
 do
     # Кешируем имена имеющихся миниатюр в текущем каталоге
-    find "$folder/.thumbnails/" -maxdepth 1 -type f -printf '%f\0' > "$temp_thumbnails_file"
+    find "$folder/.thumbnails/" -maxdepth 1 -type f -printf '%f\0' 2>/dev/null > "$temp_thumbnails_file"
     # Если надо, создаём миниатюры для каждого файла в текущем каталоге
     while IFS= read -r -d '' file
     do
@@ -36,3 +36,5 @@ rm "$temp_thumbnails_file"
 # -path '*/.thumbnails' -prune  не будет спускаться в директории .thumbnails
 # -o                            ИЛИ
 # -type f -iname '*.jpg'        ищет только файлы *.jpg
+# -printf '%f\0'                возвращает только имя файла и нулевой байт после него (будет разделителем)
+# 2>/dev/null                   подавляем ошибки "Нет такого файла или каталога", так как .thumbnails может ещё не быть
