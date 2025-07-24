@@ -15,16 +15,20 @@ fi
 
 # Создаём временный файл со списком уже существующих миниатюр
 temp_thumbnails_file=$(mktemp)
-find /srv/shared-global/ -path '*/.thumbnails/*' -type f -iname '*.jpg' -print0 > "$temp_thumbnails_file"
 
-while IFS= read -r -d '' file
+while IFS= read -r -d '' folder
 do
-    thumbnail_path="$(dirname "$file")/.thumbnails/$(basename "$file")"
-    grep -qs --null-data "$thumbnail_path" "$temp_thumbnails_file" && continue # миниатюра уже создана
-    mkdir -p "$(dirname "$file")/.thumbnails/"
-    convert "$file" -resize '1200x1200' "$thumbnail_path"
-    sleep 2s
-done <   <(find /srv/shared-global/ -path '*/.thumbnails' -prune -o -type f -iname '*.jpg' -print0)
+    # Кешируем имена имеющихся миниатюр в текущем каталоге
+    find "$folder/.thumbnails/" -maxdepth 1 -type f -printf '%f\0' > "$temp_thumbnails_file"
+    # Если надо, создаём миниатюры для каждого файла в текущем каталоге
+    while IFS= read -r -d '' file
+    do
+        grep -qs --null-data "$file" "$temp_thumbnails_file" && continue # миниатюра уже создана
+        mkdir -p "$folder/.thumbnails/"
+        convert "$folder/$file" -resize '1200x1200' "$folder/.thumbnails/$file"
+        sleep 2s
+    done <   <(find "$folder" -maxdepth 1 -type f -iname '*.jpg' -printf '%f\0')
+done <   <(find /srv/shared-global/* -path '*/.thumbnails' -prune -o -type d -print0)
 
 rm "$temp_thumbnails_file"
 
