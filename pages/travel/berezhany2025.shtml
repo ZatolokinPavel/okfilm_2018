@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <!--#set var="orig_uri" value="$DOCUMENT_URI"-->
+    <!--#include virtual="/include/head.html"-->
+    <title>Хоббіт Хаус, Бережани, 2025 — Фотограф, видеооператор Оксана Найденко | OkFILM</title>
+</head>
+<body id="body" class="page-more noscript">
+<script>document.getElementById('body').classList.remove("noscript") // если не работает js, меняем стили</script>
+<div id="bg_helper">
+
+    <!--#include virtual="/include/menu.html"-->
+
+    <main>
+        <article class="container classic-lists">
+
+            <h1>Хоббіт Хаус, Бережани</h1>
+            <h4>08.10.2025</h4>
+
+            <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                <video controls width="360" height="640" style="width: 100%; height: auto; max-width: 360px">
+                    <source src="//cdn.okfilm.com.ua/travel/berezhany_2025/InShot_20251008_202853833.mp4" type="video/mp4">
+                </video>
+
+                <video controls width="360" height="640" style="width: 100%; height: auto; max-width: 360px">
+                    <source src="//cdn.okfilm.com.ua/travel/berezhany_2025/InShot_20251008_213811278.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </article>
+    </main>
+
+    <!--#include virtual="/include/footer.html"-->
+    <!--#include virtual="/include/photoswipe.html"-->
+    <!--#include virtual="/include/scripts.html"-->
+    <script src="/js/masonry.pkgd.min.js"></script>
+    <script>
+        // window.addEventListener('load', function() {
+        //     const gridsId = ['masonry_grid'];
+        //     const masonryList = [];
+        //     for (let i=0; i < gridsId.length; i++) {
+        //         const id = gridsId[i];
+        //         const msnry = new Masonry(`#${id} > ul`, {      // Красиво располагает фотки
+        //             itemSelector: `#${id} > ul > li`,           // какие именно элементы обрабатывать
+        //             columnWidth: `#${id} > ul > li`             // по первому найденному такому элементу установить ширину колонок
+        //         });
+        //         masonryList.push(msnry);
+        //     }
+        //     let timeout;
+        //     window.addEventListener('resize', () => {
+        //         clearTimeout(timeout);
+        //         timeout = setTimeout(() => masonryList.forEach(item => item.layout()), 1000);
+        //     });
+        // });
+    </script>
+
+</div>
+</body>
+</html>
